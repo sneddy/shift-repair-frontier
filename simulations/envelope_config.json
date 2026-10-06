@@ -1,0 +1,16 @@
+{
+  "version": "uniform-joint-error-envelope-2026-09-15",
+  "alpha": 0.05,
+  "epsilon": 0.5,
+  "dimensions": [4, 16, 64, 256],
+  "unknown_scale_unit_counts": [2, 4, 16],
+  "figure_dimensions": [4, 64, 256],
+  "figure_max_kappa_over_d": 4,
+  "figure_points": 201,
+  "safety_kappa_over_d_min": 0.001,
+  "safety_kappa_over_d_max": 16,
+  "safety_grid_points": 181,
+  "known_quadrature_cases": [[4, 2], [4, 8], [4, 16], [16, 8], [16, 16], [64, 32], [64, 64], [256, 128], [256, 256]],
+  "unknown_quadrature_cases": [[4, 2, 8], [4, 16, 16], [16, 4, 16]],
+  "new_gaussian_draws": 0
+}

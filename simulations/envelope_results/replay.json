@@ -1,0 +1,5832 @@
+[
+  {
+    "N": null,
+    "d": 16,
+    "kappa": 0,
+    "kind": "known",
+    "n": 8192,
+    "nu": null,
+    "policies": {
+      "ball": {
+        "action": {
+          "ci95": [
+            0.0,
+            0.00045020129670868394
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 8192
+        },
+        "exact_action": 8.785576649463023e-06,
+        "exact_joint_bad": null,
+        "joint_bad": null,
+        "loss_including_abstention": null,
+        "threshold": 52.59245520972849
+      },
+      "envelope": {
+        "action": {
+          "ci95": [
+            2.9567929951834726e-05,
+            0.0008816386910191661
+          ],
+          "count": 2,
+          "estimate": 0.000244140625,
+          "n": 8192
+        },
+        "exact_action": 0.0003409706066800853,
+        "exact_joint_bad": null,
+        "joint_bad": null,
+        "loss_including_abstention": null,
+        "threshold": 42.42453364465257
+      },
+      "orthogonal": {
+        "action": {
+          "ci95": [
+            0.0,
+            0.00045020129670868394
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 8192
+        },
+        "exact_action": 2.299571385330136e-05,
+        "exact_joint_bad": null,
+        "joint_bad": null,
+        "loss_including_abstention": null,
+        "threshold": 49.99158027945726
+      }
+    },
+    "ratio": 0.0
+  },
+  {
+    "N": null,
+    "d": 16,
+    "kappa": 1.0,
+    "kind": "known",
+    "n": 8192,
+    "nu": null,
+    "policies": {
+      "ball": {
+        "action": {
+          "ci95": [
+            3.090547956704084e-06,
+            0.0006799425022620304
+          ],
+          "count": 1,
+          "estimate": 0.0001220703125,
+          "n": 8192
+        },
+        "exact_action": 2.6192822742061317e-05,
+        "exact_joint_bad": 2.5131673366020116e-05,
+        "joint_bad": {
+          "ci95": [
+            3.090547956704084e-06,
+            0.0006799425022620304
+          ],
+          "count": 1,
+          "estimate": 0.0001220703125,
+          "n": 8192
+        },
+        "loss_including_abstention": 0.9999864270892385,
+        "threshold": 52.59245520972849
+      },
+      "envelope": {
+        "action": {
+          "ci95": [
+            0.00034361699911774864,
+            0.0017597829535838307
+          ],
+          "count": 7,
+          "estimate": 0.0008544921875,
+          "n": 8192
+        },
+        "exact_action": 0.0007763085188527857,
+        "exact_joint_bad": 0.0007520419176441223,
+        "joint_bad": {
+          "ci95": [
+            0.00034361699911774864,
+            0.0017597829535838307
+          ],
+          "count": 7,
+          "estimate": 0.0008544921875,
+          "n": 8192
+        },
+        "loss_including_abstention": 0.9997431365185329,
+        "threshold": 42.42453364465257
+      },
+      "orthogonal": {
+        "action": {
+          "ci95": [
+            3.090547956704084e-06,
+            0.0006799425022620304
+          ],
+          "count": 1,
+          "estimate": 0.0001220703125,
+          "n": 8192
+        },
+        "exact_action": 6.40125509058572e-05,
+        "exact_joint_bad": 6.157615840194288e-05,
+        "joint_bad": {
+          "ci95": [
+            3.090547956704084e-06,
+            0.0006799425022620304
+          ],
+          "count": 1,
+          "estimate": 0.0001220703125,
+          "n": 8192
+        },
+        "loss_including_abstention": 0.9999864270892385,
+        "threshold": 49.99158027945726
+      }
+    },
+    "ratio": 0.0625
+  },
+  {
+    "N": null,
+    "d": 16,
+    "kappa": 16,
+    "kind": "known",
+    "n": 8192,
+    "nu": null,
+    "policies": {
+      "ball": {
+        "action": {
+          "ci95": [
+            0.027703634416985406,
+            0.03537862672491096
+          ],
+          "count": 257,
+          "estimate": 0.0313720703125,
+          "n": 8192
+        },
+        "exact_action": 0.02974992050633131,
+        "exact_joint_bad": 0.005140527778457079,
+        "joint_bad": {
+          "ci95": [
+            0.00359391310382958,
+            0.006783625887455153
+          ],
+          "count": 41,
+          "estimate": 0.0050048828125,
+          "n": 8192
+        },
+        "loss_including_abstention": 0.9807284477645626,
+        "threshold": 52.59245520972849
+      },
+      "envelope": {
+        "action": {
+          "ci95": [
+            0.14128120477700826,
+            0.15682098420269905
+          ],
+          "count": 1220,
+          "estimate": 0.14892578125,
+          "n": 8192
+        },
+        "exact_action": 0.14396541948615302,
+        "exact_joint_bad": 0.0341626417653101,
+        "joint_bad": {
+          "ci95": [
+            0.030350652784578137,
+            0.03834453604344505
+          ],
+          "count": 280,
+          "estimate": 0.0341796875,
+          "n": 8192
+        },
+        "loss_including_abstention": 0.9123753197255328,
+        "threshold": 42.42453364465257
+      },
+      "orthogonal": {
+        "action": {
+          "ci95": [
+            0.0448440828597899,
+            0.054356641117494844
+          ],
+          "count": 405,
+          "estimate": 0.0494384765625,
+          "n": 8192
+        },
+        "exact_action": 0.046129983232730404,
+        "exact_joint_bad": 0.00865588126143245,
+        "joint_bad": {
+          "ci95": [
+            0.0070994743457100965,
+            0.011327258791821714
+          ],
+          "count": 74,
+          "estimate": 0.009033203125,
+          "n": 8192
+        },
+        "loss_including_abstention": 0.9699527938432074,
+        "threshold": 49.99158027945726
+      }
+    },
+    "ratio": 1.0
+  },
+  {
+    "N": null,
+    "d": 16,
+    "kappa": 256,
+    "kind": "known",
+    "n": 8192,
+    "nu": null,
+    "policies": {
+      "ball": {
+        "action": {
+          "ci95": [
+            0.9995497987032913,
+            1.0
+          ],
+          "count": 8192,
+          "estimate": 1.0,
+          "n": 8192
+        },
+        "exact_action": 1.0,
+        "exact_joint_bad": 7.693552411006567e-22,
+        "joint_bad": {
+          "ci95": [
+            0.0,
+            0.00045020129670868394
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 8192
+        },
+        "loss_including_abstention": 0.055502321218406966,
+        "threshold": 52.59245520972849
+      },
+      "envelope": {
+        "action": {
+          "ci95": [
+            0.9995497987032913,
+            1.0
+          ],
+          "count": 8192,
+          "estimate": 1.0,
+          "n": 8192
+        },
+        "exact_action": 1.0,
+        "exact_joint_bad": 7.693552411836409e-22,
+        "joint_bad": {
+          "ci95": [
+            0.0,
+            0.00045020129670868394
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 8192
+        },
+        "loss_including_abstention": 0.055502321218406966,
+        "threshold": 42.42453364465257
+      },
+      "orthogonal": {
+        "action": {
+          "ci95": [
+            0.9995497987032913,
+            1.0
+          ],
+          "count": 8192,
+          "estimate": 1.0,
+          "n": 8192
+        },
+        "exact_action": 1.0,
+        "exact_joint_bad": 7.693552411703861e-22,
+        "joint_bad": {
+          "ci95": [
+            0.0,
+            0.00045020129670868394
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 8192
+        },
+        "loss_including_abstention": 0.055502321218406966,
+        "threshold": 49.99158027945726
+      }
+    },
+    "ratio": 16.0
+  },
+  {
+    "N": null,
+    "d": 16,
+    "kappa": 32,
+    "kind": "known",
+    "n": 8192,
+    "nu": null,
+    "policies": {
+      "ball": {
+        "action": {
+          "ci95": [
+            0.32486065962109695,
+            0.34542278922383785
+          ],
+          "count": 2745,
+          "estimate": 0.3350830078125,
+          "n": 8192
+        },
+        "exact_action": 0.3349258506604016,
+        "exact_joint_bad": 0.007396103540047653,
+        "joint_bad": {
+          "ci95": [
+            0.006883072946076898,
+            0.011055738300758605
+          ],
+          "count": 72,
+          "estimate": 0.0087890625,
+          "n": 8192
+        },
+        "loss_including_abstention": 0.7617573184919392,
+        "threshold": 52.59245520972849
+      },
+      "envelope": {
+        "action": {
+          "ci95": [
+            0.6384772534602887,
+            0.6592682719299328
+          ],
+          "count": 5316,
+          "estimate": 0.64892578125,
+          "n": 8192
+        },
+        "exact_action": 0.6480131906933717,
+        "exact_joint_bad": 0.02338226545857015,
+        "joint_bad": {
+          "ci95": [
+            0.024606660100782444,
+            0.031886569686975154
+          ],
+          "count": 230,
+          "estimate": 0.028076171875,
+          "n": 8192
+        },
+        "loss_including_abstention": 0.5492783621374183,
+        "threshold": 42.42453364465257
+      },
+      "orthogonal": {
+        "action": {
+          "ci95": [
+            0.39765452888592934,
+            0.41906112081670804
+          ],
+          "count": 3345,
+          "estimate": 0.4083251953125,
+          "n": 8192
+        },
+        "exact_action": 0.40941856847547714,
+        "exact_joint_bad": 0.010313430123972608,
+        "joint_bad": {
+          "ci95": [
+            0.010163535476260416,
+            0.015094699207614503
+          ],
+          "count": 102,
+          "estimate": 0.012451171875,
+          "n": 8192
+        },
+        "loss_including_abstention": 0.7114997076937086,
+        "threshold": 49.99158027945726
+      }
+    },
+    "ratio": 2.0
+  },
+  {
+    "N": null,
+    "d": 16,
+    "kappa": 4.0,
+    "kind": "known",
+    "n": 8192,
+    "nu": null,
+    "policies": {
+      "ball": {
+        "action": {
+          "ci95": [
+            7.552786749571872e-05,
+            0.001069847095663702
+          ],
+          "count": 3,
+          "estimate": 0.0003662109375,
+          "n": 8192
+        },
+        "exact_action": 0.0002740029135654234,
+        "exact_joint_bad": 0.00020413180670970902,
+        "joint_bad": {
+          "ci95": [
+            7.552786749571872e-05,
+            0.001069847095663702
+          ],
+          "count": 3,
+          "estimate": 0.0003662109375,
+          "n": 8192
+        },
+        "loss_including_abstention": 0.999898571507344,
+        "threshold": 52.59245520972849
+      },
+      "envelope": {
+        "action": {
+          "ci95": [
+            0.0028759271209096117,
+            0.005794969846044259
+          ],
+          "count": 34,
+          "estimate": 0.004150390625,
+          "n": 8192
+        },
+        "exact_action": 0.004641229156362525,
+        "exact_joint_bad": 0.0037071464868481748,
+        "joint_bad": {
+          "ci95": [
+            0.002272380484987576,
+            0.004936156213330434
+          ],
+          "count": 28,
+          "estimate": 0.00341796875,
+          "n": 8192
+        },
+        "loss_including_abstention": 0.9985608023661365,
+        "threshold": 42.42453364465257
+      },
+      "orthogonal": {
+        "action": {
+          "ci95": [
+            0.0002688318375382104,
+            0.0015934872668981336
+          ],
+          "count": 6,
+          "estimate": 0.000732421875,
+          "n": 8192
+        },
+        "exact_action": 0.0005818660183829775,
+        "exact_joint_bad": 0.00044150903256863386,
+        "joint_bad": {
+          "ci95": [
+            0.0002688318375382104,
+            0.0015934872668981336
+          ],
+          "count": 6,
+          "estimate": 0.000732421875,
+          "n": 8192
+        },
+        "loss_including_abstention": 0.9997784106402486,
+        "threshold": 49.99158027945726
+      }
+    },
+    "ratio": 0.25
+  },
+  {
+    "N": null,
+    "d": 16,
+    "kappa": 64,
+    "kind": "known",
+    "n": 8192,
+    "nu": null,
+    "policies": {
+      "ball": {
+        "action": {
+          "ci95": [
+            0.9502391990780276,
+            0.959345734648917
+          ],
+          "count": 7823,
+          "estimate": 0.9549560546875,
+          "n": 8192
+        },
+        "exact_action": 0.9586183701795952,
+        "exact_joint_bad": 0.00022658367378323253,
+        "joint_bad": {
+          "ci95": [
+            2.9567929951834726e-05,
+            0.0008816386910191661
+          ],
+          "count": 2,
+          "estimate": 0.000244140625,
+          "n": 8192
+        },
+        "loss_including_abstention": 0.22591812665036998,
+        "threshold": 52.59245520972849
+      },
+      "envelope": {
+        "action": {
+          "ci95": [
+            0.9912698362521304,
+            0.9949383083504181
+          ],
+          "count": 8137,
+          "estimate": 0.9932861328125,
+          "n": 8192
+        },
+        "exact_action": 0.9942556527900741,
+        "exact_joint_bad": 0.0003229830596140767,
+        "joint_bad": {
+          "ci95": [
+            7.552786749571872e-05,
+            0.001069847095663702
+          ],
+          "count": 3,
+          "estimate": 0.0003662109375,
+          "n": 8192
+        },
+        "loss_including_abstention": 0.1967316052142362,
+        "threshold": 42.42453364465257
+      },
+      "orthogonal": {
+        "action": {
+          "ci95": [
+            0.9660426268513105,
+            0.9735595405583379
+          ],
+          "count": 7946,
+          "estimate": 0.969970703125,
+          "n": 8192
+        },
+        "exact_action": 0.9731356686110785,
+        "exact_joint_bad": 0.00025481256573084047,
+        "joint_bad": {
+          "ci95": [
+            7.552786749571872e-05,
+            0.001069847095663702
+          ],
+          "count": 3,
+          "estimate": 0.0003662109375,
+          "n": 8192
+        },
+        "loss_including_abstention": 0.21444809332307835,
+        "threshold": 49.99158027945726
+      }
+    },
+    "ratio": 4.0
+  },
+  {
+    "N": null,
+    "d": 16,
+    "kappa": 8.0,
+    "kind": "known",
+    "n": 8192,
+    "nu": null,
+    "policies": {
+      "ball": {
+        "action": {
+          "ci95": [
+            0.000934622729384305,
+            0.0028657245810842667
+          ],
+          "count": 14,
+          "estimate": 0.001708984375,
+          "n": 8192
+        },
+        "exact_action": 0.0022223629737455576,
+        "exact_joint_bad": 0.001049595073127976,
+        "joint_bad": {
+          "ci95": [
+            0.0004217016632144691,
+            0.0019233057715157638
+          ],
+          "count": 8,
+          "estimate": 0.0009765625,
+          "n": 8192
+        },
+        "loss_including_abstention": 0.9991464878534199,
+        "threshold": 52.59245520972849
+      },
+      "envelope": {
+        "action": {
+          "ci95": [
+            0.016194296763486972,
+            0.022240619875735976
+          ],
+          "count": 156,
+          "estimate": 0.01904296875,
+          "n": 8192
+        },
+        "exact_action": 0.02240749707111559,
+        "exact_joint_bad": 0.012430651889794628,
+        "joint_bad": {
+          "ci95": [
+            0.0080778034759651,
+            0.012544661524796588
+          ],
+          "count": 83,
+          "estimate": 0.0101318359375,
+          "n": 8192
+        },
+        "loss_including_abstention": 0.9909323387968285,
+        "threshold": 42.42453364465257
+      },
+      "orthogonal": {
+        "action": {
+          "ci95": [
+            0.001780595320214089,
+            0.004209843846973124
+          ],
+          "count": 23,
+          "estimate": 0.0028076171875,
+          "n": 8192
+        },
+        "exact_action": 0.004144922564214496,
+        "exact_joint_bad": 0.0020414343771295923,
+        "joint_bad": {
+          "ci95": [
+            0.0006704922276954308,
+            0.002401319490213853
+          ],
+          "count": 11,
+          "estimate": 0.0013427734375,
+          "n": 8192
+        },
+        "loss_including_abstention": 0.9986217145177823,
+        "threshold": 49.99158027945726
+      }
+    },
+    "ratio": 0.5
+  },
+  {
+    "N": null,
+    "d": 256,
+    "kappa": 0,
+    "kind": "known",
+    "n": 8192,
+    "nu": null,
+    "policies": {
+      "ball": {
+        "action": {
+          "ci95": [
+            0.0,
+            0.00045020129670868394
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 8192
+        },
+        "exact_action": 3.039410770358676e-28,
+        "exact_joint_bad": null,
+        "joint_bad": null,
+        "loss_including_abstention": null,
+        "threshold": 588.6413377686127
+      },
+      "envelope": {
+        "action": {
+          "ci95": [
+            0.0,
+            0.00045020129670868394
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 8192
+        },
+        "exact_action": 1.1044003023498668e-24,
+        "exact_joint_bad": null,
+        "joint_bad": null,
+        "loss_including_abstention": null,
+        "threshold": 559.3685208963628
+      },
+      "orthogonal": {
+        "action": {
+          "ci95": [
+            0.0,
+            0.00045020129670868394
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 8192
+        },
+        "exact_action": 5.603805102696679e-28,
+        "exact_joint_bad": null,
+        "joint_bad": null,
+        "loss_including_abstention": null,
+        "threshold": 586.4956701614024
+      }
+    },
+    "ratio": 0.0
+  },
+  {
+    "N": null,
+    "d": 256,
+    "kappa": 1024,
+    "kind": "known",
+    "n": 8192,
+    "nu": null,
+    "policies": {
+      "ball": {
+        "action": {
+          "ci95": [
+            0.9995497987032913,
+            1.0
+          ],
+          "count": 8192,
+          "estimate": 1.0,
+          "n": 8192
+        },
+        "exact_action": 1.0,
+        "exact_joint_bad": 1.4146159326802633e-38,
+        "joint_bad": {
+          "ci95": [
+            0.0,
+            0.00045020129670868394
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 8192
+        },
+        "loss_including_abstention": 0.1996066447043567,
+        "threshold": 588.6413377686127
+      },
+      "envelope": {
+        "action": {
+          "ci95": [
+            0.9995497987032913,
+            1.0
+          ],
+          "count": 8192,
+          "estimate": 1.0,
+          "n": 8192
+        },
+        "exact_action": 1.0,
+        "exact_joint_bad": 1.4146159326802633e-38,
+        "joint_bad": {
+          "ci95": [
+            0.0,
+            0.00045020129670868394
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 8192
+        },
+        "loss_including_abstention": 0.1996066447043567,
+        "threshold": 559.3685208963628
+      },
+      "orthogonal": {
+        "action": {
+          "ci95": [
+            0.9995497987032913,
+            1.0
+          ],
+          "count": 8192,
+          "estimate": 1.0,
+          "n": 8192
+        },
+        "exact_action": 1.0,
+        "exact_joint_bad": 1.4146159326802633e-38,
+        "joint_bad": {
+          "ci95": [
+            0.0,
+            0.00045020129670868394
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 8192
+        },
+        "loss_including_abstention": 0.1996066447043567,
+        "threshold": 586.4956701614024
+      }
+    },
+    "ratio": 4.0
+  },
+  {
+    "N": null,
+    "d": 256,
+    "kappa": 128.0,
+    "kind": "known",
+    "n": 8192,
+    "nu": null,
+    "policies": {
+      "ball": {
+        "action": {
+          "ci95": [
+            0.0,
+            0.00045020129670868394
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 8192
+        },
+        "exact_action": 1.1072411432166844e-08,
+        "exact_joint_bad": 1.0950115247209614e-08,
+        "joint_bad": {
+          "ci95": [
+            0.0,
+            0.00045020129670868394
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 8192
+        },
+        "loss_including_abstention": 1.0,
+        "threshold": 588.6413377686127
+      },
+      "envelope": {
+        "action": {
+          "ci95": [
+            0.0,
+            0.00045020129670868394
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 8192
+        },
+        "exact_action": 5.317850092651144e-07,
+        "exact_joint_bad": 5.283416971273658e-07,
+        "joint_bad": {
+          "ci95": [
+            0.0,
+            0.00045020129670868394
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 8192
+        },
+        "loss_including_abstention": 1.0,
+        "threshold": 559.3685208963628
+      },
+      "orthogonal": {
+        "action": {
+          "ci95": [
+            0.0,
+            0.00045020129670868394
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 8192
+        },
+        "exact_action": 1.4893113243415608e-08,
+        "exact_joint_bad": 1.4734664942492764e-08,
+        "joint_bad": {
+          "ci95": [
+            0.0,
+            0.00045020129670868394
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 8192
+        },
+        "loss_including_abstention": 1.0,
+        "threshold": 586.4956701614024
+      }
+    },
+    "ratio": 0.5
+  },
+  {
+    "N": null,
+    "d": 256,
+    "kappa": 16.0,
+    "kind": "known",
+    "n": 8192,
+    "nu": null,
+    "policies": {
+      "ball": {
+        "action": {
+          "ci95": [
+            0.0,
+            0.00045020129670868394
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 8192
+        },
+        "exact_action": 3.6105787654967166e-24,
+        "exact_joint_bad": 3.610577699542804e-24,
+        "joint_bad": {
+          "ci95": [
+            0.0,
+            0.00045020129670868394
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 8192
+        },
+        "loss_including_abstention": 1.0,
+        "threshold": 588.6413377686127
+      },
+      "envelope": {
+        "action": {
+          "ci95": [
+            0.0,
+            0.00045020129670868394
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 8192
+        },
+        "exact_action": 5.841341723919955e-21,
+        "exact_joint_bad": 5.841341192787196e-21,
+        "joint_bad": {
+          "ci95": [
+            0.0,
+            0.00045020129670868394
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 8192
+        },
+        "loss_including_abstention": 1.0,
+        "threshold": 559.3685208963628
+      },
+      "orthogonal": {
+        "action": {
+          "ci95": [
+            0.0,
+            0.00045020129670868394
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 8192
+        },
+        "exact_action": 6.274254781276601e-24,
+        "exact_joint_bad": 6.27425307687972e-24,
+        "joint_bad": {
+          "ci95": [
+            0.0,
+            0.00045020129670868394
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 8192
+        },
+        "loss_including_abstention": 1.0,
+        "threshold": 586.4956701614024
+      }
+    },
+    "ratio": 0.0625
+  },
+  {
+    "N": null,
+    "d": 256,
+    "kappa": 256,
+    "kind": "known",
+    "n": 8192,
+    "nu": null,
+    "policies": {
+      "ball": {
+        "action": {
+          "ci95": [
+            0.02300583596888077,
+            0.030070889412353006
+          ],
+          "count": 216,
+          "estimate": 0.0263671875,
+          "n": 8192
+        },
+        "exact_action": 0.02888291747682999,
+        "exact_joint_bad": 0.005837452164539465,
+        "joint_bad": {
+          "ci95": [
+            0.0045334410410117956,
+            0.00803889982450266
+          ],
+          "count": 50,
+          "estimate": 0.006103515625,
+          "n": 8192
+        },
+        "loss_including_abstention": 0.9860519027793117,
+        "threshold": 588.6413377686127
+      },
+      "envelope": {
+        "action": {
+          "ci95": [
+            0.10673308632558565,
+            0.12059394052247
+          ],
+          "count": 930,
+          "estimate": 0.113525390625,
+          "n": 8192
+        },
+        "exact_action": 0.11518544925609438,
+        "exact_joint_bad": 0.030542848962828766,
+        "joint_bad": {
+          "ci95": [
+            0.026784772048473966,
+            0.034345176350102875
+          ],
+          "count": 249,
+          "estimate": 0.0303955078125,
+          "n": 8192
+        },
+        "loss_including_abstention": 0.9407846230942769,
+        "threshold": 559.3685208963628
+      },
+      "orthogonal": {
+        "action": {
+          "ci95": [
+            0.027933504166867427,
+            0.035636836015080706
+          ],
+          "count": 259,
+          "estimate": 0.0316162109375,
+          "n": 8192
+        },
+        "exact_action": 0.0323732729840713,
+        "exact_joint_bad": 0.006683355018399775,
+        "joint_bad": {
+          "ci95": [
+            0.0058073985095332395,
+            0.009691931587812341
+          ],
+          "count": 62,
+          "estimate": 0.007568359375,
+          "n": 8192
+        },
+        "loss_including_abstention": 0.9832957768907875,
+        "threshold": 586.4956701614024
+      }
+    },
+    "ratio": 1.0
+  },
+  {
+    "N": null,
+    "d": 256,
+    "kappa": 4096,
+    "kind": "known",
+    "n": 8192,
+    "nu": null,
+    "policies": {
+      "ball": {
+        "action": {
+          "ci95": [
+            0.9995497987032913,
+            1.0
+          ],
+          "count": 8192,
+          "estimate": 1.0,
+          "n": 8192
+        },
+        "exact_action": 1.0,
+        "exact_joint_bad": 0.0,
+        "joint_bad": {
+          "ci95": [
+            0.0,
+            0.00045020129670868394
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 8192
+        },
+        "loss_including_abstention": 0.05851049016286189,
+        "threshold": 588.6413377686127
+      },
+      "envelope": {
+        "action": {
+          "ci95": [
+            0.9995497987032913,
+            1.0
+          ],
+          "count": 8192,
+          "estimate": 1.0,
+          "n": 8192
+        },
+        "exact_action": 1.0,
+        "exact_joint_bad": 0.0,
+        "joint_bad": {
+          "ci95": [
+            0.0,
+            0.00045020129670868394
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 8192
+        },
+        "loss_including_abstention": 0.05851049016286189,
+        "threshold": 559.3685208963628
+      },
+      "orthogonal": {
+        "action": {
+          "ci95": [
+            0.9995497987032913,
+            1.0
+          ],
+          "count": 8192,
+          "estimate": 1.0,
+          "n": 8192
+        },
+        "exact_action": 1.0,
+        "exact_joint_bad": 0.0,
+        "joint_bad": {
+          "ci95": [
+            0.0,
+            0.00045020129670868394
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 8192
+        },
+        "loss_including_abstention": 0.05851049016286189,
+        "threshold": 586.4956701614024
+      }
+    },
+    "ratio": 16.0
+  },
+  {
+    "N": null,
+    "d": 256,
+    "kappa": 512,
+    "kind": "known",
+    "n": 8192,
+    "nu": null,
+    "policies": {
+      "ball": {
+        "action": {
+          "ci95": [
+            0.9991183613089808,
+            0.9999704320700482
+          ],
+          "count": 8190,
+          "estimate": 0.999755859375,
+          "n": 8192
+        },
+        "exact_action": 0.9999252703698766,
+        "exact_joint_bad": 3.025065765387061e-08,
+        "joint_bad": {
+          "ci95": [
+            0.0,
+            0.00045020129670868394
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 8192
+        },
+        "loss_including_abstention": 0.3326536645262732,
+        "threshold": 588.6413377686127
+      },
+      "envelope": {
+        "action": {
+          "ci95": [
+            0.9995497987032913,
+            1.0
+          ],
+          "count": 8192,
+          "estimate": 1.0,
+          "n": 8192
+        },
+        "exact_action": 0.9999961601729367,
+        "exact_joint_bad": 3.1177818243665853e-08,
+        "joint_bad": {
+          "ci95": [
+            0.0,
+            0.00045020129670868394
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 8192
+        },
+        "loss_including_abstention": 0.3325070054610793,
+        "threshold": 559.3685208963628
+      },
+      "orthogonal": {
+        "action": {
+          "ci95": [
+            0.9991183613089808,
+            0.9999704320700482
+          ],
+          "count": 8190,
+          "estimate": 0.999755859375,
+          "n": 8192
+        },
+        "exact_action": 0.9999388043755684,
+        "exact_joint_bad": 3.03724299199354e-08,
+        "joint_bad": {
+          "ci95": [
+            0.0,
+            0.00045020129670868394
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 8192
+        },
+        "loss_including_abstention": 0.3326536645262732,
+        "threshold": 586.4956701614024
+      }
+    },
+    "ratio": 2.0
+  },
+  {
+    "N": null,
+    "d": 256,
+    "kappa": 64.0,
+    "kind": "known",
+    "n": 8192,
+    "nu": null,
+    "policies": {
+      "ball": {
+        "action": {
+          "ci95": [
+            0.0,
+            0.00045020129670868394
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 8192
+        },
+        "exact_action": 1.3177355364573409e-15,
+        "exact_joint_bad": 1.317732573295303e-15,
+        "joint_bad": {
+          "ci95": [
+            0.0,
+            0.00045020129670868394
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 8192
+        },
+        "loss_including_abstention": 1.0,
+        "threshold": 588.6413377686127
+      },
+      "envelope": {
+        "action": {
+          "ci95": [
+            0.0,
+            0.00045020129670868394
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 8192
+        },
+        "exact_action": 3.5822462412355015e-13,
+        "exact_joint_bad": 3.582244228638613e-13,
+        "joint_bad": {
+          "ci95": [
+            0.0,
+            0.00045020129670868394
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 8192
+        },
+        "loss_including_abstention": 1.0,
+        "threshold": 559.3685208963628
+      },
+      "orthogonal": {
+        "action": {
+          "ci95": [
+            0.0,
+            0.00045020129670868394
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 8192
+        },
+        "exact_action": 2.0107684509938346e-15,
+        "exact_joint_bad": 2.010764370059181e-15,
+        "joint_bad": {
+          "ci95": [
+            0.0,
+            0.00045020129670868394
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 8192
+        },
+        "loss_including_abstention": 1.0,
+        "threshold": 586.4956701614024
+      }
+    },
+    "ratio": 0.25
+  },
+  {
+    "N": null,
+    "d": 4,
+    "kappa": 0,
+    "kind": "known",
+    "n": 4096,
+    "nu": null,
+    "policies": {
+      "ball": {
+        "action": {
+          "ci95": [
+            6.181086361921496e-06,
+            0.0013595056306871368
+          ],
+          "count": 1,
+          "estimate": 0.000244140625,
+          "n": 4096
+        },
+        "exact_action": 0.0007947180771014305,
+        "exact_joint_bad": null,
+        "joint_bad": null,
+        "loss_including_abstention": null,
+        "threshold": 18.975458073562315
+      },
+      "envelope": {
+        "action": {
+          "ci95": [
+            0.0172658775563796,
+            0.026403140456749942
+          ],
+          "count": 88,
+          "estimate": 0.021484375,
+          "n": 4096
+        },
+        "exact_action": 0.020448344459699678,
+        "exact_joint_bad": null,
+        "joint_bad": null,
+        "loss_including_abstention": null,
+        "threshold": 11.615886876834606
+      },
+      "orthogonal": {
+        "action": {
+          "ci95": [
+            0.00039647402462204937,
+            0.0028463956393403956
+          ],
+          "count": 5,
+          "estimate": 0.001220703125,
+          "n": 4096
+        },
+        "exact_action": 0.0035588993426045414,
+        "exact_joint_bad": null,
+        "joint_bad": null,
+        "loss_including_abstention": null,
+        "threshold": 15.629455806502364
+      }
+    },
+    "ratio": 0.0
+  },
+  {
+    "N": null,
+    "d": 4,
+    "kappa": 16,
+    "kind": "known",
+    "n": 4096,
+    "nu": null,
+    "policies": {
+      "ball": {
+        "action": {
+          "ci95": [
+            0.4848142893505778,
+            0.5156736433588869
+          ],
+          "count": 2049,
+          "estimate": 0.500244140625,
+          "n": 4096
+        },
+        "exact_action": 0.5025839143793469,
+        "exact_joint_bad": 0.004019625256552598,
+        "joint_bad": {
+          "ci95": [
+            0.0027950240653853813,
+            0.007234422845910839
+          ],
+          "count": 19,
+          "estimate": 0.004638671875,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.5677841555909158,
+        "threshold": 18.975458073562315
+      },
+      "envelope": {
+        "action": {
+          "ci95": [
+            0.8310088345639045,
+            0.853558869647098
+          ],
+          "count": 3451,
+          "estimate": 0.842529296875,
+          "n": 4096
+        },
+        "exact_action": 0.8420412740911708,
+        "exact_joint_bad": 0.01285254741900908,
+        "joint_bad": {
+          "ci95": [
+            0.010556436987331608,
+            0.01799265321398999
+          ],
+          "count": 57,
+          "estimate": 0.013916015625,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.2875183019199976,
+        "threshold": 11.615886876834606
+      },
+      "orthogonal": {
+        "action": {
+          "ci95": [
+            0.6520753232775212,
+            0.681182567373344
+          ],
+          "count": 2731,
+          "estimate": 0.666748046875,
+          "n": 4096
+        },
+        "exact_action": 0.6655962186924314,
+        "exact_joint_bad": 0.007201716199238897,
+        "joint_bad": {
+          "ci95": [
+            0.005958862491231589,
+            0.011864059299133587
+          ],
+          "count": 35,
+          "estimate": 0.008544921875,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.43008405248634296,
+        "threshold": 15.629455806502364
+      }
+    },
+    "ratio": 4.0
+  },
+  {
+    "N": null,
+    "d": 4,
+    "kappa": 2.0,
+    "kind": "known",
+    "n": 4096,
+    "nu": null,
+    "policies": {
+      "ball": {
+        "action": {
+          "ci95": [
+            0.0057551859303030285,
+            0.011580361171796122
+          ],
+          "count": 34,
+          "estimate": 0.00830078125,
+          "n": 4096
+        },
+        "exact_action": 0.00913154260222497,
+        "exact_joint_bad": 0.0023533527872171616,
+        "joint_bad": {
+          "ci95": [
+            0.0016909786621630962,
+            0.005421227543939171
+          ],
+          "count": 13,
+          "estimate": 0.003173828125,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.9948067227634061,
+        "threshold": 18.975458073562315
+      },
+      "envelope": {
+        "action": {
+          "ci95": [
+            0.08452654950929339,
+            0.10258187442632527
+          ],
+          "count": 382,
+          "estimate": 0.09326171875,
+          "n": 4096
+        },
+        "exact_action": 0.09363616826066423,
+        "exact_joint_bad": 0.032001370839514355,
+        "joint_bad": {
+          "ci95": [
+            0.029727664297137885,
+            0.041260158096099946
+          ],
+          "count": 144,
+          "estimate": 0.03515625,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.9471246190985303,
+        "threshold": 11.615886876834606
+      },
+      "orthogonal": {
+        "action": {
+          "ci95": [
+            0.021900430823895277,
+            0.03201265319790834
+          ],
+          "count": 109,
+          "estimate": 0.026611328125,
+          "n": 4096
+        },
+        "exact_action": 0.027303067430736207,
+        "exact_joint_bad": 0.007960639273354832,
+        "joint_bad": {
+          "ci95": [
+            0.005552123976352878,
+            0.011296072865168363
+          ],
+          "count": 33,
+          "estimate": 0.008056640625,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.9836498923001745,
+        "threshold": 15.629455806502364
+      }
+    },
+    "ratio": 0.5
+  },
+  {
+    "N": null,
+    "d": 4,
+    "kappa": 4,
+    "kind": "known",
+    "n": 4096,
+    "nu": null,
+    "policies": {
+      "ball": {
+        "action": {
+          "ci95": [
+            0.027256242336846998,
+            0.03836510887378255
+          ],
+          "count": 133,
+          "estimate": 0.032470703125,
+          "n": 4096
+        },
+        "exact_action": 0.03186138146087926,
+        "exact_joint_bad": 0.004092012260061603,
+        "joint_bad": {
+          "ci95": [
+            0.002606494231292557,
+            0.00693639467389657
+          ],
+          "count": 18,
+          "estimate": 0.00439453125,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.9760016236627161,
+        "threshold": 18.975458073562315
+      },
+      "envelope": {
+        "action": {
+          "ci95": [
+            0.19185093126494496,
+            0.21677567779073573
+          ],
+          "count": 836,
+          "estimate": 0.2041015625,
+          "n": 4096
+        },
+        "exact_action": 0.2033299603180576,
+        "exact_joint_bad": 0.0392314174407622,
+        "joint_bad": {
+          "ci95": [
+            0.03537610286740009,
+            0.047808542060510516
+          ],
+          "count": 169,
+          "estimate": 0.041259765625,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.8583387638303658,
+        "threshold": 11.615886876834606
+      },
+      "orthogonal": {
+        "action": {
+          "ci95": [
+            0.07264319961469386,
+            0.08958149766246273
+          ],
+          "count": 331,
+          "estimate": 0.080810546875,
+          "n": 4096
+        },
+        "exact_action": 0.07746724263384691,
+        "exact_joint_bad": 0.01189594332312005,
+        "joint_bad": {
+          "ci95": [
+            0.009707154244392873,
+            0.01689133399898227
+          ],
+          "count": 53,
+          "estimate": 0.012939453125,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.9413825070938527,
+        "threshold": 15.629455806502364
+      }
+    },
+    "ratio": 1.0
+  },
+  {
+    "N": null,
+    "d": 4,
+    "kappa": 8,
+    "kind": "known",
+    "n": 4096,
+    "nu": null,
+    "policies": {
+      "ball": {
+        "action": {
+          "ci95": [
+            0.12704575552472788,
+            0.14837659305625026
+          ],
+          "count": 563,
+          "estimate": 0.137451171875,
+          "n": 4096
+        },
+        "exact_action": 0.13590692758436645,
+        "exact_joint_bad": 0.0059977934078455164,
+        "joint_bad": {
+          "ci95": [
+            0.004150566575075981,
+            0.00928704679906851
+          ],
+          "count": 26,
+          "estimate": 0.00634765625,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.8892041913755933,
+        "threshold": 18.975458073562315
+      },
+      "envelope": {
+        "action": {
+          "ci95": [
+            0.4489901690964122,
+            0.47977165666809274
+          ],
+          "count": 1902,
+          "estimate": 0.46435546875,
+          "n": 4096
+        },
+        "exact_action": 0.4642731924204925,
+        "exact_joint_bad": 0.03566644517941205,
+        "joint_bad": {
+          "ci95": [
+            0.032659792203991275,
+            0.04467033292173832
+          ],
+          "count": 157,
+          "estimate": 0.038330078125,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.6416387890709719,
+        "threshold": 11.615886876834606
+      },
+      "orthogonal": {
+        "action": {
+          "ci95": [
+            0.23320506368924376,
+            0.25983345335154434
+          ],
+          "count": 1009,
+          "estimate": 0.246337890625,
+          "n": 4096
+        },
+        "exact_action": 0.2505500869639716,
+        "exact_joint_bad": 0.014156555130179696,
+        "joint_bad": {
+          "ci95": [
+            0.010343669586796823,
+            0.017717758979965418
+          ],
+          "count": 56,
+          "estimate": 0.013671875,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.8044143525380589,
+        "threshold": 15.629455806502364
+      }
+    },
+    "ratio": 2.0
+  },
+  {
+    "N": null,
+    "d": 64,
+    "kappa": 0,
+    "kind": "known",
+    "n": 8192,
+    "nu": null,
+    "policies": {
+      "ball": {
+        "action": {
+          "ci95": [
+            0.0,
+            0.00045020129670868394
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 8192
+        },
+        "exact_action": 3.48505761963593e-11,
+        "exact_joint_bad": null,
+        "joint_bad": null,
+        "loss_including_abstention": null,
+        "threshold": 167.35052148544196
+      },
+      "envelope": {
+        "action": {
+          "ci95": [
+            0.0,
+            0.00045020129670868394
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 8192
+        },
+        "exact_action": 5.632457521304225e-09,
+        "exact_joint_bad": null,
+        "joint_bad": null,
+        "loss_including_abstention": null,
+        "threshold": 150.88208741202357
+      },
+      "orthogonal": {
+        "action": {
+          "ci95": [
+            0.0,
+            0.00045020129670868394
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 8192
+        },
+        "exact_action": 7.207127539538817e-11,
+        "exact_joint_bad": null,
+        "joint_bad": null,
+        "loss_including_abstention": null,
+        "threshold": 165.05745308294362
+      }
+    },
+    "ratio": 0.0
+  },
+  {
+    "N": null,
+    "d": 64,
+    "kappa": 1024,
+    "kind": "known",
+    "n": 8192,
+    "nu": null,
+    "policies": {
+      "ball": {
+        "action": {
+          "ci95": [
+            0.9995497987032913,
+            1.0
+          ],
+          "count": 8192,
+          "estimate": 1.0,
+          "n": 8192
+        },
+        "exact_action": 1.0,
+        "exact_joint_bad": 8.601198200720334e-84,
+        "joint_bad": {
+          "ci95": [
+            0.0,
+            0.00045020129670868394
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 8192
+        },
+        "loss_including_abstention": 0.05815232732590392,
+        "threshold": 167.35052148544196
+      },
+      "envelope": {
+        "action": {
+          "ci95": [
+            0.9995497987032913,
+            1.0
+          ],
+          "count": 8192,
+          "estimate": 1.0,
+          "n": 8192
+        },
+        "exact_action": 1.0,
+        "exact_joint_bad": 8.601198200720334e-84,
+        "joint_bad": {
+          "ci95": [
+            0.0,
+            0.00045020129670868394
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 8192
+        },
+        "loss_including_abstention": 0.05815232732590392,
+        "threshold": 150.88208741202357
+      },
+      "orthogonal": {
+        "action": {
+          "ci95": [
+            0.9995497987032913,
+            1.0
+          ],
+          "count": 8192,
+          "estimate": 1.0,
+          "n": 8192
+        },
+        "exact_action": 1.0,
+        "exact_joint_bad": 8.601198200720334e-84,
+        "joint_bad": {
+          "ci95": [
+            0.0,
+            0.00045020129670868394
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 8192
+        },
+        "loss_including_abstention": 0.05815232732590392,
+        "threshold": 165.05745308294362
+      }
+    },
+    "ratio": 16.0
+  },
+  {
+    "N": null,
+    "d": 64,
+    "kappa": 128,
+    "kind": "known",
+    "n": 8192,
+    "nu": null,
+    "policies": {
+      "ball": {
+        "action": {
+          "ci95": [
+            0.8338365145545863,
+            0.8497573460860779
+          ],
+          "count": 6897,
+          "estimate": 0.8419189453125,
+          "n": 8192
+        },
+        "exact_action": 0.8349654410700542,
+        "exact_joint_bad": 0.0012104545185033487,
+        "joint_bad": {
+          "ci95": [
+            0.0001330557204045459,
+            0.001249717729818084
+          ],
+          "count": 4,
+          "estimate": 0.00048828125,
+          "n": 8192
+        },
+        "loss_including_abstention": 0.4311433320840898,
+        "threshold": 167.35052148544196
+      },
+      "envelope": {
+        "action": {
+          "ci95": [
+            0.9531814553084099,
+            0.9620165148073488
+          ],
+          "count": 7846,
+          "estimate": 0.957763671875,
+          "n": 8192
+        },
+        "exact_action": 0.9551581257162827,
+        "exact_joint_bad": 0.002040653500039067,
+        "joint_bad": {
+          "ci95": [
+            0.0007571279926472161,
+            0.0025573876887955396
+          ],
+          "count": 12,
+          "estimate": 0.00146484375,
+          "n": 8192
+        },
+        "loss_including_abstention": 0.35595643777886155,
+        "threshold": 150.88208741202357
+      },
+      "orthogonal": {
+        "action": {
+          "ci95": [
+            0.8552770131621698,
+            0.8702938917722725
+          ],
+          "count": 7069,
+          "estimate": 0.8629150390625,
+          "n": 8192
+        },
+        "exact_action": 0.858177421245884,
+        "exact_joint_bad": 0.001326844806096415,
+        "joint_bad": {
+          "ci95": [
+            0.000198208244366164,
+            0.0014237773038365796
+          ],
+          "count": 5,
+          "estimate": 0.0006103515625,
+          "n": 8192
+        },
+        "loss_including_abstention": 0.41742477253596305,
+        "threshold": 165.05745308294362
+      }
+    },
+    "ratio": 2.0
+  },
+  {
+    "N": null,
+    "d": 64,
+    "kappa": 16.0,
+    "kind": "known",
+    "n": 8192,
+    "nu": null,
+    "policies": {
+      "ball": {
+        "action": {
+          "ci95": [
+            0.0,
+            0.00045020129670868394
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 8192
+        },
+        "exact_action": 3.803215734592303e-07,
+        "exact_joint_bad": 3.7360928417709454e-07,
+        "joint_bad": {
+          "ci95": [
+            0.0,
+            0.00045020129670868394
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 8192
+        },
+        "loss_including_abstention": 1.0,
+        "threshold": 167.35052148544196
+      },
+      "envelope": {
+        "action": {
+          "ci95": [
+            0.0,
+            0.00045020129670868394
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 8192
+        },
+        "exact_action": 1.4995508287616247e-05,
+        "exact_joint_bad": 1.482303422069973e-05,
+        "joint_bad": {
+          "ci95": [
+            0.0,
+            0.00045020129670868394
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 8192
+        },
+        "loss_including_abstention": 1.0,
+        "threshold": 150.88208741202357
+      },
+      "orthogonal": {
+        "action": {
+          "ci95": [
+            0.0,
+            0.00045020129670868394
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 8192
+        },
+        "exact_action": 6.472317045824988e-07,
+        "exact_joint_bad": 6.364372530065172e-07,
+        "joint_bad": {
+          "ci95": [
+            0.0,
+            0.00045020129670868394
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 8192
+        },
+        "loss_including_abstention": 1.0,
+        "threshold": 165.05745308294362
+      }
+    },
+    "ratio": 0.25
+  },
+  {
+    "N": null,
+    "d": 64,
+    "kappa": 256,
+    "kind": "known",
+    "n": 8192,
+    "nu": null,
+    "policies": {
+      "ball": {
+        "action": {
+          "ci95": [
+            0.9995497987032913,
+            1.0
+          ],
+          "count": 8192,
+          "estimate": 1.0,
+          "n": 8192
+        },
+        "exact_action": 0.9999999245950225,
+        "exact_joint_bad": 4.002497362044384e-11,
+        "joint_bad": {
+          "ci95": [
+            0.0,
+            0.00045020129670868394
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 8192
+        },
+        "loss_including_abstention": 0.19759640671394763,
+        "threshold": 167.35052148544196
+      },
+      "envelope": {
+        "action": {
+          "ci95": [
+            0.9995497987032913,
+            1.0
+          ],
+          "count": 8192,
+          "estimate": 1.0,
+          "n": 8192
+        },
+        "exact_action": 0.9999999987423044,
+        "exact_joint_bad": 4.014494686626786e-11,
+        "joint_bad": {
+          "ci95": [
+            0.0,
+            0.00045020129670868394
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 8192
+        },
+        "loss_including_abstention": 0.19759640671394763,
+        "threshold": 150.88208741202357
+      },
+      "orthogonal": {
+        "action": {
+          "ci95": [
+            0.9995497987032913,
+            1.0
+          ],
+          "count": 8192,
+          "estimate": 1.0,
+          "n": 8192
+        },
+        "exact_action": 0.9999999555070337,
+        "exact_joint_bad": 4.006012287846446e-11,
+        "joint_bad": {
+          "ci95": [
+            0.0,
+            0.00045020129670868394
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 8192
+        },
+        "loss_including_abstention": 0.19759640671394763,
+        "threshold": 165.05745308294362
+      }
+    },
+    "ratio": 4.0
+  },
+  {
+    "N": null,
+    "d": 64,
+    "kappa": 32.0,
+    "kind": "known",
+    "n": 8192,
+    "nu": null,
+    "policies": {
+      "ball": {
+        "action": {
+          "ci95": [
+            0.0,
+            0.00045020129670868394
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 8192
+        },
+        "exact_action": 8.272411418831545e-05,
+        "exact_joint_bad": 6.426983614583874e-05,
+        "joint_bad": {
+          "ci95": [
+            0.0,
+            0.00045020129670868394
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 8192
+        },
+        "loss_including_abstention": 1.0,
+        "threshold": 167.35052148544196
+      },
+      "envelope": {
+        "action": {
+          "ci95": [
+            0.00084522695436736,
+            0.0027121425634731794
+          ],
+          "count": 13,
+          "estimate": 0.0015869140625,
+          "n": 8192
+        },
+        "exact_action": 0.0013019634412394124,
+        "exact_joint_bad": 0.0010825090504983155,
+        "joint_bad": {
+          "ci95": [
+            0.0006704922276954308,
+            0.002401319490213853
+          ],
+          "count": 11,
+          "estimate": 0.0013427734375,
+          "n": 8192
+        },
+        "loss_including_abstention": 0.9993607168006611,
+        "threshold": 150.88208741202357
+      },
+      "orthogonal": {
+        "action": {
+          "ci95": [
+            0.0,
+            0.00045020129670868394
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 8192
+        },
+        "exact_action": 0.0001240694874853059,
+        "exact_joint_bad": 9.73793629685003e-05,
+        "joint_bad": {
+          "ci95": [
+            0.0,
+            0.00045020129670868394
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 8192
+        },
+        "loss_including_abstention": 1.0,
+        "threshold": 165.05745308294362
+      }
+    },
+    "ratio": 0.5
+  },
+  {
+    "N": null,
+    "d": 64,
+    "kappa": 4.0,
+    "kind": "known",
+    "n": 8192,
+    "nu": null,
+    "policies": {
+      "ball": {
+        "action": {
+          "ci95": [
+            0.0,
+            0.00045020129670868394
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 8192
+        },
+        "exact_action": 6.800501269257122e-10,
+        "exact_joint_bad": 6.800343396003301e-10,
+        "joint_bad": {
+          "ci95": [
+            0.0,
+            0.00045020129670868394
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 8192
+        },
+        "loss_including_abstention": 1.0,
+        "threshold": 167.35052148544196
+      },
+      "envelope": {
+        "action": {
+          "ci95": [
+            0.0,
+            0.00045020129670868394
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 8192
+        },
+        "exact_action": 7.027309602046088e-08,
+        "exact_joint_bad": 7.02720771305082e-08,
+        "joint_bad": {
+          "ci95": [
+            0.0,
+            0.00045020129670868394
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 8192
+        },
+        "loss_including_abstention": 1.0,
+        "threshold": 150.88208741202357
+      },
+      "orthogonal": {
+        "action": {
+          "ci95": [
+            0.0,
+            0.00045020129670868394
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 8192
+        },
+        "exact_action": 1.3216873884698608e-09,
+        "exact_joint_bad": 1.321658587358193e-09,
+        "joint_bad": {
+          "ci95": [
+            0.0,
+            0.00045020129670868394
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 8192
+        },
+        "loss_including_abstention": 1.0,
+        "threshold": 165.05745308294362
+      }
+    },
+    "ratio": 0.0625
+  },
+  {
+    "N": null,
+    "d": 64,
+    "kappa": 64,
+    "kind": "known",
+    "n": 8192,
+    "nu": null,
+    "policies": {
+      "ball": {
+        "action": {
+          "ci95": [
+            0.027358944309933943,
+            0.034991198902169424
+          ],
+          "count": 254,
+          "estimate": 0.031005859375,
+          "n": 8192
+        },
+        "exact_action": 0.029093457591809906,
+        "exact_joint_bad": 0.005603385220480291,
+        "joint_bad": {
+          "ci95": [
+            0.0039052770082503374,
+            0.007203806942076688
+          ],
+          "count": 44,
+          "estimate": 0.00537109375,
+          "n": 8192
+        },
+        "loss_including_abstention": 0.9824185062377455,
+        "threshold": 167.35052148544196
+      },
+      "envelope": {
+        "action": {
+          "ci95": [
+            0.11398488188284706,
+            0.12822931567949572
+          ],
+          "count": 991,
+          "estimate": 0.1209716796875,
+          "n": 8192
+        },
+        "exact_action": 0.12398375579573004,
+        "exact_joint_bad": 0.0317834907685649,
+        "joint_bad": {
+          "ci95": [
+            0.028853579315831605,
+            0.03666908025234728
+          ],
+          "count": 267,
+          "estimate": 0.0325927734375,
+          "n": 8192
+        },
+        "loss_including_abstention": 0.9341120024372573,
+        "threshold": 150.88208741202357
+      },
+      "orthogonal": {
+        "action": {
+          "ci95": [
+            0.03473924446683946,
+            0.0432295528772464
+          ],
+          "count": 318,
+          "estimate": 0.038818359375,
+          "n": 8192
+        },
+        "exact_action": 0.03640640903900477,
+        "exact_joint_bad": 0.007310665454699335,
+        "joint_bad": {
+          "ci95": [
+            0.005914451252270312,
+            0.009828815977017576
+          ],
+          "count": 63,
+          "estimate": 0.0076904296875,
+          "n": 8192
+        },
+        "loss_including_abstention": 0.9781902735236823,
+        "threshold": 165.05745308294362
+      }
+    },
+    "ratio": 1.0
+  },
+  {
+    "N": 16,
+    "d": 16,
+    "kappa": 0,
+    "kind": "unknown",
+    "n": 4096,
+    "nu": 240,
+    "policies": {
+      "ball": {
+        "action": {
+          "ci95": [
+            0.0,
+            0.0009001999122098097
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 4096
+        },
+        "exact_action": 2.2524905898428727e-05,
+        "exact_joint_bad": null,
+        "joint_bad": null,
+        "loss_including_abstention": null,
+        "threshold": 3.3715908008367257
+      },
+      "envelope": {
+        "action": {
+          "ci95": [
+            6.181086361921496e-06,
+            0.0013595056306871368
+          ],
+          "count": 1,
+          "estimate": 0.000244140625,
+          "n": 4096
+        },
+        "exact_action": 0.0005900031050563305,
+        "exact_joint_bad": null,
+        "joint_bad": null,
+        "loss_including_abstention": null,
+        "threshold": 2.6972954284625885
+      },
+      "orthogonal": {
+        "action": {
+          "ci95": [
+            0.0,
+            0.0009001999122098097
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 4096
+        },
+        "exact_action": 5.1570369965004896e-05,
+        "exact_joint_bad": null,
+        "joint_bad": null,
+        "loss_including_abstention": null,
+        "threshold": 3.202931385644142
+      }
+    },
+    "ratio": 0.0
+  },
+  {
+    "N": 16,
+    "d": 16,
+    "kappa": 16,
+    "kind": "unknown",
+    "n": 4096,
+    "nu": 240,
+    "policies": {
+      "ball": {
+        "action": {
+          "ci95": [
+            0.0256886217796191,
+            0.036517755308574096
+          ],
+          "count": 126,
+          "estimate": 0.03076171875,
+          "n": 4096
+        },
+        "exact_action": 0.03179109357091111,
+        "exact_joint_bad": 0.005975563661297964,
+        "joint_bad": {
+          "ci95": [
+            0.003953653064770587,
+            0.00899689321280224
+          ],
+          "count": 25,
+          "estimate": 0.006103515625,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.9813676076305401,
+        "threshold": 3.3715908008367257
+      },
+      "envelope": {
+        "action": {
+          "ci95": [
+            0.12680966470244015,
+            0.14812475860719954
+          ],
+          "count": 562,
+          "estimate": 0.13720703125,
+          "n": 4096
+        },
+        "exact_action": 0.14491407627758815,
+        "exact_joint_bad": 0.03581747559554626,
+        "joint_bad": {
+          "ci95": [
+            0.030854026141835637,
+            0.04257313065864011
+          ],
+          "count": 149,
+          "estimate": 0.036376953125,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.9197517845336798,
+        "threshold": 2.6972954284625885
+      },
+      "orthogonal": {
+        "action": {
+          "ci95": [
+            0.041745382061359866,
+            0.05510005859697841
+          ],
+          "count": 197,
+          "estimate": 0.048095703125,
+          "n": 4096
+        },
+        "exact_action": 0.04778519699134382,
+        "exact_joint_bad": 0.00961449335186231,
+        "joint_bad": {
+          "ci95": [
+            0.007399827829273851,
+            0.013835278234392465
+          ],
+          "count": 42,
+          "estimate": 0.01025390625,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.9710181164296132,
+        "threshold": 3.202931385644142
+      }
+    },
+    "ratio": 1.0
+  },
+  {
+    "N": 16,
+    "d": 16,
+    "kappa": 32,
+    "kind": "unknown",
+    "n": 4096,
+    "nu": 240,
+    "policies": {
+      "ball": {
+        "action": {
+          "ci95": [
+            0.3096503322623006,
+            0.33855036245763015
+          ],
+          "count": 1327,
+          "estimate": 0.323974609375,
+          "n": 4096
+        },
+        "exact_action": 0.3133327998690347,
+        "exact_joint_bad": 0.007268985512033011,
+        "joint_bad": {
+          "ci95": [
+            0.0043483979855896285,
+            0.009576329386315871
+          ],
+          "count": 27,
+          "estimate": 0.006591796875,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.7686839049598333,
+        "threshold": 3.3715908008367257
+      },
+      "envelope": {
+        "action": {
+          "ci95": [
+            0.6070165346009071,
+            0.6369497637287682
+          ],
+          "count": 2548,
+          "estimate": 0.6220703125,
+          "n": 4096
+        },
+        "exact_action": 0.6219828485649627,
+        "exact_joint_bad": 0.022608848356823297,
+        "joint_bad": {
+          "ci95": [
+            0.01682762450123219,
+            0.02586581479311231
+          ],
+          "count": 86,
+          "estimate": 0.02099609375,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.563881306119711,
+        "threshold": 2.6972954284625885
+      },
+      "orthogonal": {
+        "action": {
+          "ci95": [
+            0.37879414968147224,
+            0.4089551584223878
+          ],
+          "count": 1613,
+          "estimate": 0.393798828125,
+          "n": 4096
+        },
+        "exact_action": 0.38300762753934436,
+        "exact_joint_bad": 0.009970065562932147,
+        "joint_bad": {
+          "ci95": [
+            0.007607616215088094,
+            0.01411501100502562
+          ],
+          "count": 43,
+          "estimate": 0.010498046875,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.7204444182558463,
+        "threshold": 3.202931385644142
+      }
+    },
+    "ratio": 2.0
+  },
+  {
+    "N": 16,
+    "d": 16,
+    "kappa": 64,
+    "kind": "unknown",
+    "n": 4096,
+    "nu": 240,
+    "policies": {
+      "ball": {
+        "action": {
+          "ci95": [
+            0.936352729391341,
+            0.9507012789667556
+          ],
+          "count": 3866,
+          "estimate": 0.94384765625,
+          "n": 4096
+        },
+        "exact_action": 0.9392468881459751,
+        "exact_joint_bad": 0.00021131993756727776,
+        "joint_bad": {
+          "ci95": [
+            0.0,
+            0.0009001999122098097
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.23354693988012065,
+        "threshold": 3.3715908008367257
+      },
+      "envelope": {
+        "action": {
+          "ci95": [
+            0.9895606051473519,
+            0.9950530827584451
+          ],
+          "count": 4066,
+          "estimate": 0.99267578125,
+          "n": 4096
+        },
+        "exact_action": 0.9907302285551589,
+        "exact_joint_bad": 0.00031348700507437906,
+        "joint_bad": {
+          "ci95": [
+            5.913859564541427e-05,
+            0.0017627151806379714
+          ],
+          "count": 2,
+          "estimate": 0.00048828125,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.1961382178007224,
+        "threshold": 2.6972954284625885
+      },
+      "orthogonal": {
+        "action": {
+          "ci95": [
+            0.9542826210743929,
+            0.9664357556238966
+          ],
+          "count": 3935,
+          "estimate": 0.960693359375,
+          "n": 4096
+        },
+        "exact_action": 0.9590559388458381,
+        "exact_joint_bad": 0.00023942756527041772,
+        "joint_bad": {
+          "ci95": [
+            6.181086361921496e-06,
+            0.0013595056306871368
+          ],
+          "count": 1,
+          "estimate": 0.000244140625,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.22056456539078945,
+        "threshold": 3.202931385644142
+      }
+    },
+    "ratio": 4.0
+  },
+  {
+    "N": 16,
+    "d": 16,
+    "kappa": 8.0,
+    "kind": "unknown",
+    "n": 4096,
+    "nu": 240,
+    "policies": {
+      "ball": {
+        "action": {
+          "ci95": [
+            0.0013413539814302365,
+            0.004800092996337546
+          ],
+          "count": 11,
+          "estimate": 0.002685546875,
+          "n": 4096
+        },
+        "exact_action": 0.0029635893675463466,
+        "exact_joint_bad": 0.0014891545498744655,
+        "joint_bad": {
+          "ci95": [
+            0.0006873677360192378,
+            0.0035179711802490617
+          ],
+          "count": 7,
+          "estimate": 0.001708984375,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.9987745146789404,
+        "threshold": 3.3715908008367257
+      },
+      "envelope": {
+        "action": {
+          "ci95": [
+            0.020349433343906945,
+            0.0301488756200801
+          ],
+          "count": 102,
+          "estimate": 0.02490234375,
+          "n": 4096
+        },
+        "exact_action": 0.025585285743664032,
+        "exact_joint_bad": 0.014680808723426735,
+        "joint_bad": {
+          "ci95": [
+            0.010556436987331608,
+            0.01799265321398999
+          ],
+          "count": 57,
+          "estimate": 0.013916015625,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.9881891159658498,
+        "threshold": 2.6972954284625885
+      },
+      "orthogonal": {
+        "action": {
+          "ci95": [
+            0.002985022981363014,
+            0.007531082021264741
+          ],
+          "count": 20,
+          "estimate": 0.0048828125,
+          "n": 4096
+        },
+        "exact_action": 0.005196337298066934,
+        "exact_joint_bad": 0.002698696423146767,
+        "joint_bad": {
+          "ci95": [
+            0.001514700201649268,
+            0.005111976422431398
+          ],
+          "count": 12,
+          "estimate": 0.0029296875,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.9977152566605985,
+        "threshold": 3.202931385644142
+      }
+    },
+    "ratio": 0.5
+  },
+  {
+    "N": 2,
+    "d": 16,
+    "kappa": 0,
+    "kind": "unknown",
+    "n": 4096,
+    "nu": 16,
+    "policies": {
+      "ball": {
+        "action": {
+          "ci95": [
+            0.00039647402462204937,
+            0.0028463956393403956
+          ],
+          "count": 5,
+          "estimate": 0.001220703125,
+          "n": 4096
+        },
+        "exact_action": 0.001850107236468961,
+        "exact_joint_bad": null,
+        "joint_bad": null,
+        "loss_including_abstention": null,
+        "threshold": 4.666967254935282
+      },
+      "envelope": {
+        "action": {
+          "ci95": [
+            0.005147958172395939,
+            0.010725619005310875
+          ],
+          "count": 31,
+          "estimate": 0.007568359375,
+          "n": 4096
+        },
+        "exact_action": 0.008978377098662851,
+        "exact_joint_bad": null,
+        "joint_bad": null,
+        "loss_including_abstention": null,
+        "threshold": 3.4477347597059627
+      },
+      "orthogonal": {
+        "action": {
+          "ci95": [
+            0.0005377555665834442,
+            0.0031856012509531933
+          ],
+          "count": 6,
+          "estimate": 0.00146484375,
+          "n": 4096
+        },
+        "exact_action": 0.002521820356246898,
+        "exact_joint_bad": null,
+        "joint_bad": null,
+        "loss_including_abstention": null,
+        "threshold": 4.410417680263846
+      }
+    },
+    "ratio": 0.0
+  },
+  {
+    "N": 2,
+    "d": 16,
+    "kappa": 16,
+    "kind": "unknown",
+    "n": 4096,
+    "nu": 16,
+    "policies": {
+      "ball": {
+        "action": {
+          "ci95": [
+            0.03628344204446491,
+            0.04885272536610384
+          ],
+          "count": 173,
+          "estimate": 0.042236328125,
+          "n": 4096
+        },
+        "exact_action": 0.04385967588148837,
+        "exact_joint_bad": 0.012709506831192314,
+        "joint_bad": {
+          "ci95": [
+            0.010556436987331608,
+            0.01799265321398999
+          ],
+          "count": 57,
+          "estimate": 0.013916015625,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.9761132956943965,
+        "threshold": 4.666967254935282
+      },
+      "envelope": {
+        "action": {
+          "ci95": [
+            0.12869870288025054,
+            0.1501391232835016
+          ],
+          "count": 570,
+          "estimate": 0.13916015625,
+          "n": 4096
+        },
+        "exact_action": 0.13481166837562886,
+        "exact_joint_bad": 0.0423510281607462,
+        "joint_bad": {
+          "ci95": [
+            0.039466017732284774,
+            0.05250053253986583
+          ],
+          "count": 187,
+          "estimate": 0.045654296875,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.922331191821599,
+        "threshold": 3.4477347597059627
+      },
+      "orthogonal": {
+        "action": {
+          "ci95": [
+            0.0458597803504288,
+            0.059767742910026
+          ],
+          "count": 215,
+          "estimate": 0.052490234375,
+          "n": 4096
+        },
+        "exact_action": 0.0551875429588747,
+        "exact_joint_bad": 0.0162244191433472,
+        "joint_bad": {
+          "ci95": [
+            0.012914224597425052,
+            0.020999543121995486
+          ],
+          "count": 68,
+          "estimate": 0.0166015625,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.9701452637918433,
+        "threshold": 4.410417680263846
+      }
+    },
+    "ratio": 1.0
+  },
+  {
+    "N": 2,
+    "d": 16,
+    "kappa": 32,
+    "kind": "unknown",
+    "n": 4096,
+    "nu": 16,
+    "policies": {
+      "ball": {
+        "action": {
+          "ci95": [
+            0.15972395858664237,
+            0.1830322744486388
+          ],
+          "count": 701,
+          "estimate": 0.171142578125,
+          "n": 4096
+        },
+        "exact_action": 0.17799716773107363,
+        "exact_joint_bad": 0.0059642025822770235,
+        "joint_bad": {
+          "ci95": [
+            0.0031763821069815956,
+            0.007826469440692076
+          ],
+          "count": 21,
+          "estimate": 0.005126953125,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.8784480467828588,
+        "threshold": 4.666967254935282
+      },
+      "envelope": {
+        "action": {
+          "ci95": [
+            0.37952119353762775,
+            0.4096919119227197
+          ],
+          "count": 1616,
+          "estimate": 0.39453125,
+          "n": 4096
+        },
+        "exact_action": 0.3955921521878414,
+        "exact_joint_bad": 0.015894709753058348,
+        "joint_bad": {
+          "ci95": [
+            0.012914224597425052,
+            0.020999543121995486
+          ],
+          "count": 68,
+          "estimate": 0.0166015625,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.7238319163147675,
+        "threshold": 3.4477347597059627
+      },
+      "orthogonal": {
+        "action": {
+          "ci95": [
+            0.19638328856890458,
+            0.2215139812594794
+          ],
+          "count": 855,
+          "estimate": 0.208740234375,
+          "n": 4096
+        },
+        "exact_action": 0.21130167773786493,
+        "exact_joint_bad": 0.007318243239862789,
+        "joint_bad": {
+          "ci95": [
+            0.004547096876042293,
+            0.009864787290780875
+          ],
+          "count": 28,
+          "estimate": 0.0068359375,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.8523141594468987,
+        "threshold": 4.410417680263846
+      }
+    },
+    "ratio": 2.0
+  },
+  {
+    "N": 2,
+    "d": 16,
+    "kappa": 64,
+    "kind": "unknown",
+    "n": 4096,
+    "nu": 16,
+    "policies": {
+      "ball": {
+        "action": {
+          "ci95": [
+            0.585888304050389,
+            0.6161158061171816
+          ],
+          "count": 2462,
+          "estimate": 0.60107421875,
+          "n": 4096
+        },
+        "exact_action": 0.5920498998936096,
+        "exact_joint_bad": 0.00010775122777712777,
+        "joint_bad": {
+          "ci95": [
+            0.0,
+            0.0009001999122098097
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.5100288846040659,
+        "threshold": 4.666967254935282
+      },
+      "envelope": {
+        "action": {
+          "ci95": [
+            0.8297540062529213,
+            0.8523740627822326
+          ],
+          "count": 3446,
+          "estimate": 0.84130859375,
+          "n": 4096
+        },
+        "exact_action": 0.8366611155934627,
+        "exact_joint_bad": 0.0002067870567882522,
+        "joint_bad": {
+          "ci95": [
+            0.0,
+            0.0009001999122098097
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.31635562889599717,
+        "threshold": 3.4477347597059627
+      },
+      "orthogonal": {
+        "action": {
+          "ci95": [
+            0.6375328783985732,
+            0.6669370197055078
+          ],
+          "count": 2672,
+          "estimate": 0.65234375,
+          "n": 4096
+        },
+        "exact_action": 0.6444560630385101,
+        "exact_joint_bad": 0.0001245264954855946,
+        "joint_bad": {
+          "ci95": [
+            0.0,
+            0.0009001999122098097
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.4683713465755223,
+        "threshold": 4.410417680263846
+      }
+    },
+    "ratio": 4.0
+  },
+  {
+    "N": 2,
+    "d": 16,
+    "kappa": 8.0,
+    "kind": "unknown",
+    "n": 4096,
+    "nu": 16,
+    "policies": {
+      "ball": {
+        "action": {
+          "ci95": [
+            0.00865277427770941,
+            0.015507651002403842
+          ],
+          "count": 48,
+          "estimate": 0.01171875,
+          "n": 4096
+        },
+        "exact_action": 0.013399426764942901,
+        "exact_joint_bad": 0.008825917598762964,
+        "joint_bad": {
+          "ci95": [
+            0.005147958172395939,
+            0.010725619005310875
+          ],
+          "count": 31,
+          "estimate": 0.007568359375,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.99493033875624,
+        "threshold": 4.666967254935282
+      },
+      "envelope": {
+        "action": {
+          "ci95": [
+            0.04311526136336922,
+            0.05665752948731586
+          ],
+          "count": 203,
+          "estimate": 0.049560546875,
+          "n": 4096
+        },
+        "exact_action": 0.05024098927168563,
+        "exact_joint_bad": 0.03411041114099194,
+        "joint_bad": {
+          "ci95": [
+            0.028153851722914847,
+            0.03941893255611687
+          ],
+          "count": 137,
+          "estimate": 0.033447265625,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.9793324589292818,
+        "threshold": 3.4477347597059627
+      },
+      "orthogonal": {
+        "action": {
+          "ci95": [
+            0.012053400197304566,
+            0.019909499687307153
+          ],
+          "count": 64,
+          "estimate": 0.015625,
+          "n": 4096
+        },
+        "exact_action": 0.017460436775747244,
+        "exact_joint_bad": 0.011562886231829361,
+        "joint_bad": {
+          "ci95": [
+            0.007399827829273851,
+            0.013835278234392465
+          ],
+          "count": 42,
+          "estimate": 0.01025390625,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.9935629561959983,
+        "threshold": 4.410417680263846
+      }
+    },
+    "ratio": 0.5
+  },
+  {
+    "N": 4,
+    "d": 16,
+    "kappa": 0,
+    "kind": "unknown",
+    "n": 4096,
+    "nu": 48,
+    "policies": {
+      "ball": {
+        "action": {
+          "ci95": [
+            6.181086361921496e-06,
+            0.0013595056306871368
+          ],
+          "count": 1,
+          "estimate": 0.000244140625,
+          "n": 4096
+        },
+        "exact_action": 0.00021069263927382193,
+        "exact_joint_bad": null,
+        "joint_bad": null,
+        "loss_including_abstention": null,
+        "threshold": 3.7183340257023323
+      },
+      "envelope": {
+        "action": {
+          "ci95": [
+            0.001514700201649268,
+            0.005111976422431398
+          ],
+          "count": 12,
+          "estimate": 0.0029296875,
+          "n": 4096
+        },
+        "exact_action": 0.0023082457454271484,
+        "exact_joint_bad": null,
+        "joint_bad": null,
+        "loss_including_abstention": null,
+        "threshold": 2.889071692530797
+      },
+      "orthogonal": {
+        "action": {
+          "ci95": [
+            6.181086361921496e-06,
+            0.0013595056306871368
+          ],
+          "count": 1,
+          "estimate": 0.000244140625,
+          "n": 4096
+        },
+        "exact_action": 0.0003632962305269093,
+        "exact_joint_bad": null,
+        "joint_bad": null,
+        "loss_including_abstention": null,
+        "threshold": 3.525327344982234
+      }
+    },
+    "ratio": 0.0
+  },
+  {
+    "N": 4,
+    "d": 16,
+    "kappa": 16,
+    "kind": "unknown",
+    "n": 4096,
+    "nu": 48,
+    "policies": {
+      "ball": {
+        "action": {
+          "ci95": [
+            0.028378452712018522,
+            0.039682191868139954
+          ],
+          "count": 138,
+          "estimate": 0.03369140625,
+          "n": 4096
+        },
+        "exact_action": 0.03746208718202742,
+        "exact_joint_bad": 0.008689758059368079,
+        "joint_bad": {
+          "ci95": [
+            0.006163127631198837,
+            0.012147191608407932
+          ],
+          "count": 36,
+          "estimate": 0.0087890625,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.9801332429686465,
+        "threshold": 3.7183340257023323
+      },
+      "envelope": {
+        "action": {
+          "ci95": [
+            0.13011594444816815,
+            0.151649434862164
+          ],
+          "count": 576,
+          "estimate": 0.140625,
+          "n": 4096
+        },
+        "exact_action": 0.14505206323566033,
+        "exact_joint_bad": 0.040020352406111716,
+        "joint_bad": {
+          "ci95": [
+            0.03446969279140178,
+            0.04676343727906592
+          ],
+          "count": 165,
+          "estimate": 0.040283203125,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.9195471486503584,
+        "threshold": 2.889071692530797
+      },
+      "orthogonal": {
+        "action": {
+          "ci95": [
+            0.04220182553894838,
+            0.05561939725276624
+          ],
+          "count": 199,
+          "estimate": 0.048583984375,
+          "n": 4096
+        },
+        "exact_action": 0.05188156581870824,
+        "exact_joint_bad": 0.012495813010494686,
+        "joint_bad": {
+          "ci95": [
+            0.00865277427770941,
+            0.015507651002403842
+          ],
+          "count": 48,
+          "estimate": 0.01171875,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.9712352550957222,
+        "threshold": 3.525327344982234
+      }
+    },
+    "ratio": 1.0
+  },
+  {
+    "N": 4,
+    "d": 16,
+    "kappa": 32,
+    "kind": "unknown",
+    "n": 4096,
+    "nu": 48,
+    "policies": {
+      "ball": {
+        "action": {
+          "ci95": [
+            0.2329654998590836,
+            0.25958508650647677
+          ],
+          "count": 1008,
+          "estimate": 0.24609375,
+          "n": 4096
+        },
+        "exact_action": 0.2522300428456572,
+        "exact_joint_bad": 0.0067980246992422515,
+        "joint_bad": {
+          "ci95": [
+            0.004150566575075981,
+            0.00928704679906851
+          ],
+          "count": 26,
+          "estimate": 0.00634765625,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.8249415749004849,
+        "threshold": 3.7183340257023323
+      },
+      "envelope": {
+        "action": {
+          "ci95": [
+            0.5168056981483085,
+            0.5476014185067536
+          ],
+          "count": 2180,
+          "estimate": 0.5322265625,
+          "n": 4096
+        },
+        "exact_action": 0.536015930761433,
+        "exact_joint_bad": 0.02010509310902838,
+        "joint_bad": {
+          "ci95": [
+            0.015298775049105444,
+            0.023980221982150666
+          ],
+          "count": 79,
+          "estimate": 0.019287109375,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.6270022095313935,
+        "threshold": 2.889071692530797
+      },
+      "orthogonal": {
+        "action": {
+          "ci95": [
+            0.2879646942968396,
+            0.31632213926006963
+          ],
+          "count": 1237,
+          "estimate": 0.302001953125,
+          "n": 4096
+        },
+        "exact_action": 0.30653856291027726,
+        "exact_joint_bad": 0.008893681698800478,
+        "joint_bad": {
+          "ci95": [
+            0.0057551859303030285,
+            0.011580361171796122
+          ],
+          "count": 34,
+          "estimate": 0.00830078125,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.7857868177410123,
+        "threshold": 3.525327344982234
+      }
+    },
+    "ratio": 2.0
+  },
+  {
+    "N": 4,
+    "d": 16,
+    "kappa": 64,
+    "kind": "unknown",
+    "n": 4096,
+    "nu": 48,
+    "policies": {
+      "ball": {
+        "action": {
+          "ci95": [
+            0.8262417218660866,
+            0.8490553664085918
+          ],
+          "count": 3432,
+          "estimate": 0.837890625,
+          "n": 4096
+        },
+        "exact_action": 0.8389126320369913,
+        "exact_joint_bad": 0.00016559838557104293,
+        "joint_bad": {
+          "ci95": [
+            0.0,
+            0.0009001999122098097
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.3172612059570127,
+        "threshold": 3.7183340257023323
+      },
+      "envelope": {
+        "action": {
+          "ci95": [
+            0.9587398419039,
+            0.9702723357028621
+          ],
+          "count": 3952,
+          "estimate": 0.96484375,
+          "n": 4096
+        },
+        "exact_action": 0.9647298668097061,
+        "exact_joint_bad": 0.00027730164336657234,
+        "joint_bad": {
+          "ci95": [
+            6.181086361921496e-06,
+            0.0013595056306871368
+          ],
+          "count": 1,
+          "estimate": 0.000244140625,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.2173732634592117,
+        "threshold": 2.889071692530797
+      },
+      "orthogonal": {
+        "action": {
+          "ci95": [
+            0.8725662400181831,
+            0.8925091133324621
+          ],
+          "count": 3616,
+          "estimate": 0.8828125,
+          "n": 4096
+        },
+        "exact_action": 0.8780119426267431,
+        "exact_joint_bad": 0.00019073938897319173,
+        "joint_bad": {
+          "ci95": [
+            0.0,
+            0.0009001999122098097
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.2817828042128873,
+        "threshold": 3.525327344982234
+      }
+    },
+    "ratio": 4.0
+  },
+  {
+    "N": 4,
+    "d": 16,
+    "kappa": 8.0,
+    "kind": "unknown",
+    "n": 4096,
+    "nu": 48,
+    "policies": {
+      "ball": {
+        "action": {
+          "ci95": [
+            0.0033690054186658012,
+            0.008120671308196872
+          ],
+          "count": 22,
+          "estimate": 0.00537109375,
+          "n": 4096
+        },
+        "exact_action": 0.006153453140796796,
+        "exact_joint_bad": 0.0035623690107392447,
+        "joint_bad": {
+          "ci95": [
+            0.0016909786621630962,
+            0.005421227543939171
+          ],
+          "count": 13,
+          "estimate": 0.003173828125,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.9976532661404788,
+        "threshold": 3.7183340257023323
+      },
+      "envelope": {
+        "action": {
+          "ci95": [
+            0.03198212890042733,
+            0.0438843785609823
+          ],
+          "count": 154,
+          "estimate": 0.03759765625,
+          "n": 4096
+        },
+        "exact_action": 0.03605114722908757,
+        "exact_joint_bad": 0.022487395661725695,
+        "joint_bad": {
+          "ci95": [
+            0.018804364781050215,
+            0.028279250322246315
+          ],
+          "count": 95,
+          "estimate": 0.023193359375,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.9834135837963824,
+        "threshold": 2.889071692530797
+      },
+      "orthogonal": {
+        "action": {
+          "ci95": [
+            0.005958862491231589,
+            0.011864059299133587
+          ],
+          "count": 35,
+          "estimate": 0.008544921875,
+          "n": 4096
+        },
+        "exact_action": 0.009303035562083919,
+        "exact_joint_bad": 0.005473252601570519,
+        "joint_bad": {
+          "ci95": [
+            0.0031763821069815956,
+            0.007826469440692076
+          ],
+          "count": 21,
+          "estimate": 0.005126953125,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.996205204309929,
+        "threshold": 3.525327344982234
+      }
+    },
+    "ratio": 0.5
+  },
+  {
+    "N": 16,
+    "d": 4,
+    "kappa": 0,
+    "kind": "unknown",
+    "n": 4096,
+    "nu": 60,
+    "policies": {
+      "ball": {
+        "action": {
+          "ci95": [
+            0.00015106847496722806,
+            0.0021389410873818575
+          ],
+          "count": 3,
+          "estimate": 0.000732421875,
+          "n": 4096
+        },
+        "exact_action": 0.0014168624801864996,
+        "exact_joint_bad": null,
+        "joint_bad": null,
+        "loss_including_abstention": null,
+        "threshold": 5.050430203965758
+      },
+      "envelope": {
+        "action": {
+          "ci95": [
+            0.021900430823895277,
+            0.03201265319790834
+          ],
+          "count": 109,
+          "estimate": 0.026611328125,
+          "n": 4096
+        },
+        "exact_action": 0.024728122464743565,
+        "exact_joint_bad": null,
+        "joint_bad": null,
+        "loss_including_abstention": null,
+        "threshold": 3.0152791850074814
+      },
+      "orthogonal": {
+        "action": {
+          "ci95": [
+            0.002606494231292557,
+            0.00693639467389657
+          ],
+          "count": 18,
+          "estimate": 0.00439453125,
+          "n": 4096
+        },
+        "exact_action": 0.00501951965291782,
+        "exact_joint_bad": null,
+        "joint_bad": null,
+        "loss_including_abstention": null,
+        "threshold": 4.137117443763871
+      }
+    },
+    "ratio": 0.0
+  },
+  {
+    "N": 16,
+    "d": 4,
+    "kappa": 16,
+    "kind": "unknown",
+    "n": 4096,
+    "nu": 60,
+    "policies": {
+      "ball": {
+        "action": {
+          "ci95": [
+            0.4482598887308383,
+            0.47903813899021574
+          ],
+          "count": 1899,
+          "estimate": 0.463623046875,
+          "n": 4096
+        },
+        "exact_action": 0.45731643085217033,
+        "exact_joint_bad": 0.00382359951363267,
+        "joint_bad": {
+          "ci95": [
+            0.0027950240653853813,
+            0.007234422845910839
+          ],
+          "count": 19,
+          "estimate": 0.004638671875,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.6013648236150595,
+        "threshold": 5.050430203965758
+      },
+      "envelope": {
+        "action": {
+          "ci95": [
+            0.8159658439769631,
+            0.8393262113560124
+          ],
+          "count": 3391,
+          "estimate": 0.827880859375,
+          "n": 4096
+        },
+        "exact_action": 0.8163447279743643,
+        "exact_joint_bad": 0.012340332059870536,
+        "joint_bad": {
+          "ci95": [
+            0.00928438369690624,
+            0.016338851678639004
+          ],
+          "count": 51,
+          "estimate": 0.012451171875,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.29908194204244176,
+        "threshold": 3.0152791850074814
+      },
+      "orthogonal": {
+        "action": {
+          "ci95": [
+            0.6161156367861169,
+            0.645904157813257
+          ],
+          "count": 2585,
+          "estimate": 0.631103515625,
+          "n": 4096
+        },
+        "exact_action": 0.6197747914353314,
+        "exact_joint_bad": 0.006735292792492303,
+        "joint_bad": {
+          "ci95": [
+            0.0057551859303030285,
+            0.011580361171796122
+          ],
+          "count": 34,
+          "estimate": 0.00830078125,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.4614150648769221,
+        "threshold": 4.137117443763871
+      }
+    },
+    "ratio": 4.0
+  },
+  {
+    "N": 16,
+    "d": 4,
+    "kappa": 2.0,
+    "kind": "unknown",
+    "n": 4096,
+    "nu": 60,
+    "policies": {
+      "ball": {
+        "action": {
+          "ci95": [
+            0.007192487936071679,
+            0.013555111554308922
+          ],
+          "count": 41,
+          "estimate": 0.010009765625,
+          "n": 4096
+        },
+        "exact_action": 0.011364670613181457,
+        "exact_joint_bad": 0.003226424437372105,
+        "joint_bad": {
+          "ci95": [
+            0.00186985640775438,
+            0.005728127465799098
+          ],
+          "count": 14,
+          "estimate": 0.00341796875,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.9937041300660127,
+        "threshold": 5.050430203965758
+      },
+      "envelope": {
+        "action": {
+          "ci95": [
+            0.08733000052924335,
+            0.10563344442459201
+          ],
+          "count": 394,
+          "estimate": 0.09619140625,
+          "n": 4096
+        },
+        "exact_action": 0.09784346791526956,
+        "exact_joint_bad": 0.034747182732562956,
+        "joint_bad": {
+          "ci95": [
+            0.03243383908365302,
+            0.04440841290401755
+          ],
+          "count": 156,
+          "estimate": 0.0380859375,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.9457003658751343,
+        "threshold": 3.0152791850074814
+      },
+      "orthogonal": {
+        "action": {
+          "ci95": [
+            0.023679558324837677,
+            0.034136209569572834
+          ],
+          "count": 117,
+          "estimate": 0.028564453125,
+          "n": 4096
+        },
+        "exact_action": 0.030087835511364694,
+        "exact_joint_bad": 0.009365970656496962,
+        "joint_bad": {
+          "ci95": [
+            0.007607616215088094,
+            0.01411501100502562
+          ],
+          "count": 43,
+          "estimate": 0.010498046875,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.9828934323349829,
+        "threshold": 4.137117443763871
+      }
+    },
+    "ratio": 0.5
+  },
+  {
+    "N": 16,
+    "d": 4,
+    "kappa": 4,
+    "kind": "unknown",
+    "n": 4096,
+    "nu": 60,
+    "policies": {
+      "ball": {
+        "action": {
+          "ci95": [
+            0.029052719167371552,
+            0.04047151096937782
+          ],
+          "count": 141,
+          "estimate": 0.034423828125,
+          "n": 4096
+        },
+        "exact_action": 0.0346406283044967,
+        "exact_joint_bad": 0.004987294993156145,
+        "joint_bad": {
+          "ci95": [
+            0.0031763821069815956,
+            0.007826469440692076
+          ],
+          "count": 21,
+          "estimate": 0.005126953125,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.975222484457787,
+        "threshold": 5.050430203965758
+      },
+      "envelope": {
+        "action": {
+          "ci95": [
+            0.18970489938175564,
+            0.21453034518933647
+          ],
+          "count": 827,
+          "estimate": 0.201904296875,
+          "n": 4096
+        },
+        "exact_action": 0.20214126914243163,
+        "exact_joint_bad": 0.04060808846909824,
+        "joint_bad": {
+          "ci95": [
+            0.03628344204446491,
+            0.04885272536610384
+          ],
+          "count": 173,
+          "estimate": 0.042236328125,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.8635362779460387,
+        "threshold": 3.0152791850074814
+      },
+      "orthogonal": {
+        "action": {
+          "ci95": [
+            0.0684625071355522,
+            0.08497975096778017
+          ],
+          "count": 313,
+          "estimate": 0.076416015625,
+          "n": 4096
+        },
+        "exact_action": 0.07815209690950586,
+        "exact_joint_bad": 0.012915331884802045,
+        "joint_bad": {
+          "ci95": [
+            0.007399827829273851,
+            0.013835278234392465
+          ],
+          "count": 42,
+          "estimate": 0.01025390625,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.9443951408143987,
+        "threshold": 4.137117443763871
+      }
+    },
+    "ratio": 1.0
+  },
+  {
+    "N": 16,
+    "d": 4,
+    "kappa": 8,
+    "kind": "unknown",
+    "n": 4096,
+    "nu": 60,
+    "policies": {
+      "ball": {
+        "action": {
+          "ci95": [
+            0.11690429244503306,
+            0.13753729323367384
+          ],
+          "count": 520,
+          "estimate": 0.126953125,
+          "n": 4096
+        },
+        "exact_action": 0.13051361425358307,
+        "exact_joint_bad": 0.006411002060495954,
+        "joint_bad": {
+          "ci95": [
+            0.005349704647585767,
+            0.011011168204278781
+          ],
+          "count": 32,
+          "estimate": 0.0078125,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.899658385776415,
+        "threshold": 5.050430203965758
+      },
+      "envelope": {
+        "action": {
+          "ci95": [
+            0.4302568145860272,
+            0.46093419602568875
+          ],
+          "count": 1825,
+          "estimate": 0.445556640625,
+          "n": 4096
+        },
+        "exact_action": 0.446602315958202,
+        "exact_joint_bad": 0.03522419808017257,
+        "joint_bad": {
+          "ci95": [
+            0.029277626497185582,
+            0.04073446699785697
+          ],
+          "count": 142,
+          "estimate": 0.03466796875,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.6558121515590594,
+        "threshold": 3.0152791850074814
+      },
+      "orthogonal": {
+        "action": {
+          "ci95": [
+            0.2176455499067953,
+            0.2436774856898332
+          ],
+          "count": 944,
+          "estimate": 0.23046875,
+          "n": 4096
+        },
+        "exact_action": 0.2354791834127317,
+        "exact_joint_bad": 0.014120693370012812,
+        "joint_bad": {
+          "ci95": [
+            0.011410284519532592,
+            0.01908951845027625
+          ],
+          "count": 61,
+          "estimate": 0.014892578125,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.8191779849327843,
+        "threshold": 4.137117443763871
+      }
+    },
+    "ratio": 2.0
+  },
+  {
+    "N": 2,
+    "d": 4,
+    "kappa": 0,
+    "kind": "unknown",
+    "n": 4096,
+    "nu": 4,
+    "policies": {
+      "ball": {
+        "action": {
+          "ci95": [
+            0.013129991587141857,
+            0.02127150470809962
+          ],
+          "count": 69,
+          "estimate": 0.016845703125,
+          "n": 4096
+        },
+        "exact_action": 0.015041939443778317,
+        "exact_joint_bad": null,
+        "joint_bad": null,
+        "loss_including_abstention": null,
+        "threshold": 12.776465817391736
+      },
+      "envelope": {
+        "action": {
+          "ci95": [
+            0.04494425787710825,
+            0.05873168342833276
+          ],
+          "count": 211,
+          "estimate": 0.051513671875,
+          "n": 4096
+        },
+        "exact_action": 0.05000000000000004,
+        "exact_joint_bad": null,
+        "joint_bad": null,
+        "loss_including_abstention": null,
+        "threshold": 6.388232908695868
+      },
+      "orthogonal": {
+        "action": {
+          "ci95": [
+            0.021013454686508753,
+            0.030948320139812985
+          ],
+          "count": 105,
+          "estimate": 0.025634765625,
+          "n": 4096
+        },
+        "exact_action": 0.023760523162579716,
+        "exact_joint_bad": null,
+        "joint_bad": null,
+        "loss_including_abstention": null,
+        "threshold": 9.887073174638367
+      }
+    },
+    "ratio": 0.0
+  },
+  {
+    "N": 2,
+    "d": 4,
+    "kappa": 16,
+    "kind": "unknown",
+    "n": 4096,
+    "nu": 4,
+    "policies": {
+      "ball": {
+        "action": {
+          "ci95": [
+            0.17374733898981204,
+            0.19779666218184822
+          ],
+          "count": 760,
+          "estimate": 0.185546875,
+          "n": 4096
+        },
+        "exact_action": 0.1897449984086993,
+        "exact_joint_bad": 0.0024697443691468843,
+        "joint_bad": {
+          "ci95": [
+            0.0013413539814302365,
+            0.004800092996337546
+          ],
+          "count": 11,
+          "estimate": 0.002685546875,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.8419307743638519,
+        "threshold": 12.776465817391736
+      },
+      "envelope": {
+        "action": {
+          "ci95": [
+            0.4219919389839628,
+            0.4526093620869459
+          ],
+          "count": 1791,
+          "estimate": 0.437255859375,
+          "n": 4096
+        },
+        "exact_action": 0.4412510972233477,
+        "exact_joint_bad": 0.006602437574765819,
+        "joint_bad": {
+          "ci95": [
+            0.003562807714728734,
+            0.008413764470070792
+          ],
+          "count": 23,
+          "estimate": 0.005615234375,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.6281965249370407,
+        "threshold": 6.388232908695868
+      },
+      "orthogonal": {
+        "action": {
+          "ci95": [
+            0.25286820736136617,
+            0.28018064296492046
+          ],
+          "count": 1091,
+          "estimate": 0.266357421875,
+          "n": 4096
+        },
+        "exact_action": 0.2678517174052697,
+        "exact_joint_bad": 0.003645527616660932,
+        "joint_bad": {
+          "ci95": [
+            0.001514700201649268,
+            0.005111976422431398
+          ],
+          "count": 12,
+          "estimate": 0.0029296875,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.7733243257500828,
+        "threshold": 9.887073174638367
+      }
+    },
+    "ratio": 4.0
+  },
+  {
+    "N": 2,
+    "d": 4,
+    "kappa": 2.0,
+    "kind": "unknown",
+    "n": 4096,
+    "nu": 4,
+    "policies": {
+      "ball": {
+        "action": {
+          "ci95": [
+            0.02234458286441868,
+            0.032544164303740325
+          ],
+          "count": 111,
+          "estimate": 0.027099609375,
+          "n": 4096
+        },
+        "exact_action": 0.030158065386044115,
+        "exact_joint_bad": 0.012974913666192215,
+        "joint_bad": {
+          "ci95": [
+            0.009495605739472598,
+            0.016615251747107197
+          ],
+          "count": 52,
+          "estimate": 0.0126953125,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.9862877651535213,
+        "threshold": 12.776465817391736
+      },
+      "envelope": {
+        "action": {
+          "ci95": [
+            0.08242570941934513,
+            0.10029145476703838
+          ],
+          "count": 373,
+          "estimate": 0.091064453125,
+          "n": 4096
+        },
+        "exact_action": 0.09384223390197047,
+        "exact_joint_bad": 0.0413765807602653,
+        "joint_bad": {
+          "ci95": [
+            0.0351494120062971,
+            0.04754735347493807
+          ],
+          "count": 168,
+          "estimate": 0.041015625,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.9524247628839588,
+        "threshold": 6.388232908695868
+      },
+      "orthogonal": {
+        "action": {
+          "ci95": [
+            0.035829658278816984,
+            0.0483307469647673
+          ],
+          "count": 171,
+          "estimate": 0.041748046875,
+          "n": 4096
+        },
+        "exact_action": 0.04667737905596553,
+        "exact_joint_bad": 0.020235002903266484,
+        "joint_bad": {
+          "ci95": [
+            0.014428950043059562,
+            0.02289900339620321
+          ],
+          "count": 75,
+          "estimate": 0.018310546875,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.9782161757106451,
+        "threshold": 9.887073174638367
+      }
+    },
+    "ratio": 0.5
+  },
+  {
+    "N": 2,
+    "d": 4,
+    "kappa": 4,
+    "kind": "unknown",
+    "n": 4096,
+    "nu": 4,
+    "policies": {
+      "ball": {
+        "action": {
+          "ci95": [
+            0.035602851788245994,
+            0.04806967306273808
+          ],
+          "count": 170,
+          "estimate": 0.04150390625,
+          "n": 4096
+        },
+        "exact_action": 0.04798591697103605,
+        "exact_joint_bad": 0.011885289128160413,
+        "joint_bad": {
+          "ci95": [
+            0.006985612924626663,
+            0.01327449546043709
+          ],
+          "count": 40,
+          "estimate": 0.009765625,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.9721655656788382,
+        "threshold": 12.776465817391736
+      },
+      "envelope": {
+        "action": {
+          "ci95": [
+            0.13106098971527083,
+            0.15265609215954457
+          ],
+          "count": 580,
+          "estimate": 0.1416015625,
+          "n": 4096
+        },
+        "exact_action": 0.1418082909044266,
+        "exact_joint_bad": 0.03669674598319513,
+        "joint_bad": {
+          "ci95": [
+            0.03243383908365302,
+            0.04440841290401755
+          ],
+          "count": 156,
+          "estimate": 0.0380859375,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.9079262374009389,
+        "threshold": 6.388232908695868
+      },
+      "orthogonal": {
+        "action": {
+          "ci95": [
+            0.0624378410247549,
+            0.07831873287893566
+          ],
+          "count": 287,
+          "estimate": 0.070068359375,
+          "n": 4096
+        },
+        "exact_action": 0.07309067365690443,
+        "exact_joint_bad": 0.018351584855271136,
+        "joint_bad": {
+          "ci95": [
+            0.014646130544650025,
+            0.02316957879009857
+          ],
+          "count": 76,
+          "estimate": 0.0185546875,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.9545241905857266,
+        "threshold": 9.887073174638367
+      }
+    },
+    "ratio": 1.0
+  },
+  {
+    "N": 2,
+    "d": 4,
+    "kappa": 8,
+    "kind": "unknown",
+    "n": 4096,
+    "nu": 4,
+    "policies": {
+      "ball": {
+        "action": {
+          "ci95": [
+            0.09036996329483739,
+            0.10893643072335867
+          ],
+          "count": 407,
+          "estimate": 0.099365234375,
+          "n": 4096
+        },
+        "exact_action": 0.0900117384895666,
+        "exact_joint_bad": 0.008061120030076497,
+        "joint_bad": {
+          "ci95": [
+            0.005552123976352878,
+            0.011296072865168363
+          ],
+          "count": 33,
+          "estimate": 0.008056640625,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.9236941699562456,
+        "threshold": 12.776465817391736
+      },
+      "envelope": {
+        "action": {
+          "ci95": [
+            0.24159335079170446,
+            0.26852274333215415
+          ],
+          "count": 1044,
+          "estimate": 0.2548828125,
+          "n": 4096
+        },
+        "exact_action": 0.24350142391722399,
+        "exact_joint_bad": 0.023584954497234852,
+        "joint_bad": {
+          "ci95": [
+            0.020349433343906945,
+            0.0301488756200801
+          ],
+          "count": 102,
+          "estimate": 0.02490234375,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.8065786272726563,
+        "threshold": 6.388232908695868
+      },
+      "orthogonal": {
+        "action": {
+          "ci95": [
+            0.13247888019416856,
+            0.15416575621171896
+          ],
+          "count": 586,
+          "estimate": 0.14306640625,
+          "n": 4096
+        },
+        "exact_action": 0.13335756415636063,
+        "exact_joint_bad": 0.012240510353101775,
+        "joint_bad": {
+          "ci95": [
+            0.009495605739472598,
+            0.016615251747107197
+          ],
+          "count": 52,
+          "estimate": 0.0126953125,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.8903874168199235,
+        "threshold": 9.887073174638367
+      }
+    },
+    "ratio": 2.0
+  },
+  {
+    "N": 4,
+    "d": 4,
+    "kappa": 0,
+    "kind": "unknown",
+    "n": 4096,
+    "nu": 12,
+    "policies": {
+      "ball": {
+        "action": {
+          "ci95": [
+            0.0031763821069815956,
+            0.007826469440692076
+          ],
+          "count": 21,
+          "estimate": 0.005126953125,
+          "n": 4096
+        },
+        "exact_action": 0.005008302057759734,
+        "exact_joint_bad": null,
+        "joint_bad": null,
+        "loss_including_abstention": null,
+        "threshold": 6.518333453802498
+      },
+      "envelope": {
+        "action": {
+          "ci95": [
+            0.039466017732284774,
+            0.05250053253986583
+          ],
+          "count": 187,
+          "estimate": 0.045654296875,
+          "n": 4096
+        },
+        "exact_action": 0.03790653935739768,
+        "exact_joint_bad": null,
+        "joint_bad": null,
+        "loss_including_abstention": null,
+        "threshold": 3.592789552245134
+      },
+      "orthogonal": {
+        "action": {
+          "ci95": [
+            0.009073497666719216,
+            0.016062124664890712
+          ],
+          "count": 50,
+          "estimate": 0.01220703125,
+          "n": 4096
+        },
+        "exact_action": 0.011249711503334247,
+        "exact_joint_bad": null,
+        "joint_bad": null,
+        "loss_including_abstention": null,
+        "threshold": 5.235442229246408
+      }
+    },
+    "ratio": 0.0
+  },
+  {
+    "N": 4,
+    "d": 4,
+    "kappa": 16,
+    "kind": "unknown",
+    "n": 4096,
+    "nu": 12,
+    "policies": {
+      "ball": {
+        "action": {
+          "ci95": [
+            0.3045870513393506,
+            0.3333670737236073
+          ],
+          "count": 1306,
+          "estimate": 0.31884765625,
+          "n": 4096
+        },
+        "exact_action": 0.3301018046702373,
+        "exact_joint_bad": 0.00324069631031065,
+        "joint_bad": {
+          "ci95": [
+            0.0011713506788165406,
+            0.004485235025825089
+          ],
+          "count": 10,
+          "estimate": 0.00244140625,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.7266082192763573,
+        "threshold": 6.518333453802498
+      },
+      "envelope": {
+        "action": {
+          "ci95": [
+            0.6948061435472249,
+            0.7228639440519693
+          ],
+          "count": 2904,
+          "estimate": 0.708984375,
+          "n": 4096
+        },
+        "exact_action": 0.7050801212017445,
+        "exact_joint_bad": 0.01039333025686499,
+        "joint_bad": {
+          "ci95": [
+            0.008442958559821065,
+            0.015229883713527636
+          ],
+          "count": 47,
+          "estimate": 0.011474609375,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.40014212674313737,
+        "threshold": 3.592789552245134
+      },
+      "orthogonal": {
+        "action": {
+          "ci95": [
+            0.4453390983822712,
+            0.476103737200854
+          ],
+          "count": 1887,
+          "estimate": 0.460693359375,
+          "n": 4096
+        },
+        "exact_action": 0.4698576457511205,
+        "exact_joint_bad": 0.00537377334167556,
+        "joint_bad": {
+          "ci95": [
+            0.002985022981363014,
+            0.007531082021264741
+          ],
+          "count": 20,
+          "estimate": 0.0048828125,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.6068956043665328,
+        "threshold": 5.235442229246408
+      }
+    },
+    "ratio": 4.0
+  },
+  {
+    "N": 4,
+    "d": 4,
+    "kappa": 2.0,
+    "kind": "unknown",
+    "n": 4096,
+    "nu": 12,
+    "policies": {
+      "ball": {
+        "action": {
+          "ci95": [
+            0.014646130544650025,
+            0.02316957879009857
+          ],
+          "count": 76,
+          "estimate": 0.0185546875,
+          "n": 4096
+        },
+        "exact_action": 0.01886740740690638,
+        "exact_joint_bad": 0.0066529251966516885,
+        "joint_bad": {
+          "ci95": [
+            0.004547096876042293,
+            0.009864787290780875
+          ],
+          "count": 28,
+          "estimate": 0.0068359375,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.9891632821288193,
+        "threshold": 6.518333453802498
+      },
+      "envelope": {
+        "action": {
+          "ci95": [
+            0.10138380753000759,
+            0.12085485942408282
+          ],
+          "count": 454,
+          "estimate": 0.11083984375,
+          "n": 4096
+        },
+        "exact_action": 0.10459207358796507,
+        "exact_joint_bad": 0.041035000191390406,
+        "joint_bad": {
+          "ci95": [
+            0.039466017732284774,
+            0.05250053253986583
+          ],
+          "count": 187,
+          "estimate": 0.045654296875,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.9389101565756468,
+        "threshold": 3.592789552245134
+      },
+      "orthogonal": {
+        "action": {
+          "ci95": [
+            0.03220795111343289,
+            0.04414642831637706
+          ],
+          "count": 155,
+          "estimate": 0.037841796875,
+          "n": 4096
+        },
+        "exact_action": 0.03800646773430546,
+        "exact_joint_bad": 0.01391246550705578,
+        "joint_bad": {
+          "ci95": [
+            0.009495605739472598,
+            0.016615251747107197
+          ],
+          "count": 52,
+          "estimate": 0.0126953125,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.9778427239144832,
+        "threshold": 5.235442229246408
+      }
+    },
+    "ratio": 0.5
+  },
+  {
+    "N": 4,
+    "d": 4,
+    "kappa": 4,
+    "kind": "unknown",
+    "n": 4096,
+    "nu": 12,
+    "policies": {
+      "ball": {
+        "action": {
+          "ci95": [
+            0.03651041837448037,
+            0.04911363079740863
+          ],
+          "count": 174,
+          "estimate": 0.04248046875,
+          "n": 4096
+        },
+        "exact_action": 0.04166445223019604,
+        "exact_joint_bad": 0.00786053691648693,
+        "joint_bad": {
+          "ci95": [
+            0.0043483979855896285,
+            0.009576329386315871
+          ],
+          "count": 27,
+          "estimate": 0.006591796875,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.9705507176060248,
+        "threshold": 6.518333453802498
+      },
+      "envelope": {
+        "action": {
+          "ci95": [
+            0.16827724038895814,
+            0.19204440518873506
+          ],
+          "count": 737,
+          "estimate": 0.179931640625,
+          "n": 4096
+        },
+        "exact_action": 0.1886583664131365,
+        "exact_joint_bad": 0.04229553445946296,
+        "joint_bad": {
+          "ci95": [
+            0.03537610286740009,
+            0.047808542060510516
+          ],
+          "count": 169,
+          "estimate": 0.041259765625,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.8816562692991187,
+        "threshold": 3.592789552245134
+      },
+      "orthogonal": {
+        "action": {
+          "ci95": [
+            0.06892665000214394,
+            0.0854914330873296
+          ],
+          "count": 315,
+          "estimate": 0.076904296875,
+          "n": 4096
+        },
+        "exact_action": 0.07816217268976824,
+        "exact_joint_bad": 0.015673129699082865,
+        "joint_bad": {
+          "ci95": [
+            0.011838780702559823,
+            0.019636414738424795
+          ],
+          "count": 63,
+          "estimate": 0.015380859375,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.9480572253113916,
+        "threshold": 5.235442229246408
+      }
+    },
+    "ratio": 1.0
+  },
+  {
+    "N": 4,
+    "d": 4,
+    "kappa": 8,
+    "kind": "unknown",
+    "n": 4096,
+    "nu": 12,
+    "policies": {
+      "ball": {
+        "action": {
+          "ci95": [
+            0.1110184633098124,
+            0.13122502922983892
+          ],
+          "count": 495,
+          "estimate": 0.120849609375,
+          "n": 4096
+        },
+        "exact_action": 0.1137097502328417,
+        "exact_joint_bad": 0.007375288981029806,
+        "joint_bad": {
+          "ci95": [
+            0.005552123976352878,
+            0.011296072865168363
+          ],
+          "count": 33,
+          "estimate": 0.008056640625,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.904224111269178,
+        "threshold": 6.518333453802498
+      },
+      "envelope": {
+        "action": {
+          "ci95": [
+            0.37467490032687145,
+            0.4047795563076464
+          ],
+          "count": 1596,
+          "estimate": 0.3896484375,
+          "n": 4096
+        },
+        "exact_action": 0.3784202305161185,
+        "exact_joint_bad": 0.03225647311787026,
+        "joint_bad": {
+          "ci95": [
+            0.030403267726734035,
+            0.04204815328429526
+          ],
+          "count": 147,
+          "estimate": 0.035888671875,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.7023615970596022,
+        "threshold": 3.592789552245134
+      },
+      "orthogonal": {
+        "action": {
+          "ci95": [
+            0.1887512904114989,
+            0.2135322368548331
+          ],
+          "count": 823,
+          "estimate": 0.200927734375,
+          "n": 4096
+        },
+        "exact_action": 0.19103952020236578,
+        "exact_joint_bad": 0.013670999409853923,
+        "joint_bad": {
+          "ci95": [
+            0.012483353691334487,
+            0.020454970471878605
+          ],
+          "count": 66,
+          "estimate": 0.01611328125,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.8438640962566113,
+        "threshold": 5.235442229246408
+      }
+    },
+    "ratio": 2.0
+  },
+  {
+    "N": 16,
+    "d": 64,
+    "kappa": 0,
+    "kind": "unknown",
+    "n": 4096,
+    "nu": 960,
+    "policies": {
+      "ball": {
+        "action": {
+          "ci95": [
+            0.0,
+            0.0009001999122098097
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 4096
+        },
+        "exact_action": 2.7377220234608445e-10,
+        "exact_joint_bad": null,
+        "joint_bad": null,
+        "loss_including_abstention": null,
+        "threshold": 2.644155174938154
+      },
+      "envelope": {
+        "action": {
+          "ci95": [
+            0.0,
+            0.0009001999122098097
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 4096
+        },
+        "exact_action": 2.6825317453276618e-08,
+        "exact_joint_bad": null,
+        "joint_bad": null,
+        "loss_including_abstention": null,
+        "threshold": 2.3753446413516954
+      },
+      "orthogonal": {
+        "action": {
+          "ci95": [
+            0.0,
+            0.0009001999122098097
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 4096
+        },
+        "exact_action": 5.158631329311289e-10,
+        "exact_joint_bad": null,
+        "joint_bad": null,
+        "loss_including_abstention": null,
+        "threshold": 2.6077345544066426
+      }
+    },
+    "ratio": 0.0
+  },
+  {
+    "N": 16,
+    "d": 64,
+    "kappa": 128,
+    "kind": "unknown",
+    "n": 4096,
+    "nu": 960,
+    "policies": {
+      "ball": {
+        "action": {
+          "ci95": [
+            0.7949563232155996,
+            0.81934974024419
+          ],
+          "count": 3307,
+          "estimate": 0.807373046875,
+          "n": 4096
+        },
+        "exact_action": 0.8034114993376976,
+        "exact_joint_bad": 0.0011386291229822099,
+        "joint_bad": {
+          "ci95": [
+            0.0002661424806290106,
+            0.0024984833350552597
+          ],
+          "count": 4,
+          "estimate": 0.0009765625,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.45361935130494857,
+        "threshold": 2.644155174938154
+      },
+      "envelope": {
+        "action": {
+          "ci95": [
+            0.934803307210307,
+            0.949323299256771
+          ],
+          "count": 3860,
+          "estimate": 0.9423828125,
+          "n": 4096
+        },
+        "exact_action": 0.9423118025681638,
+        "exact_joint_bad": 0.001965600600115257,
+        "joint_bad": {
+          "ci95": [
+            0.0006873677360192378,
+            0.0035179711802490617
+          ],
+          "count": 7,
+          "estimate": 0.001708984375,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.36573958636888104,
+        "threshold": 2.3753446413516954
+      },
+      "orthogonal": {
+        "action": {
+          "ci95": [
+            0.8179697435425617,
+            0.8412257348252608
+          ],
+          "count": 3399,
+          "estimate": 0.829833984375,
+          "n": 4096
+        },
+        "exact_action": 0.8286018647812118,
+        "exact_joint_bad": 0.0012483588339580111,
+        "joint_bad": {
+          "ci95": [
+            0.0002661424806290106,
+            0.0024984833350552597
+          ],
+          "count": 4,
+          "estimate": 0.0009765625,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.43895868739759536,
+        "threshold": 2.6077345544066426
+      }
+    },
+    "ratio": 2.0
+  },
+  {
+    "N": 16,
+    "d": 64,
+    "kappa": 256,
+    "kind": "unknown",
+    "n": 4096,
+    "nu": 960,
+    "policies": {
+      "ball": {
+        "action": {
+          "ci95": [
+            0.9990998000877902,
+            1.0
+          ],
+          "count": 4096,
+          "estimate": 1.0,
+          "n": 4096
+        },
+        "exact_action": 0.9999995836470911,
+        "exact_joint_bad": 3.990686938916388e-11,
+        "joint_bad": {
+          "ci95": [
+            0.0,
+            0.0009001999122098097
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.19809051956462015,
+        "threshold": 2.644155174938154
+      },
+      "envelope": {
+        "action": {
+          "ci95": [
+            0.9990998000877902,
+            1.0
+          ],
+          "count": 4096,
+          "estimate": 1.0,
+          "n": 4096
+        },
+        "exact_action": 0.9999999921077882,
+        "exact_joint_bad": 4.013259109761463e-11,
+        "joint_bad": {
+          "ci95": [
+            0.0,
+            0.0009001999122098097
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.19809051956462015,
+        "threshold": 2.3753446413516954
+      },
+      "orthogonal": {
+        "action": {
+          "ci95": [
+            0.9990998000877902,
+            1.0
+          ],
+          "count": 4096,
+          "estimate": 1.0,
+          "n": 4096
+        },
+        "exact_action": 0.9999997457086521,
+        "exact_joint_bad": 3.996848634913543e-11,
+        "joint_bad": {
+          "ci95": [
+            0.0,
+            0.0009001999122098097
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.19809051956462015,
+        "threshold": 2.6077345544066426
+      }
+    },
+    "ratio": 4.0
+  },
+  {
+    "N": 16,
+    "d": 64,
+    "kappa": 32.0,
+    "kind": "unknown",
+    "n": 4096,
+    "nu": 960,
+    "policies": {
+      "ball": {
+        "action": {
+          "ci95": [
+            0.0,
+            0.0009001999122098097
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 4096
+        },
+        "exact_action": 0.00013654812283823896,
+        "exact_joint_bad": 0.00010955706057037986,
+        "joint_bad": {
+          "ci95": [
+            0.0,
+            0.0009001999122098097
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 4096
+        },
+        "loss_including_abstention": 1.0,
+        "threshold": 2.644155174938154
+      },
+      "envelope": {
+        "action": {
+          "ci95": [
+            0.0011713506788165406,
+            0.004485235025825089
+          ],
+          "count": 10,
+          "estimate": 0.00244140625,
+          "n": 4096
+        },
+        "exact_action": 0.0018120978444796545,
+        "exact_joint_bad": 0.0015365008946051568,
+        "joint_bad": {
+          "ci95": [
+            0.0008435860521082411,
+            0.0038447885554227894
+          ],
+          "count": 8,
+          "estimate": 0.001953125,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.9989456734315207,
+        "threshold": 2.3753446413516954
+      },
+      "orthogonal": {
+        "action": {
+          "ci95": [
+            6.181086361921496e-06,
+            0.0013595056306871368
+          ],
+          "count": 1,
+          "estimate": 0.000244140625,
+          "n": 4096
+        },
+        "exact_action": 0.00019729625826793936,
+        "exact_joint_bad": 0.00015956308841327596,
+        "joint_bad": {
+          "ci95": [
+            6.181086361921496e-06,
+            0.0013595056306871368
+          ],
+          "count": 1,
+          "estimate": 0.000244140625,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.9998843922455991,
+        "threshold": 2.6077345544066426
+      }
+    },
+    "ratio": 0.5
+  },
+  {
+    "N": 16,
+    "d": 64,
+    "kappa": 64,
+    "kind": "unknown",
+    "n": 4096,
+    "nu": 960,
+    "policies": {
+      "ball": {
+        "action": {
+          "ci95": [
+            0.025241514293912914,
+            0.03598916446428795
+          ],
+          "count": 124,
+          "estimate": 0.0302734375,
+          "n": 4096
+        },
+        "exact_action": 0.030758012318663926,
+        "exact_joint_bad": 0.006356536452289317,
+        "joint_bad": {
+          "ci95": [
+            0.0031763821069815956,
+            0.007826469440692076
+          ],
+          "count": 21,
+          "estimate": 0.005126953125,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.9830113445086139,
+        "threshold": 2.644155174938154
+      },
+      "envelope": {
+        "action": {
+          "ci95": [
+            0.12421341068194663,
+            0.14535383629945464
+          ],
+          "count": 551,
+          "estimate": 0.134521484375,
+          "n": 4096
+        },
+        "exact_action": 0.12578339648740838,
+        "exact_joint_bad": 0.03354180601441873,
+        "joint_bad": {
+          "ci95": [
+            0.032659792203991275,
+            0.04467033292173832
+          ],
+          "count": 157,
+          "estimate": 0.038330078125,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.9275777421728014,
+        "threshold": 2.3753446413516954
+      },
+      "orthogonal": {
+        "action": {
+          "ci95": [
+            0.03175637306154836,
+            0.04362226303039238
+          ],
+          "count": 153,
+          "estimate": 0.037353515625,
+          "n": 4096
+        },
+        "exact_action": 0.0379706386526651,
+        "exact_joint_bad": 0.008132982428100169,
+        "joint_bad": {
+          "ci95": [
+            0.004746617298640991,
+            0.010152462843042855
+          ],
+          "count": 29,
+          "estimate": 0.007080078125,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.9791344171510986,
+        "threshold": 2.6077345544066426
+      }
+    },
+    "ratio": 1.0
+  },
+  {
+    "N": 2,
+    "d": 64,
+    "kappa": 0,
+    "kind": "unknown",
+    "n": 4096,
+    "nu": 64,
+    "policies": {
+      "ball": {
+        "action": {
+          "ci95": [
+            0.0,
+            0.0009001999122098097
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 4096
+        },
+        "exact_action": 8.262813854313396e-06,
+        "exact_joint_bad": null,
+        "joint_bad": null,
+        "loss_including_abstention": null,
+        "threshold": 3.026574342142633
+      },
+      "envelope": {
+        "action": {
+          "ci95": [
+            6.181086361921496e-06,
+            0.0013595056306871368
+          ],
+          "count": 1,
+          "estimate": 0.000244140625,
+          "n": 4096
+        },
+        "exact_action": 7.683837087089016e-05,
+        "exact_joint_bad": null,
+        "joint_bad": null,
+        "loss_including_abstention": null,
+        "threshold": 2.6322757778726986
+      },
+      "orthogonal": {
+        "action": {
+          "ci95": [
+            0.0,
+            0.0009001999122098097
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 4096
+        },
+        "exact_action": 1.0521480700391792e-05,
+        "exact_joint_bad": null,
+        "joint_bad": null,
+        "loss_including_abstention": null,
+        "threshold": 2.9830740801758404
+      }
+    },
+    "ratio": 0.0
+  },
+  {
+    "N": 2,
+    "d": 64,
+    "kappa": 128,
+    "kind": "unknown",
+    "n": 4096,
+    "nu": 64,
+    "policies": {
+      "ball": {
+        "action": {
+          "ci95": [
+            0.4706701670995357,
+            0.5015176685407859
+          ],
+          "count": 1991,
+          "estimate": 0.486083984375,
+          "n": 4096
+        },
+        "exact_action": 0.4930619735161744,
+        "exact_joint_bad": 0.0006704973159994146,
+        "joint_bad": {
+          "ci95": [
+            6.181086361921496e-06,
+            0.0013595056306871368
+          ],
+          "count": 1,
+          "estimate": 0.000244140625,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.6702293050506403,
+        "threshold": 3.026574342142633
+      },
+      "envelope": {
+        "action": {
+          "ci95": [
+            0.7056966552557817,
+            0.7334424149228795
+          ],
+          "count": 2948,
+          "estimate": 0.7197265625,
+          "n": 4096
+        },
+        "exact_action": 0.73121248118543,
+        "exact_joint_bad": 0.001311171607638737,
+        "joint_bad": {
+          "ci95": [
+            0.0005377555665834442,
+            0.0031856012509531933
+          ],
+          "count": 6,
+          "estimate": 0.00146484375,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.5148234072030471,
+        "threshold": 2.6322757778726986
+      },
+      "orthogonal": {
+        "action": {
+          "ci95": [
+            0.4955525016493598,
+            0.5264044702373074
+          ],
+          "count": 2093,
+          "estimate": 0.510986328125,
+          "n": 4096
+        },
+        "exact_action": 0.5191595592839131,
+        "exact_joint_bad": 0.000727947474742821,
+        "joint_bad": {
+          "ci95": [
+            5.913859564541427e-05,
+            0.0017627151806379714
+          ],
+          "count": 2,
+          "estimate": 0.00048828125,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.653534278426535,
+        "threshold": 2.9830740801758404
+      }
+    },
+    "ratio": 2.0
+  },
+  {
+    "N": 2,
+    "d": 64,
+    "kappa": 256,
+    "kind": "unknown",
+    "n": 4096,
+    "nu": 64,
+    "policies": {
+      "ball": {
+        "action": {
+          "ci95": [
+            0.9901352127092191,
+            0.9954529031239577
+          ],
+          "count": 4068,
+          "estimate": 0.9931640625,
+          "n": 4096
+        },
+        "exact_action": 0.9944696860441954,
+        "exact_joint_bad": 3.35047677870204e-11,
+        "joint_bad": {
+          "ci95": [
+            0.0,
+            0.0009001999122098097
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.20376994979450325,
+        "threshold": 3.026574342142633
+      },
+      "envelope": {
+        "action": {
+          "ci95": [
+            0.9986404943693129,
+            0.999993818913638
+          ],
+          "count": 4095,
+          "estimate": 0.999755859375,
+          "n": 4096
+        },
+        "exact_action": 0.9994424137889695,
+        "exact_joint_bad": 3.8164458402646844e-11,
+        "joint_bad": {
+          "ci95": [
+            0.0,
+            0.0009001999122098097
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.19863476660149176,
+        "threshold": 2.6322757778726986
+      },
+      "orthogonal": {
+        "action": {
+          "ci95": [
+            0.9918793286918032,
+            0.9966309945813342
+          ],
+          "count": 4074,
+          "estimate": 0.99462890625,
+          "n": 4096
+        },
+        "exact_action": 0.9955389164837258,
+        "exact_joint_bad": 3.417905293175919e-11,
+        "joint_bad": {
+          "ci95": [
+            0.0,
+            0.0009001999122098097
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.20259705640638415,
+        "threshold": 2.9830740801758404
+      }
+    },
+    "ratio": 4.0
+  },
+  {
+    "N": 2,
+    "d": 64,
+    "kappa": 32.0,
+    "kind": "unknown",
+    "n": 4096,
+    "nu": 64,
+    "policies": {
+      "ball": {
+        "action": {
+          "ci95": [
+            0.0005377555665834442,
+            0.0031856012509531933
+          ],
+          "count": 6,
+          "estimate": 0.00146484375,
+          "n": 4096
+        },
+        "exact_action": 0.002324238497957971,
+        "exact_joint_bad": 0.0021138718062671466,
+        "joint_bad": {
+          "ci95": [
+            0.0005377555665834442,
+            0.0031856012509531933
+          ],
+          "count": 6,
+          "estimate": 0.00146484375,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.9994671049264319,
+        "threshold": 3.026574342142633
+      },
+      "envelope": {
+        "action": {
+          "ci95": [
+            0.007192487936071679,
+            0.013555111554308922
+          ],
+          "count": 41,
+          "estimate": 0.010009765625,
+          "n": 4096
+        },
+        "exact_action": 0.011400192157818474,
+        "exact_joint_bad": 0.010495993074288931,
+        "joint_bad": {
+          "ci95": [
+            0.006573328355728995,
+            0.012711848156984718
+          ],
+          "count": 38,
+          "estimate": 0.00927734375,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.9962591789604681,
+        "threshold": 2.6322757778726986
+      },
+      "orthogonal": {
+        "action": {
+          "ci95": [
+            0.0008435860521082411,
+            0.0038447885554227894
+          ],
+          "count": 8,
+          "estimate": 0.001953125,
+          "n": 4096
+        },
+        "exact_action": 0.002774193659944591,
+        "exact_joint_bad": 0.002526378906578681,
+        "joint_bad": {
+          "ci95": [
+            0.0008435860521082411,
+            0.0038447885554227894
+          ],
+          "count": 8,
+          "estimate": 0.001953125,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.9992978113166717,
+        "threshold": 2.9830740801758404
+      }
+    },
+    "ratio": 0.5
+  },
+  {
+    "N": 2,
+    "d": 64,
+    "kappa": 64,
+    "kind": "unknown",
+    "n": 4096,
+    "nu": 64,
+    "policies": {
+      "ball": {
+        "action": {
+          "ci95": [
+            0.03741887596103994,
+            0.050156704628523036
+          ],
+          "count": 178,
+          "estimate": 0.04345703125,
+          "n": 4096
+        },
+        "exact_action": 0.04156350675607865,
+        "exact_joint_bad": 0.01263628146073414,
+        "joint_bad": {
+          "ci95": [
+            0.00865277427770941,
+            0.015507651002403842
+          ],
+          "count": 48,
+          "estimate": 0.01171875,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.9766657434225998,
+        "threshold": 3.026574342142633
+      },
+      "envelope": {
+        "action": {
+          "ci95": [
+            0.11313644019488957,
+            0.13349836357046732
+          ],
+          "count": 504,
+          "estimate": 0.123046875,
+          "n": 4096
+        },
+        "exact_action": 0.125066562390829,
+        "exact_joint_bad": 0.04194461732970009,
+        "joint_bad": {
+          "ci95": [
+            0.029727664297137885,
+            0.041260158096099946
+          ],
+          "count": 144,
+          "estimate": 0.03515625,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.9343215845666335,
+        "threshold": 2.6322757778726986
+      },
+      "orthogonal": {
+        "action": {
+          "ci95": [
+            0.042658452839462055,
+            0.05613855336003333
+          ],
+          "count": 201,
+          "estimate": 0.049072265625,
+          "n": 4096
+        },
+        "exact_action": 0.04719397367626567,
+        "exact_joint_bad": 0.014496839726470239,
+        "joint_bad": {
+          "ci95": [
+            0.010131194653955016,
+            0.01744257948765978
+          ],
+          "count": 55,
+          "estimate": 0.013427734375,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.973740087685184,
+        "threshold": 2.9830740801758404
+      }
+    },
+    "ratio": 1.0
+  },
+  {
+    "N": 4,
+    "d": 64,
+    "kappa": 0,
+    "kind": "unknown",
+    "n": 4096,
+    "nu": 192,
+    "policies": {
+      "ball": {
+        "action": {
+          "ci95": [
+            0.0,
+            0.0009001999122098097
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 4096
+        },
+        "exact_action": 4.538117601808133e-08,
+        "exact_joint_bad": null,
+        "joint_bad": null,
+        "loss_including_abstention": null,
+        "threshold": 2.757778125207699
+      },
+      "envelope": {
+        "action": {
+          "ci95": [
+            0.0,
+            0.0009001999122098097
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 4096
+        },
+        "exact_action": 1.3629206890627923e-06,
+        "exact_joint_bad": null,
+        "joint_bad": null,
+        "loss_including_abstention": null,
+        "threshold": 2.4473106191566845
+      },
+      "orthogonal": {
+        "action": {
+          "ci95": [
+            0.0,
+            0.0009001999122098097
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 4096
+        },
+        "exact_action": 6.939620391959967e-08,
+        "exact_joint_bad": null,
+        "joint_bad": null,
+        "loss_including_abstention": null,
+        "threshold": 2.7191507192713456
+      }
+    },
+    "ratio": 0.0
+  },
+  {
+    "N": 4,
+    "d": 64,
+    "kappa": 128,
+    "kind": "unknown",
+    "n": 4096,
+    "nu": 192,
+    "policies": {
+      "ball": {
+        "action": {
+          "ci95": [
+            0.67799377446949,
+            0.7064969630505797
+          ],
+          "count": 2836,
+          "estimate": 0.6923828125,
+          "n": 4096
+        },
+        "exact_action": 0.6882017100182987,
+        "exact_joint_bad": 0.0009311665924352545,
+        "joint_bad": {
+          "ci95": [
+            6.181086361921496e-06,
+            0.0013595056306871368
+          ],
+          "count": 1,
+          "estimate": 0.000244140625,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.5324967968195136,
+        "threshold": 2.757778125207699
+      },
+      "envelope": {
+        "action": {
+          "ci95": [
+            0.8768667401163557,
+            0.896503295275595
+          ],
+          "count": 3633,
+          "estimate": 0.886962890625,
+          "n": 4096
+        },
+        "exact_action": 0.8833001547518335,
+        "exact_joint_bad": 0.0017159250606421257,
+        "joint_bad": {
+          "ci95": [
+            0.00039647402462204937,
+            0.0028463956393403956
+          ],
+          "count": 5,
+          "estimate": 0.001220703125,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.40397595454845264,
+        "threshold": 2.4473106191566845
+      },
+      "orthogonal": {
+        "action": {
+          "ci95": [
+            0.7054490367128863,
+            0.7332021021258983
+          ],
+          "count": 2947,
+          "estimate": 0.719482421875,
+          "n": 4096
+        },
+        "exact_action": 0.7170779162531599,
+        "exact_joint_bad": 0.001019243811430991,
+        "joint_bad": {
+          "ci95": [
+            6.181086361921496e-06,
+            0.0013595056306871368
+          ],
+          "count": 1,
+          "estimate": 0.000244140625,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.514766409519873,
+        "threshold": 2.7191507192713456
+      }
+    },
+    "ratio": 2.0
+  },
+  {
+    "N": 4,
+    "d": 64,
+    "kappa": 256,
+    "kind": "unknown",
+    "n": 4096,
+    "nu": 192,
+    "policies": {
+      "ball": {
+        "action": {
+          "ci95": [
+            0.9990998000877902,
+            1.0
+          ],
+          "count": 4096,
+          "estimate": 1.0,
+          "n": 4096
+        },
+        "exact_action": 0.9999579872313462,
+        "exact_joint_bad": 3.8861044390786433e-11,
+        "joint_bad": {
+          "ci95": [
+            0.0,
+            0.0009001999122098097
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.19790439711580907,
+        "threshold": 2.757778125207699
+      },
+      "envelope": {
+        "action": {
+          "ci95": [
+            0.9990998000877902,
+            1.0
+          ],
+          "count": 4096,
+          "estimate": 1.0,
+          "n": 4096
+        },
+        "exact_action": 0.9999985971652504,
+        "exact_joint_bad": 3.996412896823518e-11,
+        "joint_bad": {
+          "ci95": [
+            0.0,
+            0.0009001999122098097
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.19790439711580907,
+        "threshold": 2.4473106191566845
+      },
+      "orthogonal": {
+        "action": {
+          "ci95": [
+            0.9990998000877902,
+            1.0
+          ],
+          "count": 4096,
+          "estimate": 1.0,
+          "n": 4096
+        },
+        "exact_action": 0.9999711771171489,
+        "exact_joint_bad": 3.9097378902151285e-11,
+        "joint_bad": {
+          "ci95": [
+            0.0,
+            0.0009001999122098097
+          ],
+          "count": 0,
+          "estimate": 0.0,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.19790439711580907,
+        "threshold": 2.7191507192713456
+      }
+    },
+    "ratio": 4.0
+  },
+  {
+    "N": 4,
+    "d": 64,
+    "kappa": 32.0,
+    "kind": "unknown",
+    "n": 4096,
+    "nu": 192,
+    "policies": {
+      "ball": {
+        "action": {
+          "ci95": [
+            5.913859564541427e-05,
+            0.0017627151806379714
+          ],
+          "count": 2,
+          "estimate": 0.00048828125,
+          "n": 4096
+        },
+        "exact_action": 0.0005164563538855969,
+        "exact_joint_bad": 0.0004442357778090447,
+        "joint_bad": {
+          "ci95": [
+            6.181086361921496e-06,
+            0.0013595056306871368
+          ],
+          "count": 1,
+          "estimate": 0.000244140625,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.9998118730812424,
+        "threshold": 2.757778125207699
+      },
+      "envelope": {
+        "action": {
+          "ci95": [
+            0.002606494231292557,
+            0.00693639467389657
+          ],
+          "count": 18,
+          "estimate": 0.00439453125,
+          "n": 4096
+        },
+        "exact_action": 0.004359493183370238,
+        "exact_joint_bad": 0.0038639427085619244,
+        "joint_bad": {
+          "ci95": [
+            0.0020510590873641594,
+            0.006032910441296556
+          ],
+          "count": 15,
+          "estimate": 0.003662109375,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.9983087504551305,
+        "threshold": 2.4473106191566845
+      },
+      "orthogonal": {
+        "action": {
+          "ci95": [
+            5.913859564541427e-05,
+            0.0017627151806379714
+          ],
+          "count": 2,
+          "estimate": 0.00048828125,
+          "n": 4096
+        },
+        "exact_action": 0.0006795242848981266,
+        "exact_joint_bad": 0.0005867275067235791,
+        "joint_bad": {
+          "ci95": [
+            6.181086361921496e-06,
+            0.0013595056306871368
+          ],
+          "count": 1,
+          "estimate": 0.000244140625,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.9998118730812424,
+        "threshold": 2.7191507192713456
+      }
+    },
+    "ratio": 0.5
+  },
+  {
+    "N": 4,
+    "d": 64,
+    "kappa": 64,
+    "kind": "unknown",
+    "n": 4096,
+    "nu": 192,
+    "policies": {
+      "ball": {
+        "action": {
+          "ci95": [
+            0.035829658278816984,
+            0.0483307469647673
+          ],
+          "count": 171,
+          "estimate": 0.041748046875,
+          "n": 4096
+        },
+        "exact_action": 0.03559017578490485,
+        "exact_joint_bad": 0.008835090445439469,
+        "joint_bad": {
+          "ci95": [
+            0.00865277427770941,
+            0.015507651002403842
+          ],
+          "count": 48,
+          "estimate": 0.01171875,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.9775023609680907,
+        "threshold": 2.757778125207699
+      },
+      "envelope": {
+        "action": {
+          "ci95": [
+            0.12940727446444958,
+            0.15089432816651402
+          ],
+          "count": 573,
+          "estimate": 0.139892578125,
+          "n": 4096
+        },
+        "exact_action": 0.12885035429501568,
+        "exact_joint_bad": 0.03820091793239992,
+        "joint_bad": {
+          "ci95": [
+            0.03969373430643584,
+            0.05276070341056054
+          ],
+          "count": 188,
+          "estimate": 0.0458984375,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.9253999842595955,
+        "threshold": 2.4473106191566845
+      },
+      "orthogonal": {
+        "action": {
+          "ci95": [
+            0.042886834608459476,
+            0.05639806376310028
+          ],
+          "count": 202,
+          "estimate": 0.04931640625,
+          "n": 4096
+        },
+        "exact_action": 0.04231914118263444,
+        "exact_joint_bad": 0.010740376521657567,
+        "joint_bad": {
+          "ci95": [
+            0.009919020109985455,
+            0.017167107141588308
+          ],
+          "count": 54,
+          "estimate": 0.01318359375,
+          "n": 4096
+        },
+        "loss_including_abstention": 0.9732954874503699,
+        "threshold": 2.7191507192713456
+      }
+    },
+    "ratio": 1.0
+  }
+]

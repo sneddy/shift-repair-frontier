@@ -1,0 +1,62 @@
+{
+  "dataset": {
+    "name": "Bitbrain Open Access Sleep (BOAS)",
+    "openneuro_id": "ds005555",
+    "version": "1.1.3",
+    "base_url": "https://s3.amazonaws.com/openneuro.org/ds005555",
+    "license": "CC0"
+  },
+  "selection": {
+    "rule": "one night per participant (pid in participants.tsv), drawn with this seed",
+    "seed": 20261001
+  },
+  "signals": {
+    "pairs": [
+      [
+        "HB_1",
+        "PSG_F3"
+      ],
+      [
+        "HB_2",
+        "PSG_F4"
+      ]
+    ],
+    "pair_note": "headband channels sit approximately at AF7/AF8; F3/F4 are the nearest PSG EEG sites on the same side; both devices are referenced to the left mastoid",
+    "sampling_frequency": 256,
+    "epoch_seconds": 30,
+    "bandpass_hz": [
+      0.3,
+      35.0
+    ]
+  },
+  "sync_check": {
+    "band_hz": [
+      0.5,
+      4.0
+    ],
+    "window_seconds": 300,
+    "max_lag_seconds": 5.0
+  },
+  "epoch_qc": {
+    "labels": "PSG stage_hum (0 W, 1 N1, 2 N2, 3 N3, 4 REM); epochs with other codes are dropped",
+    "drop_headband_ai_artifact": true,
+    "max_abs_uv": 500.0,
+    "min_std_uv": 0.5
+  },
+  "features": {
+    "type": "log10 of Welch power, averaged within frequency bins",
+    "welch_window_seconds": 4.0,
+    "welch_overlap": 0.5,
+    "range_hz": [
+      0.5,
+      30.0
+    ],
+    "bin_widths_hz": [
+      2.0,
+      1.0,
+      0.5,
+      0.25
+    ],
+    "main_bin_width_hz": 0.5
+  }
+}

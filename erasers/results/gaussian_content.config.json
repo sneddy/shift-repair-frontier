@@ -1,0 +1,28 @@
+{
+  "dimensions": [
+    16,
+    64
+  ],
+  "pair_count_over_dimension": [
+    0.25,
+    0.5,
+    1.0,
+    2.0,
+    4.0
+  ],
+  "theta": 1.0,
+  "contrast_noise_variance": 1.0,
+  "repetitions_per_cell": 512,
+  "master_seed": 20260920,
+  "methods": [
+    "MP",
+    "SAL",
+    "LEACE"
+  ],
+  "calibration": "N independent paired endpoints (paired realization of the paper's appendix)",
+  "fresh_within_source_covariance": "identity",
+  "cost_reference": "V ~ N(0, I); linear and affine costs recorded separately",
+  "python": "3.12.13",
+  "numpy": "1.26.4",
+  "full_pair_generator": "C~N(0,(1-s2/2)I); H+/-=C+/-theta*e1/2+E+/-; E iid N(0,s2*I/2)"
+}

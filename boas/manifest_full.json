@@ -1,0 +1,5677 @@
+{
+ "dataset": "OpenNeuro ds005555",
+ "files": [
+  {
+   "path": ".bidsignore",
+   "bytes": 12
+  },
+  {
+   "path": ".datalad/config",
+   "bytes": 63
+  },
+  {
+   "path": ".gitattributes",
+   "bytes": 427
+  },
+  {
+   "path": "CHANGES",
+   "bytes": 668
+  },
+  {
+   "path": "README",
+   "bytes": 8202
+  },
+  {
+   "path": "channels.json",
+   "bytes": 3565
+  },
+  {
+   "path": "channels.tsv",
+   "bytes": 3691
+  },
+  {
+   "path": "dataset_description.json",
+   "bytes": 1521
+  },
+  {
+   "path": "participants.json",
+   "bytes": 911
+  },
+  {
+   "path": "participants.tsv",
+   "bytes": 2707
+  },
+  {
+   "path": "sub-1/eeg/sub-1_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 70
+  },
+  {
+   "path": "sub-1/eeg/sub-1_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 28118784
+  },
+  {
+   "path": "sub-1/eeg/sub-1_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-1/eeg/sub-1_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-1/eeg/sub-1_task-Sleep_acq-headband_events.tsv",
+   "bytes": 27512
+  },
+  {
+   "path": "sub-1/eeg/sub-1_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 252
+  },
+  {
+   "path": "sub-1/eeg/sub-1_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 154652160
+  },
+  {
+   "path": "sub-1/eeg/sub-1_task-Sleep_acq-psg_eeg.json",
+   "bytes": 498
+  },
+  {
+   "path": "sub-1/eeg/sub-1_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-1/eeg/sub-1_task-Sleep_acq-psg_events.tsv",
+   "bytes": 28675
+  },
+  {
+   "path": "sub-1/sub-1_scans.tsv",
+   "bytes": 91
+  },
+  {
+   "path": "sub-10/eeg/sub-10_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 70
+  },
+  {
+   "path": "sub-10/eeg/sub-10_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 30527232
+  },
+  {
+   "path": "sub-10/eeg/sub-10_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-10/eeg/sub-10_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-10/eeg/sub-10_task-Sleep_acq-headband_events.tsv",
+   "bytes": 29175
+  },
+  {
+   "path": "sub-10/eeg/sub-10_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 252
+  },
+  {
+   "path": "sub-10/eeg/sub-10_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 167898624
+  },
+  {
+   "path": "sub-10/eeg/sub-10_task-Sleep_acq-psg_eeg.json",
+   "bytes": 498
+  },
+  {
+   "path": "sub-10/eeg/sub-10_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-10/eeg/sub-10_task-Sleep_acq-psg_events.tsv",
+   "bytes": 31171
+  },
+  {
+   "path": "sub-10/sub-10_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-100/eeg/sub-100_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-100/eeg/sub-100_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 137772544
+  },
+  {
+   "path": "sub-100/eeg/sub-100_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-100/eeg/sub-100_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-100/eeg/sub-100_task-Sleep_acq-headband_events.tsv",
+   "bytes": 29265
+  },
+  {
+   "path": "sub-100/eeg/sub-100_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 265
+  },
+  {
+   "path": "sub-100/eeg/sub-100_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 168388608
+  },
+  {
+   "path": "sub-100/eeg/sub-100_task-Sleep_acq-psg_eeg.json",
+   "bytes": 497
+  },
+  {
+   "path": "sub-100/eeg/sub-100_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-100/eeg/sub-100_task-Sleep_acq-psg_events.tsv",
+   "bytes": 31267
+  },
+  {
+   "path": "sub-100/sub-100_scans.tsv",
+   "bytes": 95
+  },
+  {
+   "path": "sub-101/eeg/sub-101_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-101/eeg/sub-101_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 129353728
+  },
+  {
+   "path": "sub-101/eeg/sub-101_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-101/eeg/sub-101_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-101/eeg/sub-101_task-Sleep_acq-headband_events.tsv",
+   "bytes": 27437
+  },
+  {
+   "path": "sub-101/eeg/sub-101_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 265
+  },
+  {
+   "path": "sub-101/eeg/sub-101_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 158098944
+  },
+  {
+   "path": "sub-101/eeg/sub-101_task-Sleep_acq-psg_eeg.json",
+   "bytes": 497
+  },
+  {
+   "path": "sub-101/eeg/sub-101_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-101/eeg/sub-101_task-Sleep_acq-psg_events.tsv",
+   "bytes": 29315
+  },
+  {
+   "path": "sub-101/sub-101_scans.tsv",
+   "bytes": 95
+  },
+  {
+   "path": "sub-102/eeg/sub-102_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-102/eeg/sub-102_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 133219840
+  },
+  {
+   "path": "sub-102/eeg/sub-102_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-102/eeg/sub-102_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-102/eeg/sub-102_task-Sleep_acq-headband_events.tsv",
+   "bytes": 28275
+  },
+  {
+   "path": "sub-102/eeg/sub-102_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 265
+  },
+  {
+   "path": "sub-102/eeg/sub-102_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 162824192
+  },
+  {
+   "path": "sub-102/eeg/sub-102_task-Sleep_acq-psg_eeg.json",
+   "bytes": 497
+  },
+  {
+   "path": "sub-102/eeg/sub-102_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-102/eeg/sub-102_task-Sleep_acq-psg_events.tsv",
+   "bytes": 30212
+  },
+  {
+   "path": "sub-102/sub-102_scans.tsv",
+   "bytes": 95
+  },
+  {
+   "path": "sub-103/eeg/sub-103_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-103/eeg/sub-103_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 118626304
+  },
+  {
+   "path": "sub-103/eeg/sub-103_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-103/eeg/sub-103_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-103/eeg/sub-103_task-Sleep_acq-headband_events.tsv",
+   "bytes": 25127
+  },
+  {
+   "path": "sub-103/eeg/sub-103_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 369
+  },
+  {
+   "path": "sub-103/eeg/sub-103_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 210891008
+  },
+  {
+   "path": "sub-103/eeg/sub-103_task-Sleep_acq-psg_eeg.json",
+   "bytes": 498
+  },
+  {
+   "path": "sub-103/eeg/sub-103_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-103/eeg/sub-103_task-Sleep_acq-psg_events.tsv",
+   "bytes": 26855
+  },
+  {
+   "path": "sub-103/sub-103_scans.tsv",
+   "bytes": 95
+  },
+  {
+   "path": "sub-104/eeg/sub-104_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-104/eeg/sub-104_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 115985920
+  },
+  {
+   "path": "sub-104/eeg/sub-104_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-104/eeg/sub-104_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-104/eeg/sub-104_task-Sleep_acq-headband_events.tsv",
+   "bytes": 24557
+  },
+  {
+   "path": "sub-104/eeg/sub-104_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 369
+  },
+  {
+   "path": "sub-104/eeg/sub-104_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 206196992
+  },
+  {
+   "path": "sub-104/eeg/sub-104_task-Sleep_acq-psg_eeg.json",
+   "bytes": 498
+  },
+  {
+   "path": "sub-104/eeg/sub-104_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-104/eeg/sub-104_task-Sleep_acq-psg_events.tsv",
+   "bytes": 26244
+  },
+  {
+   "path": "sub-104/sub-104_scans.tsv",
+   "bytes": 95
+  },
+  {
+   "path": "sub-105/eeg/sub-105_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-105/eeg/sub-105_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 134537728
+  },
+  {
+   "path": "sub-105/eeg/sub-105_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-105/eeg/sub-105_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-105/eeg/sub-105_task-Sleep_acq-headband_events.tsv",
+   "bytes": 28576
+  },
+  {
+   "path": "sub-105/eeg/sub-105_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 369
+  },
+  {
+   "path": "sub-105/eeg/sub-105_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 239177984
+  },
+  {
+   "path": "sub-105/eeg/sub-105_task-Sleep_acq-psg_eeg.json",
+   "bytes": 498
+  },
+  {
+   "path": "sub-105/eeg/sub-105_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-105/eeg/sub-105_task-Sleep_acq-psg_events.tsv",
+   "bytes": 30546
+  },
+  {
+   "path": "sub-105/sub-105_scans.tsv",
+   "bytes": 95
+  },
+  {
+   "path": "sub-106/eeg/sub-106_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-106/eeg/sub-106_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 121464832
+  },
+  {
+   "path": "sub-106/eeg/sub-106_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-106/eeg/sub-106_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-106/eeg/sub-106_task-Sleep_acq-headband_events.tsv",
+   "bytes": 25727
+  },
+  {
+   "path": "sub-106/eeg/sub-106_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 369
+  },
+  {
+   "path": "sub-106/eeg/sub-106_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 215937280
+  },
+  {
+   "path": "sub-106/eeg/sub-106_task-Sleep_acq-psg_eeg.json",
+   "bytes": 498
+  },
+  {
+   "path": "sub-106/eeg/sub-106_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-106/eeg/sub-106_task-Sleep_acq-psg_events.tsv",
+   "bytes": 27491
+  },
+  {
+   "path": "sub-106/sub-106_scans.tsv",
+   "bytes": 95
+  },
+  {
+   "path": "sub-107/eeg/sub-107_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-107/eeg/sub-107_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 131685376
+  },
+  {
+   "path": "sub-107/eeg/sub-107_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-107/eeg/sub-107_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-107/eeg/sub-107_task-Sleep_acq-headband_events.tsv",
+   "bytes": 27946
+  },
+  {
+   "path": "sub-107/eeg/sub-107_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 369
+  },
+  {
+   "path": "sub-107/eeg/sub-107_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 234107136
+  },
+  {
+   "path": "sub-107/eeg/sub-107_task-Sleep_acq-psg_eeg.json",
+   "bytes": 498
+  },
+  {
+   "path": "sub-107/eeg/sub-107_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-107/eeg/sub-107_task-Sleep_acq-psg_events.tsv",
+   "bytes": 29859
+  },
+  {
+   "path": "sub-107/sub-107_scans.tsv",
+   "bytes": 95
+  },
+  {
+   "path": "sub-108/eeg/sub-108_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-108/eeg/sub-108_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 138394624
+  },
+  {
+   "path": "sub-108/eeg/sub-108_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-108/eeg/sub-108_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-108/eeg/sub-108_task-Sleep_acq-headband_events.tsv",
+   "bytes": 29428
+  },
+  {
+   "path": "sub-108/eeg/sub-108_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 369
+  },
+  {
+   "path": "sub-108/eeg/sub-108_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 246034688
+  },
+  {
+   "path": "sub-108/eeg/sub-108_task-Sleep_acq-psg_eeg.json",
+   "bytes": 498
+  },
+  {
+   "path": "sub-108/eeg/sub-108_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-108/eeg/sub-108_task-Sleep_acq-psg_events.tsv",
+   "bytes": 31437
+  },
+  {
+   "path": "sub-108/sub-108_scans.tsv",
+   "bytes": 95
+  },
+  {
+   "path": "sub-109/eeg/sub-109_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-109/eeg/sub-109_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 38875648
+  },
+  {
+   "path": "sub-109/eeg/sub-109_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-109/eeg/sub-109_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-109/eeg/sub-109_task-Sleep_acq-headband_events.tsv",
+   "bytes": 24677
+  },
+  {
+   "path": "sub-109/eeg/sub-109_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 349
+  },
+  {
+   "path": "sub-109/eeg/sub-109_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 194377216
+  },
+  {
+   "path": "sub-109/eeg/sub-109_task-Sleep_acq-psg_eeg.json",
+   "bytes": 498
+  },
+  {
+   "path": "sub-109/eeg/sub-109_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-109/eeg/sub-109_task-Sleep_acq-psg_events.tsv",
+   "bytes": 26371
+  },
+  {
+   "path": "sub-109/sub-109_scans.tsv",
+   "bytes": 95
+  },
+  {
+   "path": "sub-11/eeg/sub-11_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-11/eeg/sub-11_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 136228864
+  },
+  {
+   "path": "sub-11/eeg/sub-11_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-11/eeg/sub-11_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-11/eeg/sub-11_task-Sleep_acq-headband_events.tsv",
+   "bytes": 29098
+  },
+  {
+   "path": "sub-11/eeg/sub-11_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 190
+  },
+  {
+   "path": "sub-11/eeg/sub-11_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 121092352
+  },
+  {
+   "path": "sub-11/eeg/sub-11_task-Sleep_acq-psg_eeg.json",
+   "bytes": 497
+  },
+  {
+   "path": "sub-11/eeg/sub-11_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-11/eeg/sub-11_task-Sleep_acq-psg_events.tsv",
+   "bytes": 30915
+  },
+  {
+   "path": "sub-11/sub-11_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-110/eeg/sub-110_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-110/eeg/sub-110_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 43944448
+  },
+  {
+   "path": "sub-110/eeg/sub-110_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-110/eeg/sub-110_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-110/eeg/sub-110_task-Sleep_acq-headband_events.tsv",
+   "bytes": 27991
+  },
+  {
+   "path": "sub-110/eeg/sub-110_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 369
+  },
+  {
+   "path": "sub-110/eeg/sub-110_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 234369280
+  },
+  {
+   "path": "sub-110/eeg/sub-110_task-Sleep_acq-psg_eeg.json",
+   "bytes": 498
+  },
+  {
+   "path": "sub-110/eeg/sub-110_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-110/eeg/sub-110_task-Sleep_acq-psg_events.tsv",
+   "bytes": 29891
+  },
+  {
+   "path": "sub-110/sub-110_scans.tsv",
+   "bytes": 95
+  },
+  {
+   "path": "sub-111/eeg/sub-111_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-111/eeg/sub-111_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 44311552
+  },
+  {
+   "path": "sub-111/eeg/sub-111_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-111/eeg/sub-111_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-111/eeg/sub-111_task-Sleep_acq-headband_events.tsv",
+   "bytes": 28218
+  },
+  {
+   "path": "sub-111/eeg/sub-111_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 369
+  },
+  {
+   "path": "sub-111/eeg/sub-111_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 236327168
+  },
+  {
+   "path": "sub-111/eeg/sub-111_task-Sleep_acq-psg_eeg.json",
+   "bytes": 498
+  },
+  {
+   "path": "sub-111/eeg/sub-111_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-111/eeg/sub-111_task-Sleep_acq-psg_events.tsv",
+   "bytes": 30154
+  },
+  {
+   "path": "sub-111/sub-111_scans.tsv",
+   "bytes": 95
+  },
+  {
+   "path": "sub-112/eeg/sub-112_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-112/eeg/sub-112_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 42370048
+  },
+  {
+   "path": "sub-112/eeg/sub-112_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-112/eeg/sub-112_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-112/eeg/sub-112_task-Sleep_acq-headband_events.tsv",
+   "bytes": 26957
+  },
+  {
+   "path": "sub-112/eeg/sub-112_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 369
+  },
+  {
+   "path": "sub-112/eeg/sub-112_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 225972480
+  },
+  {
+   "path": "sub-112/eeg/sub-112_task-Sleep_acq-psg_eeg.json",
+   "bytes": 498
+  },
+  {
+   "path": "sub-112/eeg/sub-112_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-112/eeg/sub-112_task-Sleep_acq-psg_events.tsv",
+   "bytes": 28805
+  },
+  {
+   "path": "sub-112/sub-112_scans.tsv",
+   "bytes": 95
+  },
+  {
+   "path": "sub-113/eeg/sub-113_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-113/eeg/sub-113_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 43188736
+  },
+  {
+   "path": "sub-113/eeg/sub-113_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-113/eeg/sub-113_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-113/eeg/sub-113_task-Sleep_acq-headband_events.tsv",
+   "bytes": 27496
+  },
+  {
+   "path": "sub-113/eeg/sub-113_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 369
+  },
+  {
+   "path": "sub-113/eeg/sub-113_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 230338816
+  },
+  {
+   "path": "sub-113/eeg/sub-113_task-Sleep_acq-psg_eeg.json",
+   "bytes": 498
+  },
+  {
+   "path": "sub-113/eeg/sub-113_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-113/eeg/sub-113_task-Sleep_acq-psg_events.tsv",
+   "bytes": 29382
+  },
+  {
+   "path": "sub-113/sub-113_scans.tsv",
+   "bytes": 95
+  },
+  {
+   "path": "sub-114/eeg/sub-114_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-114/eeg/sub-114_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 43028992
+  },
+  {
+   "path": "sub-114/eeg/sub-114_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-114/eeg/sub-114_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-114/eeg/sub-114_task-Sleep_acq-headband_events.tsv",
+   "bytes": 27376
+  },
+  {
+   "path": "sub-114/eeg/sub-114_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 369
+  },
+  {
+   "path": "sub-114/eeg/sub-114_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 229486848
+  },
+  {
+   "path": "sub-114/eeg/sub-114_task-Sleep_acq-psg_eeg.json",
+   "bytes": 498
+  },
+  {
+   "path": "sub-114/eeg/sub-114_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-114/eeg/sub-114_task-Sleep_acq-psg_events.tsv",
+   "bytes": 29253
+  },
+  {
+   "path": "sub-114/sub-114_scans.tsv",
+   "bytes": 95
+  },
+  {
+   "path": "sub-115/eeg/sub-115_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-115/eeg/sub-115_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 39549952
+  },
+  {
+   "path": "sub-115/eeg/sub-115_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-115/eeg/sub-115_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-115/eeg/sub-115_task-Sleep_acq-headband_events.tsv",
+   "bytes": 25126
+  },
+  {
+   "path": "sub-115/eeg/sub-115_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 369
+  },
+  {
+   "path": "sub-115/eeg/sub-115_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 210931968
+  },
+  {
+   "path": "sub-115/eeg/sub-115_task-Sleep_acq-psg_eeg.json",
+   "bytes": 498
+  },
+  {
+   "path": "sub-115/eeg/sub-115_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-115/eeg/sub-115_task-Sleep_acq-psg_events.tsv",
+   "bytes": 26856
+  },
+  {
+   "path": "sub-115/sub-115_scans.tsv",
+   "bytes": 95
+  },
+  {
+   "path": "sub-116/eeg/sub-116_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-116/eeg/sub-116_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 40250368
+  },
+  {
+   "path": "sub-116/eeg/sub-116_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-116/eeg/sub-116_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-116/eeg/sub-116_task-Sleep_acq-headband_events.tsv",
+   "bytes": 25577
+  },
+  {
+   "path": "sub-116/eeg/sub-116_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 369
+  },
+  {
+   "path": "sub-116/eeg/sub-116_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 214667520
+  },
+  {
+   "path": "sub-116/eeg/sub-116_task-Sleep_acq-psg_eeg.json",
+   "bytes": 498
+  },
+  {
+   "path": "sub-116/eeg/sub-116_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-116/eeg/sub-116_task-Sleep_acq-psg_events.tsv",
+   "bytes": 27371
+  },
+  {
+   "path": "sub-116/sub-116_scans.tsv",
+   "bytes": 95
+  },
+  {
+   "path": "sub-117/eeg/sub-117_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-117/eeg/sub-117_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 36556288
+  },
+  {
+   "path": "sub-117/eeg/sub-117_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-117/eeg/sub-117_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-117/eeg/sub-117_task-Sleep_acq-headband_events.tsv",
+   "bytes": 23180
+  },
+  {
+   "path": "sub-117/eeg/sub-117_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 369
+  },
+  {
+   "path": "sub-117/eeg/sub-117_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 194965760
+  },
+  {
+   "path": "sub-117/eeg/sub-117_task-Sleep_acq-psg_eeg.json",
+   "bytes": 498
+  },
+  {
+   "path": "sub-117/eeg/sub-117_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-117/eeg/sub-117_task-Sleep_acq-psg_events.tsv",
+   "bytes": 24771
+  },
+  {
+   "path": "sub-117/sub-117_scans.tsv",
+   "bytes": 95
+  },
+  {
+   "path": "sub-118/eeg/sub-118_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-118/eeg/sub-118_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 41204224
+  },
+  {
+   "path": "sub-118/eeg/sub-118_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-118/eeg/sub-118_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-118/eeg/sub-118_task-Sleep_acq-headband_events.tsv",
+   "bytes": 26206
+  },
+  {
+   "path": "sub-118/eeg/sub-118_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 369
+  },
+  {
+   "path": "sub-118/eeg/sub-118_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 219754752
+  },
+  {
+   "path": "sub-118/eeg/sub-118_task-Sleep_acq-psg_eeg.json",
+   "bytes": 498
+  },
+  {
+   "path": "sub-118/eeg/sub-118_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-118/eeg/sub-118_task-Sleep_acq-psg_events.tsv",
+   "bytes": 28011
+  },
+  {
+   "path": "sub-118/sub-118_scans.tsv",
+   "bytes": 95
+  },
+  {
+   "path": "sub-119/eeg/sub-119_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-119/eeg/sub-119_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 41413120
+  },
+  {
+   "path": "sub-119/eeg/sub-119_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-119/eeg/sub-119_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-119/eeg/sub-119_task-Sleep_acq-headband_events.tsv",
+   "bytes": 26325
+  },
+  {
+   "path": "sub-119/eeg/sub-119_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 369
+  },
+  {
+   "path": "sub-119/eeg/sub-119_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 220868864
+  },
+  {
+   "path": "sub-119/eeg/sub-119_task-Sleep_acq-psg_eeg.json",
+   "bytes": 498
+  },
+  {
+   "path": "sub-119/eeg/sub-119_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-119/eeg/sub-119_task-Sleep_acq-psg_events.tsv",
+   "bytes": 28131
+  },
+  {
+   "path": "sub-119/sub-119_scans.tsv",
+   "bytes": 95
+  },
+  {
+   "path": "sub-12/eeg/sub-12_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 70
+  },
+  {
+   "path": "sub-12/eeg/sub-12_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 31134464
+  },
+  {
+   "path": "sub-12/eeg/sub-12_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-12/eeg/sub-12_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-12/eeg/sub-12_task-Sleep_acq-headband_events.tsv",
+   "bytes": 29775
+  },
+  {
+   "path": "sub-12/eeg/sub-12_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 252
+  },
+  {
+   "path": "sub-12/eeg/sub-12_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 171238400
+  },
+  {
+   "path": "sub-12/eeg/sub-12_task-Sleep_acq-psg_eeg.json",
+   "bytes": 498
+  },
+  {
+   "path": "sub-12/eeg/sub-12_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-12/eeg/sub-12_task-Sleep_acq-psg_events.tsv",
+   "bytes": 31816
+  },
+  {
+   "path": "sub-12/sub-12_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-120/eeg/sub-120_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-120/eeg/sub-120_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 36359680
+  },
+  {
+   "path": "sub-120/eeg/sub-120_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-120/eeg/sub-120_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-120/eeg/sub-120_task-Sleep_acq-headband_events.tsv",
+   "bytes": 23056
+  },
+  {
+   "path": "sub-120/eeg/sub-120_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 369
+  },
+  {
+   "path": "sub-120/eeg/sub-120_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 193917184
+  },
+  {
+   "path": "sub-120/eeg/sub-120_task-Sleep_acq-psg_eeg.json",
+   "bytes": 498
+  },
+  {
+   "path": "sub-120/eeg/sub-120_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-120/eeg/sub-120_task-Sleep_acq-psg_events.tsv",
+   "bytes": 24643
+  },
+  {
+   "path": "sub-120/sub-120_scans.tsv",
+   "bytes": 95
+  },
+  {
+   "path": "sub-121/eeg/sub-121_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-121/eeg/sub-121_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 41167360
+  },
+  {
+   "path": "sub-121/eeg/sub-121_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-121/eeg/sub-121_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-121/eeg/sub-121_task-Sleep_acq-headband_events.tsv",
+   "bytes": 26186
+  },
+  {
+   "path": "sub-121/eeg/sub-121_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 369
+  },
+  {
+   "path": "sub-121/eeg/sub-121_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 219558144
+  },
+  {
+   "path": "sub-121/eeg/sub-121_task-Sleep_acq-psg_eeg.json",
+   "bytes": 498
+  },
+  {
+   "path": "sub-121/eeg/sub-121_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-121/eeg/sub-121_task-Sleep_acq-psg_events.tsv",
+   "bytes": 27971
+  },
+  {
+   "path": "sub-121/sub-121_scans.tsv",
+   "bytes": 95
+  },
+  {
+   "path": "sub-122/eeg/sub-122_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-122/eeg/sub-122_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 40370176
+  },
+  {
+   "path": "sub-122/eeg/sub-122_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-122/eeg/sub-122_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-122/eeg/sub-122_task-Sleep_acq-headband_events.tsv",
+   "bytes": 25666
+  },
+  {
+   "path": "sub-122/eeg/sub-122_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 349
+  },
+  {
+   "path": "sub-122/eeg/sub-122_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 201849856
+  },
+  {
+   "path": "sub-122/eeg/sub-122_task-Sleep_acq-psg_eeg.json",
+   "bytes": 498
+  },
+  {
+   "path": "sub-122/eeg/sub-122_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-122/eeg/sub-122_task-Sleep_acq-psg_events.tsv",
+   "bytes": 27430
+  },
+  {
+   "path": "sub-122/sub-122_scans.tsv",
+   "bytes": 95
+  },
+  {
+   "path": "sub-123/eeg/sub-123_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-123/eeg/sub-123_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 40534528
+  },
+  {
+   "path": "sub-123/eeg/sub-123_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-123/eeg/sub-123_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-123/eeg/sub-123_task-Sleep_acq-headband_events.tsv",
+   "bytes": 25756
+  },
+  {
+   "path": "sub-123/eeg/sub-123_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 349
+  },
+  {
+   "path": "sub-123/eeg/sub-123_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 202671616
+  },
+  {
+   "path": "sub-123/eeg/sub-123_task-Sleep_acq-psg_eeg.json",
+   "bytes": 498
+  },
+  {
+   "path": "sub-123/eeg/sub-123_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-123/eeg/sub-123_task-Sleep_acq-psg_events.tsv",
+   "bytes": 27523
+  },
+  {
+   "path": "sub-123/sub-123_scans.tsv",
+   "bytes": 95
+  },
+  {
+   "path": "sub-124/eeg/sub-124_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-124/eeg/sub-124_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 122907136
+  },
+  {
+   "path": "sub-124/eeg/sub-124_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-124/eeg/sub-124_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-124/eeg/sub-124_task-Sleep_acq-headband_events.tsv",
+   "bytes": 26055
+  },
+  {
+   "path": "sub-124/eeg/sub-124_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 349
+  },
+  {
+   "path": "sub-124/eeg/sub-124_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 204845056
+  },
+  {
+   "path": "sub-124/eeg/sub-124_task-Sleep_acq-psg_eeg.json",
+   "bytes": 498
+  },
+  {
+   "path": "sub-124/eeg/sub-124_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-124/eeg/sub-124_task-Sleep_acq-psg_events.tsv",
+   "bytes": 27843
+  },
+  {
+   "path": "sub-124/sub-124_scans.tsv",
+   "bytes": 95
+  },
+  {
+   "path": "sub-125/eeg/sub-125_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-125/eeg/sub-125_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 135159808
+  },
+  {
+   "path": "sub-125/eeg/sub-125_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-125/eeg/sub-125_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-125/eeg/sub-125_task-Sleep_acq-headband_events.tsv",
+   "bytes": 28696
+  },
+  {
+   "path": "sub-125/eeg/sub-125_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 369
+  },
+  {
+   "path": "sub-125/eeg/sub-125_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 240283904
+  },
+  {
+   "path": "sub-125/eeg/sub-125_task-Sleep_acq-psg_eeg.json",
+   "bytes": 498
+  },
+  {
+   "path": "sub-125/eeg/sub-125_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-125/eeg/sub-125_task-Sleep_acq-psg_events.tsv",
+   "bytes": 30659
+  },
+  {
+   "path": "sub-125/sub-125_scans.tsv",
+   "bytes": 95
+  },
+  {
+   "path": "sub-126/eeg/sub-126_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-126/eeg/sub-126_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 40136704
+  },
+  {
+   "path": "sub-126/eeg/sub-126_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-126/eeg/sub-126_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-126/eeg/sub-126_task-Sleep_acq-headband_events.tsv",
+   "bytes": 25536
+  },
+  {
+   "path": "sub-126/eeg/sub-126_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 212
+  },
+  {
+   "path": "sub-126/eeg/sub-126_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 120409600
+  },
+  {
+   "path": "sub-126/eeg/sub-126_task-Sleep_acq-psg_eeg.json",
+   "bytes": 497
+  },
+  {
+   "path": "sub-126/eeg/sub-126_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-126/eeg/sub-126_task-Sleep_acq-psg_events.tsv",
+   "bytes": 27267
+  },
+  {
+   "path": "sub-126/sub-126_scans.tsv",
+   "bytes": 95
+  },
+  {
+   "path": "sub-127/eeg/sub-127_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-127/eeg/sub-127_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 38348800
+  },
+  {
+   "path": "sub-127/eeg/sub-127_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-127/eeg/sub-127_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-127/eeg/sub-127_task-Sleep_acq-headband_events.tsv",
+   "bytes": 24346
+  },
+  {
+   "path": "sub-127/eeg/sub-127_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 349
+  },
+  {
+   "path": "sub-127/eeg/sub-127_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 191742976
+  },
+  {
+   "path": "sub-127/eeg/sub-127_task-Sleep_acq-psg_eeg.json",
+   "bytes": 498
+  },
+  {
+   "path": "sub-127/eeg/sub-127_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-127/eeg/sub-127_task-Sleep_acq-psg_events.tsv",
+   "bytes": 26019
+  },
+  {
+   "path": "sub-127/sub-127_scans.tsv",
+   "bytes": 95
+  },
+  {
+   "path": "sub-128/eeg/sub-128_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-128/eeg/sub-128_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 37860352
+  },
+  {
+   "path": "sub-128/eeg/sub-128_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-128/eeg/sub-128_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-128/eeg/sub-128_task-Sleep_acq-headband_events.tsv",
+   "bytes": 24015
+  },
+  {
+   "path": "sub-128/eeg/sub-128_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 212
+  },
+  {
+   "path": "sub-128/eeg/sub-128_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 113580544
+  },
+  {
+   "path": "sub-128/eeg/sub-128_task-Sleep_acq-psg_eeg.json",
+   "bytes": 497
+  },
+  {
+   "path": "sub-128/eeg/sub-128_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-128/eeg/sub-128_task-Sleep_acq-psg_events.tsv",
+   "bytes": 25680
+  },
+  {
+   "path": "sub-128/sub-128_scans.tsv",
+   "bytes": 95
+  },
+  {
+   "path": "sub-13/eeg/sub-13_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 70
+  },
+  {
+   "path": "sub-13/eeg/sub-13_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 30654208
+  },
+  {
+   "path": "sub-13/eeg/sub-13_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-13/eeg/sub-13_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-13/eeg/sub-13_task-Sleep_acq-headband_events.tsv",
+   "bytes": 29839
+  },
+  {
+   "path": "sub-13/eeg/sub-13_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 252
+  },
+  {
+   "path": "sub-13/eeg/sub-13_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 168596992
+  },
+  {
+   "path": "sub-13/eeg/sub-13_task-Sleep_acq-psg_eeg.json",
+   "bytes": 498
+  },
+  {
+   "path": "sub-13/eeg/sub-13_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-13/eeg/sub-13_task-Sleep_acq-psg_events.tsv",
+   "bytes": 31299
+  },
+  {
+   "path": "sub-13/sub-13_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-14/eeg/sub-14_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-14/eeg/sub-14_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 147979264
+  },
+  {
+   "path": "sub-14/eeg/sub-14_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-14/eeg/sub-14_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-14/eeg/sub-14_task-Sleep_acq-headband_events.tsv",
+   "bytes": 31503
+  },
+  {
+   "path": "sub-14/eeg/sub-14_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 190
+  },
+  {
+   "path": "sub-14/eeg/sub-14_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 131537152
+  },
+  {
+   "path": "sub-14/eeg/sub-14_task-Sleep_acq-psg_eeg.json",
+   "bytes": 497
+  },
+  {
+   "path": "sub-14/eeg/sub-14_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-14/eeg/sub-14_task-Sleep_acq-psg_events.tsv",
+   "bytes": 33635
+  },
+  {
+   "path": "sub-14/sub-14_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-15/eeg/sub-15_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 70
+  },
+  {
+   "path": "sub-15/eeg/sub-15_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 33615616
+  },
+  {
+   "path": "sub-15/eeg/sub-15_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-15/eeg/sub-15_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-15/eeg/sub-15_task-Sleep_acq-headband_events.tsv",
+   "bytes": 32206
+  },
+  {
+   "path": "sub-15/eeg/sub-15_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 252
+  },
+  {
+   "path": "sub-15/eeg/sub-15_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 184884736
+  },
+  {
+   "path": "sub-15/eeg/sub-15_task-Sleep_acq-psg_eeg.json",
+   "bytes": 498
+  },
+  {
+   "path": "sub-15/eeg/sub-15_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-15/eeg/sub-15_task-Sleep_acq-psg_events.tsv",
+   "bytes": 34403
+  },
+  {
+   "path": "sub-15/sub-15_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-16/eeg/sub-16_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 70
+  },
+  {
+   "path": "sub-16/eeg/sub-16_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 31596288
+  },
+  {
+   "path": "sub-16/eeg/sub-16_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-16/eeg/sub-16_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-16/eeg/sub-16_task-Sleep_acq-headband_events.tsv",
+   "bytes": 30227
+  },
+  {
+   "path": "sub-16/eeg/sub-16_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 252
+  },
+  {
+   "path": "sub-16/eeg/sub-16_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 173778432
+  },
+  {
+   "path": "sub-16/eeg/sub-16_task-Sleep_acq-psg_eeg.json",
+   "bytes": 498
+  },
+  {
+   "path": "sub-16/eeg/sub-16_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-16/eeg/sub-16_task-Sleep_acq-psg_events.tsv",
+   "bytes": 32298
+  },
+  {
+   "path": "sub-16/sub-16_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-17/eeg/sub-17_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 70
+  },
+  {
+   "path": "sub-17/eeg/sub-17_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 30339840
+  },
+  {
+   "path": "sub-17/eeg/sub-17_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-17/eeg/sub-17_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-17/eeg/sub-17_task-Sleep_acq-headband_events.tsv",
+   "bytes": 28998
+  },
+  {
+   "path": "sub-17/eeg/sub-17_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 252
+  },
+  {
+   "path": "sub-17/eeg/sub-17_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 166867968
+  },
+  {
+   "path": "sub-17/eeg/sub-17_task-Sleep_acq-psg_eeg.json",
+   "bytes": 498
+  },
+  {
+   "path": "sub-17/eeg/sub-17_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-17/eeg/sub-17_task-Sleep_acq-psg_events.tsv",
+   "bytes": 30984
+  },
+  {
+   "path": "sub-17/sub-17_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-18/eeg/sub-18_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-18/eeg/sub-18_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 144790528
+  },
+  {
+   "path": "sub-18/eeg/sub-18_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-18/eeg/sub-18_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-18/eeg/sub-18_task-Sleep_acq-headband_events.tsv",
+   "bytes": 30814
+  },
+  {
+   "path": "sub-18/eeg/sub-18_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 190
+  },
+  {
+   "path": "sub-18/eeg/sub-18_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 128702720
+  },
+  {
+   "path": "sub-18/eeg/sub-18_task-Sleep_acq-psg_eeg.json",
+   "bytes": 497
+  },
+  {
+   "path": "sub-18/eeg/sub-18_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-18/eeg/sub-18_task-Sleep_acq-psg_events.tsv",
+   "bytes": 32899
+  },
+  {
+   "path": "sub-18/sub-18_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-19/eeg/sub-19_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 70
+  },
+  {
+   "path": "sub-19/eeg/sub-19_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 31106816
+  },
+  {
+   "path": "sub-19/eeg/sub-19_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-19/eeg/sub-19_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-19/eeg/sub-19_task-Sleep_acq-headband_events.tsv",
+   "bytes": 29814
+  },
+  {
+   "path": "sub-19/eeg/sub-19_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 252
+  },
+  {
+   "path": "sub-19/eeg/sub-19_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 171086336
+  },
+  {
+   "path": "sub-19/eeg/sub-19_task-Sleep_acq-psg_eeg.json",
+   "bytes": 498
+  },
+  {
+   "path": "sub-19/eeg/sub-19_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-19/eeg/sub-19_task-Sleep_acq-psg_events.tsv",
+   "bytes": 31779
+  },
+  {
+   "path": "sub-19/sub-19_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-2/eeg/sub-2_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 70
+  },
+  {
+   "path": "sub-2/eeg/sub-2_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 28058368
+  },
+  {
+   "path": "sub-2/eeg/sub-2_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-2/eeg/sub-2_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-2/eeg/sub-2_task-Sleep_acq-headband_events.tsv",
+   "bytes": 26782
+  },
+  {
+   "path": "sub-2/eeg/sub-2_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 252
+  },
+  {
+   "path": "sub-2/eeg/sub-2_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 154319872
+  },
+  {
+   "path": "sub-2/eeg/sub-2_task-Sleep_acq-psg_eeg.json",
+   "bytes": 498
+  },
+  {
+   "path": "sub-2/eeg/sub-2_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-2/eeg/sub-2_task-Sleep_acq-psg_events.tsv",
+   "bytes": 28611
+  },
+  {
+   "path": "sub-2/sub-2_scans.tsv",
+   "bytes": 91
+  },
+  {
+   "path": "sub-20/eeg/sub-20_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-20/eeg/sub-20_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 144947200
+  },
+  {
+   "path": "sub-20/eeg/sub-20_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-20/eeg/sub-20_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-20/eeg/sub-20_task-Sleep_acq-headband_events.tsv",
+   "bytes": 30908
+  },
+  {
+   "path": "sub-20/eeg/sub-20_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 190
+  },
+  {
+   "path": "sub-20/eeg/sub-20_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 128841984
+  },
+  {
+   "path": "sub-20/eeg/sub-20_task-Sleep_acq-psg_eeg.json",
+   "bytes": 497
+  },
+  {
+   "path": "sub-20/eeg/sub-20_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-20/eeg/sub-20_task-Sleep_acq-psg_events.tsv",
+   "bytes": 32931
+  },
+  {
+   "path": "sub-20/sub-20_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-21/eeg/sub-21_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 70
+  },
+  {
+   "path": "sub-21/eeg/sub-21_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 32050944
+  },
+  {
+   "path": "sub-21/eeg/sub-21_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-21/eeg/sub-21_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-21/eeg/sub-21_task-Sleep_acq-headband_events.tsv",
+   "bytes": 30680
+  },
+  {
+   "path": "sub-21/eeg/sub-21_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 252
+  },
+  {
+   "path": "sub-21/eeg/sub-21_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 176279040
+  },
+  {
+   "path": "sub-21/eeg/sub-21_task-Sleep_acq-psg_eeg.json",
+   "bytes": 498
+  },
+  {
+   "path": "sub-21/eeg/sub-21_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-21/eeg/sub-21_task-Sleep_acq-psg_events.tsv",
+   "bytes": 32771
+  },
+  {
+   "path": "sub-21/sub-21_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-22/eeg/sub-22_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-22/eeg/sub-22_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 143021056
+  },
+  {
+   "path": "sub-22/eeg/sub-22_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-22/eeg/sub-22_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-22/eeg/sub-22_task-Sleep_acq-headband_events.tsv",
+   "bytes": 30411
+  },
+  {
+   "path": "sub-22/eeg/sub-22_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 190
+  },
+  {
+   "path": "sub-22/eeg/sub-22_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 127129856
+  },
+  {
+   "path": "sub-22/eeg/sub-22_task-Sleep_acq-psg_eeg.json",
+   "bytes": 497
+  },
+  {
+   "path": "sub-22/eeg/sub-22_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-22/eeg/sub-22_task-Sleep_acq-psg_events.tsv",
+   "bytes": 32483
+  },
+  {
+   "path": "sub-22/sub-22_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-23/eeg/sub-23_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-23/eeg/sub-23_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 154822144
+  },
+  {
+   "path": "sub-23/eeg/sub-23_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-23/eeg/sub-23_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-23/eeg/sub-23_task-Sleep_acq-headband_events.tsv",
+   "bytes": 33065
+  },
+  {
+   "path": "sub-23/eeg/sub-23_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 327
+  },
+  {
+   "path": "sub-23/eeg/sub-23_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 240834304
+  },
+  {
+   "path": "sub-23/eeg/sub-23_task-Sleep_acq-psg_eeg.json",
+   "bytes": 498
+  },
+  {
+   "path": "sub-23/eeg/sub-23_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-23/eeg/sub-23_task-Sleep_acq-psg_events.tsv",
+   "bytes": 35203
+  },
+  {
+   "path": "sub-23/sub-23_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-24/eeg/sub-24_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-24/eeg/sub-24_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 129035776
+  },
+  {
+   "path": "sub-24/eeg/sub-24_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-24/eeg/sub-24_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-24/eeg/sub-24_task-Sleep_acq-headband_events.tsv",
+   "bytes": 27431
+  },
+  {
+   "path": "sub-24/eeg/sub-24_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 327
+  },
+  {
+   "path": "sub-24/eeg/sub-24_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 200722176
+  },
+  {
+   "path": "sub-24/eeg/sub-24_task-Sleep_acq-psg_eeg.json",
+   "bytes": 498
+  },
+  {
+   "path": "sub-24/eeg/sub-24_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-24/eeg/sub-24_task-Sleep_acq-psg_events.tsv",
+   "bytes": 29265
+  },
+  {
+   "path": "sub-24/sub-24_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-25/eeg/sub-25_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-25/eeg/sub-25_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 149790208
+  },
+  {
+   "path": "sub-25/eeg/sub-25_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-25/eeg/sub-25_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-25/eeg/sub-25_task-Sleep_acq-headband_events.tsv",
+   "bytes": 31932
+  },
+  {
+   "path": "sub-25/eeg/sub-25_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 327
+  },
+  {
+   "path": "sub-25/eeg/sub-25_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 233006848
+  },
+  {
+   "path": "sub-25/eeg/sub-25_task-Sleep_acq-psg_eeg.json",
+   "bytes": 498
+  },
+  {
+   "path": "sub-25/eeg/sub-25_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-25/eeg/sub-25_task-Sleep_acq-psg_events.tsv",
+   "bytes": 34051
+  },
+  {
+   "path": "sub-25/sub-25_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-26/eeg/sub-26_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-26/eeg/sub-26_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 134477824
+  },
+  {
+   "path": "sub-26/eeg/sub-26_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-26/eeg/sub-26_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-26/eeg/sub-26_task-Sleep_acq-headband_events.tsv",
+   "bytes": 28545
+  },
+  {
+   "path": "sub-26/eeg/sub-26_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 327
+  },
+  {
+   "path": "sub-26/eeg/sub-26_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 209187584
+  },
+  {
+   "path": "sub-26/eeg/sub-26_task-Sleep_acq-psg_eeg.json",
+   "bytes": 498
+  },
+  {
+   "path": "sub-26/eeg/sub-26_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-26/eeg/sub-26_task-Sleep_acq-psg_events.tsv",
+   "bytes": 30499
+  },
+  {
+   "path": "sub-26/sub-26_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-27/eeg/sub-27_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 70
+  },
+  {
+   "path": "sub-27/eeg/sub-27_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 29247232
+  },
+  {
+   "path": "sub-27/eeg/sub-27_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-27/eeg/sub-27_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-27/eeg/sub-27_task-Sleep_acq-headband_events.tsv",
+   "bytes": 27946
+  },
+  {
+   "path": "sub-27/eeg/sub-27_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 327
+  },
+  {
+   "path": "sub-27/eeg/sub-27_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 204729088
+  },
+  {
+   "path": "sub-27/eeg/sub-27_task-Sleep_acq-psg_eeg.json",
+   "bytes": 498
+  },
+  {
+   "path": "sub-27/eeg/sub-27_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-27/eeg/sub-27_task-Sleep_acq-psg_events.tsv",
+   "bytes": 29859
+  },
+  {
+   "path": "sub-27/sub-27_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-28/eeg/sub-28_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 70
+  },
+  {
+   "path": "sub-28/eeg/sub-28_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 26393344
+  },
+  {
+   "path": "sub-28/eeg/sub-28_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-28/eeg/sub-28_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-28/eeg/sub-28_task-Sleep_acq-headband_events.tsv",
+   "bytes": 25182
+  },
+  {
+   "path": "sub-28/eeg/sub-28_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 327
+  },
+  {
+   "path": "sub-28/eeg/sub-28_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 184751872
+  },
+  {
+   "path": "sub-28/eeg/sub-28_task-Sleep_acq-psg_eeg.json",
+   "bytes": 498
+  },
+  {
+   "path": "sub-28/eeg/sub-28_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-28/eeg/sub-28_task-Sleep_acq-psg_events.tsv",
+   "bytes": 26887
+  },
+  {
+   "path": "sub-28/sub-28_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-29/eeg/sub-29_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 70
+  },
+  {
+   "path": "sub-29/eeg/sub-29_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 34042624
+  },
+  {
+   "path": "sub-29/eeg/sub-29_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-29/eeg/sub-29_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-29/eeg/sub-29_task-Sleep_acq-headband_events.tsv",
+   "bytes": 32776
+  },
+  {
+   "path": "sub-29/eeg/sub-29_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 327
+  },
+  {
+   "path": "sub-29/eeg/sub-29_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 238296832
+  },
+  {
+   "path": "sub-29/eeg/sub-29_task-Sleep_acq-psg_eeg.json",
+   "bytes": 498
+  },
+  {
+   "path": "sub-29/eeg/sub-29_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-29/eeg/sub-29_task-Sleep_acq-psg_events.tsv",
+   "bytes": 34851
+  },
+  {
+   "path": "sub-29/sub-29_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-3/eeg/sub-3_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-3/eeg/sub-3_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 137878528
+  },
+  {
+   "path": "sub-3/eeg/sub-3_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-3/eeg/sub-3_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-3/eeg/sub-3_task-Sleep_acq-headband_events.tsv",
+   "bytes": 29304
+  },
+  {
+   "path": "sub-3/eeg/sub-3_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 190
+  },
+  {
+   "path": "sub-3/eeg/sub-3_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 122558720
+  },
+  {
+   "path": "sub-3/eeg/sub-3_task-Sleep_acq-psg_eeg.json",
+   "bytes": 497
+  },
+  {
+   "path": "sub-3/eeg/sub-3_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-3/eeg/sub-3_task-Sleep_acq-psg_events.tsv",
+   "bytes": 31299
+  },
+  {
+   "path": "sub-3/sub-3_scans.tsv",
+   "bytes": 91
+  },
+  {
+   "path": "sub-30/eeg/sub-30_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-30/eeg/sub-30_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 115350016
+  },
+  {
+   "path": "sub-30/eeg/sub-30_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-30/eeg/sub-30_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-30/eeg/sub-30_task-Sleep_acq-headband_events.tsv",
+   "bytes": 24406
+  },
+  {
+   "path": "sub-30/eeg/sub-30_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 327
+  },
+  {
+   "path": "sub-30/eeg/sub-30_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 179433216
+  },
+  {
+   "path": "sub-30/eeg/sub-30_task-Sleep_acq-psg_eeg.json",
+   "bytes": 498
+  },
+  {
+   "path": "sub-30/eeg/sub-30_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-30/eeg/sub-30_task-Sleep_acq-psg_events.tsv",
+   "bytes": 26083
+  },
+  {
+   "path": "sub-30/sub-30_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-31/eeg/sub-31_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-31/eeg/sub-31_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 117612544
+  },
+  {
+   "path": "sub-31/eeg/sub-31_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-31/eeg/sub-31_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-31/eeg/sub-31_task-Sleep_acq-headband_events.tsv",
+   "bytes": 24886
+  },
+  {
+   "path": "sub-31/eeg/sub-31_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 327
+  },
+  {
+   "path": "sub-31/eeg/sub-31_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 182952704
+  },
+  {
+   "path": "sub-31/eeg/sub-31_task-Sleep_acq-psg_eeg.json",
+   "bytes": 498
+  },
+  {
+   "path": "sub-31/eeg/sub-31_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-31/eeg/sub-31_task-Sleep_acq-psg_events.tsv",
+   "bytes": 26595
+  },
+  {
+   "path": "sub-31/sub-31_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-32/eeg/sub-32_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-32/eeg/sub-32_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 115101184
+  },
+  {
+   "path": "sub-32/eeg/sub-32_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-32/eeg/sub-32_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-32/eeg/sub-32_task-Sleep_acq-headband_events.tsv",
+   "bytes": 24346
+  },
+  {
+   "path": "sub-32/eeg/sub-32_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 327
+  },
+  {
+   "path": "sub-32/eeg/sub-32_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 179046144
+  },
+  {
+   "path": "sub-32/eeg/sub-32_task-Sleep_acq-psg_eeg.json",
+   "bytes": 498
+  },
+  {
+   "path": "sub-32/eeg/sub-32_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-32/eeg/sub-32_task-Sleep_acq-psg_events.tsv",
+   "bytes": 26019
+  },
+  {
+   "path": "sub-32/sub-32_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-33/eeg/sub-33_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-33/eeg/sub-33_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 121197568
+  },
+  {
+   "path": "sub-33/eeg/sub-33_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-33/eeg/sub-33_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-33/eeg/sub-33_task-Sleep_acq-headband_events.tsv",
+   "bytes": 25665
+  },
+  {
+   "path": "sub-33/eeg/sub-33_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 327
+  },
+  {
+   "path": "sub-33/eeg/sub-33_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 188529408
+  },
+  {
+   "path": "sub-33/eeg/sub-33_task-Sleep_acq-psg_eeg.json",
+   "bytes": 498
+  },
+  {
+   "path": "sub-33/eeg/sub-33_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-33/eeg/sub-33_task-Sleep_acq-psg_events.tsv",
+   "bytes": 27427
+  },
+  {
+   "path": "sub-33/sub-33_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-34/eeg/sub-34_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-34/eeg/sub-34_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 129869824
+  },
+  {
+   "path": "sub-34/eeg/sub-34_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-34/eeg/sub-34_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-34/eeg/sub-34_task-Sleep_acq-headband_events.tsv",
+   "bytes": 27589
+  },
+  {
+   "path": "sub-34/eeg/sub-34_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 265
+  },
+  {
+   "path": "sub-34/eeg/sub-34_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 158729728
+  },
+  {
+   "path": "sub-34/eeg/sub-34_task-Sleep_acq-psg_eeg.json",
+   "bytes": 497
+  },
+  {
+   "path": "sub-34/eeg/sub-34_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-34/eeg/sub-34_task-Sleep_acq-psg_events.tsv",
+   "bytes": 29459
+  },
+  {
+   "path": "sub-34/sub-34_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-35/eeg/sub-35_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-35/eeg/sub-35_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 121105408
+  },
+  {
+   "path": "sub-35/eeg/sub-35_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-35/eeg/sub-35_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-35/eeg/sub-35_task-Sleep_acq-headband_events.tsv",
+   "bytes": 25701
+  },
+  {
+   "path": "sub-35/eeg/sub-35_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 327
+  },
+  {
+   "path": "sub-35/eeg/sub-35_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 188386048
+  },
+  {
+   "path": "sub-35/eeg/sub-35_task-Sleep_acq-psg_eeg.json",
+   "bytes": 498
+  },
+  {
+   "path": "sub-35/eeg/sub-35_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-35/eeg/sub-35_task-Sleep_acq-psg_events.tsv",
+   "bytes": 27437
+  },
+  {
+   "path": "sub-35/sub-35_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-36/eeg/sub-36_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-36/eeg/sub-36_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 123727360
+  },
+  {
+   "path": "sub-36/eeg/sub-36_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-36/eeg/sub-36_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-36/eeg/sub-36_task-Sleep_acq-headband_events.tsv",
+   "bytes": 26244
+  },
+  {
+   "path": "sub-36/eeg/sub-36_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 327
+  },
+  {
+   "path": "sub-36/eeg/sub-36_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 192464640
+  },
+  {
+   "path": "sub-36/eeg/sub-36_task-Sleep_acq-psg_eeg.json",
+   "bytes": 498
+  },
+  {
+   "path": "sub-36/eeg/sub-36_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-36/eeg/sub-36_task-Sleep_acq-psg_events.tsv",
+   "bytes": 28035
+  },
+  {
+   "path": "sub-36/sub-36_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-37/eeg/sub-37_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-37/eeg/sub-37_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 118492672
+  },
+  {
+   "path": "sub-37/eeg/sub-37_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-37/eeg/sub-37_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-37/eeg/sub-37_task-Sleep_acq-headband_events.tsv",
+   "bytes": 25095
+  },
+  {
+   "path": "sub-37/eeg/sub-37_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 327
+  },
+  {
+   "path": "sub-37/eeg/sub-37_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 184321792
+  },
+  {
+   "path": "sub-37/eeg/sub-37_task-Sleep_acq-psg_eeg.json",
+   "bytes": 498
+  },
+  {
+   "path": "sub-37/eeg/sub-37_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-37/eeg/sub-37_task-Sleep_acq-psg_events.tsv",
+   "bytes": 26819
+  },
+  {
+   "path": "sub-37/sub-37_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-38/eeg/sub-38_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-38/eeg/sub-38_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 117736960
+  },
+  {
+   "path": "sub-38/eeg/sub-38_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-38/eeg/sub-38_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-38/eeg/sub-38_task-Sleep_acq-headband_events.tsv",
+   "bytes": 24916
+  },
+  {
+   "path": "sub-38/eeg/sub-38_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 327
+  },
+  {
+   "path": "sub-38/eeg/sub-38_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 183146240
+  },
+  {
+   "path": "sub-38/eeg/sub-38_task-Sleep_acq-psg_eeg.json",
+   "bytes": 498
+  },
+  {
+   "path": "sub-38/eeg/sub-38_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-38/eeg/sub-38_task-Sleep_acq-psg_events.tsv",
+   "bytes": 26627
+  },
+  {
+   "path": "sub-38/sub-38_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-39/eeg/sub-39_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-39/eeg/sub-39_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 125400064
+  },
+  {
+   "path": "sub-39/eeg/sub-39_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-39/eeg/sub-39_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-39/eeg/sub-39_task-Sleep_acq-headband_events.tsv",
+   "bytes": 26596
+  },
+  {
+   "path": "sub-39/eeg/sub-39_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 327
+  },
+  {
+   "path": "sub-39/eeg/sub-39_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 195066624
+  },
+  {
+   "path": "sub-39/eeg/sub-39_task-Sleep_acq-psg_eeg.json",
+   "bytes": 498
+  },
+  {
+   "path": "sub-39/eeg/sub-39_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-39/eeg/sub-39_task-Sleep_acq-psg_events.tsv",
+   "bytes": 28425
+  },
+  {
+   "path": "sub-39/sub-39_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-4/eeg/sub-4_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-4/eeg/sub-4_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 147956224
+  },
+  {
+   "path": "sub-4/eeg/sub-4_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-4/eeg/sub-4_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-4/eeg/sub-4_task-Sleep_acq-headband_events.tsv",
+   "bytes": 31560
+  },
+  {
+   "path": "sub-4/eeg/sub-4_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 190
+  },
+  {
+   "path": "sub-4/eeg/sub-4_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 131516672
+  },
+  {
+   "path": "sub-4/eeg/sub-4_task-Sleep_acq-psg_eeg.json",
+   "bytes": 497
+  },
+  {
+   "path": "sub-4/eeg/sub-4_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-4/eeg/sub-4_task-Sleep_acq-psg_events.tsv",
+   "bytes": 33638
+  },
+  {
+   "path": "sub-4/sub-4_scans.tsv",
+   "bytes": 91
+  },
+  {
+   "path": "sub-40/eeg/sub-40_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-40/eeg/sub-40_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 115234816
+  },
+  {
+   "path": "sub-40/eeg/sub-40_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-40/eeg/sub-40_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-40/eeg/sub-40_task-Sleep_acq-headband_events.tsv",
+   "bytes": 24375
+  },
+  {
+   "path": "sub-40/eeg/sub-40_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 327
+  },
+  {
+   "path": "sub-40/eeg/sub-40_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 179254016
+  },
+  {
+   "path": "sub-40/eeg/sub-40_task-Sleep_acq-psg_eeg.json",
+   "bytes": 498
+  },
+  {
+   "path": "sub-40/eeg/sub-40_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-40/eeg/sub-40_task-Sleep_acq-psg_events.tsv",
+   "bytes": 26061
+  },
+  {
+   "path": "sub-40/sub-40_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-41/eeg/sub-41_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-41/eeg/sub-41_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 126731776
+  },
+  {
+   "path": "sub-41/eeg/sub-41_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-41/eeg/sub-41_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-41/eeg/sub-41_task-Sleep_acq-headband_events.tsv",
+   "bytes": 26865
+  },
+  {
+   "path": "sub-41/eeg/sub-41_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 327
+  },
+  {
+   "path": "sub-41/eeg/sub-41_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 197138176
+  },
+  {
+   "path": "sub-41/eeg/sub-41_task-Sleep_acq-psg_eeg.json",
+   "bytes": 498
+  },
+  {
+   "path": "sub-41/eeg/sub-41_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-41/eeg/sub-41_task-Sleep_acq-psg_events.tsv",
+   "bytes": 28707
+  },
+  {
+   "path": "sub-41/sub-41_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-42/eeg/sub-42_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-42/eeg/sub-42_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 123681280
+  },
+  {
+   "path": "sub-42/eeg/sub-42_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-42/eeg/sub-42_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-42/eeg/sub-42_task-Sleep_acq-headband_events.tsv",
+   "bytes": 26205
+  },
+  {
+   "path": "sub-42/eeg/sub-42_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 327
+  },
+  {
+   "path": "sub-42/eeg/sub-42_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 192392960
+  },
+  {
+   "path": "sub-42/eeg/sub-42_task-Sleep_acq-psg_eeg.json",
+   "bytes": 498
+  },
+  {
+   "path": "sub-42/eeg/sub-42_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-42/eeg/sub-42_task-Sleep_acq-psg_events.tsv",
+   "bytes": 28029
+  },
+  {
+   "path": "sub-42/sub-42_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-43/eeg/sub-43_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-43/eeg/sub-43_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 116147200
+  },
+  {
+   "path": "sub-43/eeg/sub-43_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-43/eeg/sub-43_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-43/eeg/sub-43_task-Sleep_acq-headband_events.tsv",
+   "bytes": 24589
+  },
+  {
+   "path": "sub-43/eeg/sub-43_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 327
+  },
+  {
+   "path": "sub-43/eeg/sub-43_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 180673280
+  },
+  {
+   "path": "sub-43/eeg/sub-43_task-Sleep_acq-psg_eeg.json",
+   "bytes": 498
+  },
+  {
+   "path": "sub-43/eeg/sub-43_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-43/eeg/sub-43_task-Sleep_acq-psg_events.tsv",
+   "bytes": 26289
+  },
+  {
+   "path": "sub-43/sub-43_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-44/eeg/sub-44_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-44/eeg/sub-44_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 117621760
+  },
+  {
+   "path": "sub-44/eeg/sub-44_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-44/eeg/sub-44_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-44/eeg/sub-44_task-Sleep_acq-headband_events.tsv",
+   "bytes": 24886
+  },
+  {
+   "path": "sub-44/eeg/sub-44_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 265
+  },
+  {
+   "path": "sub-44/eeg/sub-44_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 143759872
+  },
+  {
+   "path": "sub-44/eeg/sub-44_task-Sleep_acq-psg_eeg.json",
+   "bytes": 497
+  },
+  {
+   "path": "sub-44/eeg/sub-44_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-44/eeg/sub-44_task-Sleep_acq-psg_events.tsv",
+   "bytes": 26595
+  },
+  {
+   "path": "sub-44/sub-44_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-45/eeg/sub-45_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-45/eeg/sub-45_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 113552896
+  },
+  {
+   "path": "sub-45/eeg/sub-45_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-45/eeg/sub-45_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-45/eeg/sub-45_task-Sleep_acq-headband_events.tsv",
+   "bytes": 24016
+  },
+  {
+   "path": "sub-45/eeg/sub-45_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 265
+  },
+  {
+   "path": "sub-45/eeg/sub-45_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 138786816
+  },
+  {
+   "path": "sub-45/eeg/sub-45_task-Sleep_acq-psg_eeg.json",
+   "bytes": 497
+  },
+  {
+   "path": "sub-45/eeg/sub-45_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-45/eeg/sub-45_task-Sleep_acq-psg_events.tsv",
+   "bytes": 25684
+  },
+  {
+   "path": "sub-45/sub-45_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-46/eeg/sub-46_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-46/eeg/sub-46_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 133832704
+  },
+  {
+   "path": "sub-46/eeg/sub-46_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-46/eeg/sub-46_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-46/eeg/sub-46_task-Sleep_acq-headband_events.tsv",
+   "bytes": 28426
+  },
+  {
+   "path": "sub-46/eeg/sub-46_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 265
+  },
+  {
+   "path": "sub-46/eeg/sub-46_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 163573248
+  },
+  {
+   "path": "sub-46/eeg/sub-46_task-Sleep_acq-psg_eeg.json",
+   "bytes": 497
+  },
+  {
+   "path": "sub-46/eeg/sub-46_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-46/eeg/sub-46_task-Sleep_acq-psg_events.tsv",
+   "bytes": 30371
+  },
+  {
+   "path": "sub-46/sub-46_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-47/eeg/sub-47_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-47/eeg/sub-47_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 112262656
+  },
+  {
+   "path": "sub-47/eeg/sub-47_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-47/eeg/sub-47_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-47/eeg/sub-47_task-Sleep_acq-headband_events.tsv",
+   "bytes": 23746
+  },
+  {
+   "path": "sub-47/eeg/sub-47_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 327
+  },
+  {
+   "path": "sub-47/eeg/sub-47_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 174630656
+  },
+  {
+   "path": "sub-47/eeg/sub-47_task-Sleep_acq-psg_eeg.json",
+   "bytes": 498
+  },
+  {
+   "path": "sub-47/eeg/sub-47_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-47/eeg/sub-47_task-Sleep_acq-psg_events.tsv",
+   "bytes": 25392
+  },
+  {
+   "path": "sub-47/sub-47_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-48/eeg/sub-48_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-48/eeg/sub-48_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 145002496
+  },
+  {
+   "path": "sub-48/eeg/sub-48_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-48/eeg/sub-48_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-48/eeg/sub-48_task-Sleep_acq-headband_events.tsv",
+   "bytes": 30853
+  },
+  {
+   "path": "sub-48/eeg/sub-48_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 327
+  },
+  {
+   "path": "sub-48/eeg/sub-48_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 225559296
+  },
+  {
+   "path": "sub-48/eeg/sub-48_task-Sleep_acq-psg_eeg.json",
+   "bytes": 498
+  },
+  {
+   "path": "sub-48/eeg/sub-48_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-48/eeg/sub-48_task-Sleep_acq-psg_events.tsv",
+   "bytes": 32932
+  },
+  {
+   "path": "sub-48/sub-48_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-49/eeg/sub-49_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-49/eeg/sub-49_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 124810240
+  },
+  {
+   "path": "sub-49/eeg/sub-49_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-49/eeg/sub-49_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-49/eeg/sub-49_task-Sleep_acq-headband_events.tsv",
+   "bytes": 26475
+  },
+  {
+   "path": "sub-49/eeg/sub-49_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 265
+  },
+  {
+   "path": "sub-49/eeg/sub-49_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 152545792
+  },
+  {
+   "path": "sub-49/eeg/sub-49_task-Sleep_acq-psg_eeg.json",
+   "bytes": 497
+  },
+  {
+   "path": "sub-49/eeg/sub-49_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-49/eeg/sub-49_task-Sleep_acq-psg_events.tsv",
+   "bytes": 28259
+  },
+  {
+   "path": "sub-49/sub-49_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-5/eeg/sub-5_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 70
+  },
+  {
+   "path": "sub-5/eeg/sub-5_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 30903040
+  },
+  {
+   "path": "sub-5/eeg/sub-5_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-5/eeg/sub-5_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-5/eeg/sub-5_task-Sleep_acq-headband_events.tsv",
+   "bytes": 29536
+  },
+  {
+   "path": "sub-5/eeg/sub-5_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 252
+  },
+  {
+   "path": "sub-5/eeg/sub-5_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 169965568
+  },
+  {
+   "path": "sub-5/eeg/sub-5_task-Sleep_acq-psg_eeg.json",
+   "bytes": 498
+  },
+  {
+   "path": "sub-5/eeg/sub-5_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-5/eeg/sub-5_task-Sleep_acq-psg_events.tsv",
+   "bytes": 31555
+  },
+  {
+   "path": "sub-5/sub-5_scans.tsv",
+   "bytes": 91
+  },
+  {
+   "path": "sub-50/eeg/sub-50_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-50/eeg/sub-50_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 123773440
+  },
+  {
+   "path": "sub-50/eeg/sub-50_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-50/eeg/sub-50_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-50/eeg/sub-50_task-Sleep_acq-headband_events.tsv",
+   "bytes": 26241
+  },
+  {
+   "path": "sub-50/eeg/sub-50_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 327
+  },
+  {
+   "path": "sub-50/eeg/sub-50_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 192536320
+  },
+  {
+   "path": "sub-50/eeg/sub-50_task-Sleep_acq-psg_eeg.json",
+   "bytes": 498
+  },
+  {
+   "path": "sub-50/eeg/sub-50_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-50/eeg/sub-50_task-Sleep_acq-psg_events.tsv",
+   "bytes": 28046
+  },
+  {
+   "path": "sub-50/sub-50_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-51/eeg/sub-51_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-51/eeg/sub-51_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 123773440
+  },
+  {
+   "path": "sub-51/eeg/sub-51_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-51/eeg/sub-51_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-51/eeg/sub-51_task-Sleep_acq-headband_events.tsv",
+   "bytes": 26235
+  },
+  {
+   "path": "sub-51/eeg/sub-51_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 265
+  },
+  {
+   "path": "sub-51/eeg/sub-51_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 151278592
+  },
+  {
+   "path": "sub-51/eeg/sub-51_task-Sleep_acq-psg_eeg.json",
+   "bytes": 497
+  },
+  {
+   "path": "sub-51/eeg/sub-51_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-51/eeg/sub-51_task-Sleep_acq-psg_events.tsv",
+   "bytes": 28035
+  },
+  {
+   "path": "sub-51/sub-51_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-52/eeg/sub-52_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-52/eeg/sub-52_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 127699456
+  },
+  {
+   "path": "sub-52/eeg/sub-52_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-52/eeg/sub-52_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-52/eeg/sub-52_task-Sleep_acq-headband_events.tsv",
+   "bytes": 27075
+  },
+  {
+   "path": "sub-52/eeg/sub-52_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 265
+  },
+  {
+   "path": "sub-52/eeg/sub-52_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 156077056
+  },
+  {
+   "path": "sub-52/eeg/sub-52_task-Sleep_acq-psg_eeg.json",
+   "bytes": 497
+  },
+  {
+   "path": "sub-52/eeg/sub-52_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-52/eeg/sub-52_task-Sleep_acq-psg_events.tsv",
+   "bytes": 28931
+  },
+  {
+   "path": "sub-52/sub-52_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-53/eeg/sub-53_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-53/eeg/sub-53_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 92199424
+  },
+  {
+   "path": "sub-53/eeg/sub-53_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-53/eeg/sub-53_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-53/eeg/sub-53_task-Sleep_acq-headband_events.tsv",
+   "bytes": 19421
+  },
+  {
+   "path": "sub-53/eeg/sub-53_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 327
+  },
+  {
+   "path": "sub-53/eeg/sub-53_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 143421184
+  },
+  {
+   "path": "sub-53/eeg/sub-53_task-Sleep_acq-psg_eeg.json",
+   "bytes": 498
+  },
+  {
+   "path": "sub-53/eeg/sub-53_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-53/eeg/sub-53_task-Sleep_acq-psg_events.tsv",
+   "bytes": 20715
+  },
+  {
+   "path": "sub-53/sub-53_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-54/eeg/sub-54_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-54/eeg/sub-54_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 109318144
+  },
+  {
+   "path": "sub-54/eeg/sub-54_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-54/eeg/sub-54_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-54/eeg/sub-54_task-Sleep_acq-headband_events.tsv",
+   "bytes": 23086
+  },
+  {
+   "path": "sub-54/eeg/sub-54_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 327
+  },
+  {
+   "path": "sub-54/eeg/sub-54_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 170050304
+  },
+  {
+   "path": "sub-54/eeg/sub-54_task-Sleep_acq-psg_eeg.json",
+   "bytes": 498
+  },
+  {
+   "path": "sub-54/eeg/sub-54_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-54/eeg/sub-54_task-Sleep_acq-psg_events.tsv",
+   "bytes": 24680
+  },
+  {
+   "path": "sub-54/sub-54_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-55/eeg/sub-55_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-55/eeg/sub-55_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 148375552
+  },
+  {
+   "path": "sub-55/eeg/sub-55_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-55/eeg/sub-55_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-55/eeg/sub-55_task-Sleep_acq-headband_events.tsv",
+   "bytes": 31779
+  },
+  {
+   "path": "sub-55/eeg/sub-55_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 265
+  },
+  {
+   "path": "sub-55/eeg/sub-55_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 181347840
+  },
+  {
+   "path": "sub-55/eeg/sub-55_task-Sleep_acq-psg_eeg.json",
+   "bytes": 497
+  },
+  {
+   "path": "sub-55/eeg/sub-55_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-55/eeg/sub-55_task-Sleep_acq-psg_events.tsv",
+   "bytes": 33731
+  },
+  {
+   "path": "sub-55/sub-55_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-56/eeg/sub-56_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-56/eeg/sub-56_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 132468736
+  },
+  {
+   "path": "sub-56/eeg/sub-56_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-56/eeg/sub-56_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-56/eeg/sub-56_task-Sleep_acq-headband_events.tsv",
+   "bytes": 28137
+  },
+  {
+   "path": "sub-56/eeg/sub-56_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 265
+  },
+  {
+   "path": "sub-56/eeg/sub-56_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 161906176
+  },
+  {
+   "path": "sub-56/eeg/sub-56_task-Sleep_acq-psg_eeg.json",
+   "bytes": 497
+  },
+  {
+   "path": "sub-56/eeg/sub-56_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-56/eeg/sub-56_task-Sleep_acq-psg_events.tsv",
+   "bytes": 30051
+  },
+  {
+   "path": "sub-56/sub-56_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-57/eeg/sub-57_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-57/eeg/sub-57_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 142666240
+  },
+  {
+   "path": "sub-57/eeg/sub-57_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-57/eeg/sub-57_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-57/eeg/sub-57_task-Sleep_acq-headband_events.tsv",
+   "bytes": 30796
+  },
+  {
+   "path": "sub-57/eeg/sub-57_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 265
+  },
+  {
+   "path": "sub-57/eeg/sub-57_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 174369792
+  },
+  {
+   "path": "sub-57/eeg/sub-57_task-Sleep_acq-psg_eeg.json",
+   "bytes": 497
+  },
+  {
+   "path": "sub-57/eeg/sub-57_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-57/eeg/sub-57_task-Sleep_acq-psg_events.tsv",
+   "bytes": 32419
+  },
+  {
+   "path": "sub-57/sub-57_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-58/eeg/sub-58_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-58/eeg/sub-58_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 138989056
+  },
+  {
+   "path": "sub-58/eeg/sub-58_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-58/eeg/sub-58_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-58/eeg/sub-58_task-Sleep_acq-headband_events.tsv",
+   "bytes": 29541
+  },
+  {
+   "path": "sub-58/eeg/sub-58_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 265
+  },
+  {
+   "path": "sub-58/eeg/sub-58_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 169875456
+  },
+  {
+   "path": "sub-58/eeg/sub-58_task-Sleep_acq-psg_eeg.json",
+   "bytes": 497
+  },
+  {
+   "path": "sub-58/eeg/sub-58_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-58/eeg/sub-58_task-Sleep_acq-psg_events.tsv",
+   "bytes": 31555
+  },
+  {
+   "path": "sub-58/sub-58_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-59/eeg/sub-59_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-59/eeg/sub-59_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 146214400
+  },
+  {
+   "path": "sub-59/eeg/sub-59_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-59/eeg/sub-59_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-59/eeg/sub-59_task-Sleep_acq-headband_events.tsv",
+   "bytes": 31159
+  },
+  {
+   "path": "sub-59/eeg/sub-59_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 265
+  },
+  {
+   "path": "sub-59/eeg/sub-59_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 178706432
+  },
+  {
+   "path": "sub-59/eeg/sub-59_task-Sleep_acq-psg_eeg.json",
+   "bytes": 497
+  },
+  {
+   "path": "sub-59/eeg/sub-59_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-59/eeg/sub-59_task-Sleep_acq-psg_events.tsv",
+   "bytes": 33223
+  },
+  {
+   "path": "sub-59/sub-59_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-6/eeg/sub-6_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-6/eeg/sub-6_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 138062848
+  },
+  {
+   "path": "sub-6/eeg/sub-6_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-6/eeg/sub-6_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-6/eeg/sub-6_task-Sleep_acq-headband_events.tsv",
+   "bytes": 29334
+  },
+  {
+   "path": "sub-6/eeg/sub-6_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 190
+  },
+  {
+   "path": "sub-6/eeg/sub-6_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 122722560
+  },
+  {
+   "path": "sub-6/eeg/sub-6_task-Sleep_acq-psg_eeg.json",
+   "bytes": 497
+  },
+  {
+   "path": "sub-6/eeg/sub-6_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-6/eeg/sub-6_task-Sleep_acq-psg_events.tsv",
+   "bytes": 31331
+  },
+  {
+   "path": "sub-6/sub-6_scans.tsv",
+   "bytes": 91
+  },
+  {
+   "path": "sub-60/eeg/sub-60_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-60/eeg/sub-60_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 127575040
+  },
+  {
+   "path": "sub-60/eeg/sub-60_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-60/eeg/sub-60_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-60/eeg/sub-60_task-Sleep_acq-headband_events.tsv",
+   "bytes": 27045
+  },
+  {
+   "path": "sub-60/eeg/sub-60_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 265
+  },
+  {
+   "path": "sub-60/eeg/sub-60_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 155924992
+  },
+  {
+   "path": "sub-60/eeg/sub-60_task-Sleep_acq-psg_eeg.json",
+   "bytes": 497
+  },
+  {
+   "path": "sub-60/eeg/sub-60_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-60/eeg/sub-60_task-Sleep_acq-psg_events.tsv",
+   "bytes": 28899
+  },
+  {
+   "path": "sub-60/sub-60_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-61/eeg/sub-61_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-61/eeg/sub-61_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 131178496
+  },
+  {
+   "path": "sub-61/eeg/sub-61_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-61/eeg/sub-61_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-61/eeg/sub-61_task-Sleep_acq-headband_events.tsv",
+   "bytes": 28091
+  },
+  {
+   "path": "sub-61/eeg/sub-61_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 265
+  },
+  {
+   "path": "sub-61/eeg/sub-61_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 160329216
+  },
+  {
+   "path": "sub-61/eeg/sub-61_task-Sleep_acq-psg_eeg.json",
+   "bytes": 497
+  },
+  {
+   "path": "sub-61/eeg/sub-61_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-61/eeg/sub-61_task-Sleep_acq-psg_events.tsv",
+   "bytes": 29731
+  },
+  {
+   "path": "sub-61/sub-61_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-62/eeg/sub-62_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-62/eeg/sub-62_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 135910912
+  },
+  {
+   "path": "sub-62/eeg/sub-62_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-62/eeg/sub-62_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-62/eeg/sub-62_task-Sleep_acq-headband_events.tsv",
+   "bytes": 28899
+  },
+  {
+   "path": "sub-62/eeg/sub-62_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 265
+  },
+  {
+   "path": "sub-62/eeg/sub-62_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 166113280
+  },
+  {
+   "path": "sub-62/eeg/sub-62_task-Sleep_acq-psg_eeg.json",
+   "bytes": 497
+  },
+  {
+   "path": "sub-62/eeg/sub-62_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-62/eeg/sub-62_task-Sleep_acq-psg_events.tsv",
+   "bytes": 30851
+  },
+  {
+   "path": "sub-62/sub-62_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-63/eeg/sub-63_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-63/eeg/sub-63_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 122856448
+  },
+  {
+   "path": "sub-63/eeg/sub-63_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-63/eeg/sub-63_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-63/eeg/sub-63_task-Sleep_acq-headband_events.tsv",
+   "bytes": 26025
+  },
+  {
+   "path": "sub-63/eeg/sub-63_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 265
+  },
+  {
+   "path": "sub-63/eeg/sub-63_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 150157824
+  },
+  {
+   "path": "sub-63/eeg/sub-63_task-Sleep_acq-psg_eeg.json",
+   "bytes": 497
+  },
+  {
+   "path": "sub-63/eeg/sub-63_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-63/eeg/sub-63_task-Sleep_acq-psg_events.tsv",
+   "bytes": 27814
+  },
+  {
+   "path": "sub-63/sub-63_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-64/eeg/sub-64_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-64/eeg/sub-64_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 122492416
+  },
+  {
+   "path": "sub-64/eeg/sub-64_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-64/eeg/sub-64_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-64/eeg/sub-64_task-Sleep_acq-headband_events.tsv",
+   "bytes": 25965
+  },
+  {
+   "path": "sub-64/eeg/sub-64_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 265
+  },
+  {
+   "path": "sub-64/eeg/sub-64_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 149712896
+  },
+  {
+   "path": "sub-64/eeg/sub-64_task-Sleep_acq-psg_eeg.json",
+   "bytes": 497
+  },
+  {
+   "path": "sub-64/eeg/sub-64_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-64/eeg/sub-64_task-Sleep_acq-psg_events.tsv",
+   "bytes": 27751
+  },
+  {
+   "path": "sub-64/sub-64_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-65/eeg/sub-65_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-65/eeg/sub-65_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 124096000
+  },
+  {
+   "path": "sub-65/eeg/sub-65_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-65/eeg/sub-65_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-65/eeg/sub-65_task-Sleep_acq-headband_events.tsv",
+   "bytes": 26413
+  },
+  {
+   "path": "sub-65/eeg/sub-65_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 265
+  },
+  {
+   "path": "sub-65/eeg/sub-65_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 151672832
+  },
+  {
+   "path": "sub-65/eeg/sub-65_task-Sleep_acq-psg_eeg.json",
+   "bytes": 497
+  },
+  {
+   "path": "sub-65/eeg/sub-65_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-65/eeg/sub-65_task-Sleep_acq-psg_events.tsv",
+   "bytes": 28099
+  },
+  {
+   "path": "sub-65/sub-65_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-66/eeg/sub-66_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-66/eeg/sub-66_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 149513728
+  },
+  {
+   "path": "sub-66/eeg/sub-66_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-66/eeg/sub-66_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-66/eeg/sub-66_task-Sleep_acq-headband_events.tsv",
+   "bytes": 31849
+  },
+  {
+   "path": "sub-66/eeg/sub-66_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 265
+  },
+  {
+   "path": "sub-66/eeg/sub-66_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 182738944
+  },
+  {
+   "path": "sub-66/eeg/sub-66_task-Sleep_acq-psg_eeg.json",
+   "bytes": 497
+  },
+  {
+   "path": "sub-66/eeg/sub-66_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-66/eeg/sub-66_task-Sleep_acq-psg_events.tsv",
+   "bytes": 33991
+  },
+  {
+   "path": "sub-66/sub-66_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-67/eeg/sub-67_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-67/eeg/sub-67_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 127814656
+  },
+  {
+   "path": "sub-67/eeg/sub-67_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-67/eeg/sub-67_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-67/eeg/sub-67_task-Sleep_acq-headband_events.tsv",
+   "bytes": 27105
+  },
+  {
+   "path": "sub-67/eeg/sub-67_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 265
+  },
+  {
+   "path": "sub-67/eeg/sub-67_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 156217856
+  },
+  {
+   "path": "sub-67/eeg/sub-67_task-Sleep_acq-psg_eeg.json",
+   "bytes": 497
+  },
+  {
+   "path": "sub-67/eeg/sub-67_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-67/eeg/sub-67_task-Sleep_acq-psg_events.tsv",
+   "bytes": 28963
+  },
+  {
+   "path": "sub-67/sub-67_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-68/eeg/sub-68_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-68/eeg/sub-68_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 120372736
+  },
+  {
+   "path": "sub-68/eeg/sub-68_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-68/eeg/sub-68_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-68/eeg/sub-68_task-Sleep_acq-headband_events.tsv",
+   "bytes": 25486
+  },
+  {
+   "path": "sub-68/eeg/sub-68_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 265
+  },
+  {
+   "path": "sub-68/eeg/sub-68_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 147122176
+  },
+  {
+   "path": "sub-68/eeg/sub-68_task-Sleep_acq-psg_eeg.json",
+   "bytes": 497
+  },
+  {
+   "path": "sub-68/eeg/sub-68_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-68/eeg/sub-68_task-Sleep_acq-psg_events.tsv",
+   "bytes": 27242
+  },
+  {
+   "path": "sub-68/sub-68_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-69/eeg/sub-69_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-69/eeg/sub-69_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 138777088
+  },
+  {
+   "path": "sub-69/eeg/sub-69_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-69/eeg/sub-69_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-69/eeg/sub-69_task-Sleep_acq-headband_events.tsv",
+   "bytes": 29476
+  },
+  {
+   "path": "sub-69/eeg/sub-69_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 265
+  },
+  {
+   "path": "sub-69/eeg/sub-69_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 169616384
+  },
+  {
+   "path": "sub-69/eeg/sub-69_task-Sleep_acq-psg_eeg.json",
+   "bytes": 497
+  },
+  {
+   "path": "sub-69/eeg/sub-69_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-69/eeg/sub-69_task-Sleep_acq-psg_events.tsv",
+   "bytes": 31491
+  },
+  {
+   "path": "sub-69/sub-69_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-7/eeg/sub-7_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 70
+  },
+  {
+   "path": "sub-7/eeg/sub-7_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 28752640
+  },
+  {
+   "path": "sub-7/eeg/sub-7_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-7/eeg/sub-7_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-7/eeg/sub-7_task-Sleep_acq-headband_events.tsv",
+   "bytes": 27587
+  },
+  {
+   "path": "sub-7/eeg/sub-7_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 252
+  },
+  {
+   "path": "sub-7/eeg/sub-7_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 158138368
+  },
+  {
+   "path": "sub-7/eeg/sub-7_task-Sleep_acq-psg_eeg.json",
+   "bytes": 498
+  },
+  {
+   "path": "sub-7/eeg/sub-7_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-7/eeg/sub-7_task-Sleep_acq-psg_events.tsv",
+   "bytes": 29322
+  },
+  {
+   "path": "sub-7/sub-7_scans.tsv",
+   "bytes": 91
+  },
+  {
+   "path": "sub-70/eeg/sub-70_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-70/eeg/sub-70_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 122999296
+  },
+  {
+   "path": "sub-70/eeg/sub-70_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-70/eeg/sub-70_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-70/eeg/sub-70_task-Sleep_acq-headband_events.tsv",
+   "bytes": 26055
+  },
+  {
+   "path": "sub-70/eeg/sub-70_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 265
+  },
+  {
+   "path": "sub-70/eeg/sub-70_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 150332416
+  },
+  {
+   "path": "sub-70/eeg/sub-70_task-Sleep_acq-psg_eeg.json",
+   "bytes": 497
+  },
+  {
+   "path": "sub-70/eeg/sub-70_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-70/eeg/sub-70_task-Sleep_acq-psg_events.tsv",
+   "bytes": 27848
+  },
+  {
+   "path": "sub-70/sub-70_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-71/eeg/sub-71_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-71/eeg/sub-71_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 154024960
+  },
+  {
+   "path": "sub-71/eeg/sub-71_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-71/eeg/sub-71_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-71/eeg/sub-71_task-Sleep_acq-headband_events.tsv",
+   "bytes": 32877
+  },
+  {
+   "path": "sub-71/eeg/sub-71_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 265
+  },
+  {
+   "path": "sub-71/eeg/sub-71_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 188252672
+  },
+  {
+   "path": "sub-71/eeg/sub-71_task-Sleep_acq-psg_eeg.json",
+   "bytes": 497
+  },
+  {
+   "path": "sub-71/eeg/sub-71_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-71/eeg/sub-71_task-Sleep_acq-psg_events.tsv",
+   "bytes": 35043
+  },
+  {
+   "path": "sub-71/sub-71_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-72/eeg/sub-72_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-72/eeg/sub-72_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 133565440
+  },
+  {
+   "path": "sub-72/eeg/sub-72_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-72/eeg/sub-72_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-72/eeg/sub-72_task-Sleep_acq-headband_events.tsv",
+   "bytes": 28460
+  },
+  {
+   "path": "sub-72/eeg/sub-72_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 265
+  },
+  {
+   "path": "sub-72/eeg/sub-72_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 163246592
+  },
+  {
+   "path": "sub-72/eeg/sub-72_task-Sleep_acq-psg_eeg.json",
+   "bytes": 497
+  },
+  {
+   "path": "sub-72/eeg/sub-72_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-72/eeg/sub-72_task-Sleep_acq-psg_events.tsv",
+   "bytes": 30311
+  },
+  {
+   "path": "sub-72/sub-72_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-73/eeg/sub-73_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-73/eeg/sub-73_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 119607808
+  },
+  {
+   "path": "sub-73/eeg/sub-73_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-73/eeg/sub-73_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-73/eeg/sub-73_task-Sleep_acq-headband_events.tsv",
+   "bytes": 25336
+  },
+  {
+   "path": "sub-73/eeg/sub-73_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 265
+  },
+  {
+   "path": "sub-73/eeg/sub-73_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 146187264
+  },
+  {
+   "path": "sub-73/eeg/sub-73_task-Sleep_acq-psg_eeg.json",
+   "bytes": 497
+  },
+  {
+   "path": "sub-73/eeg/sub-73_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-73/eeg/sub-73_task-Sleep_acq-psg_events.tsv",
+   "bytes": 27080
+  },
+  {
+   "path": "sub-73/sub-73_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-74/eeg/sub-74_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-74/eeg/sub-74_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 133980160
+  },
+  {
+   "path": "sub-74/eeg/sub-74_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-74/eeg/sub-74_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-74/eeg/sub-74_task-Sleep_acq-headband_events.tsv",
+   "bytes": 28455
+  },
+  {
+   "path": "sub-74/eeg/sub-74_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 265
+  },
+  {
+   "path": "sub-74/eeg/sub-74_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 163753472
+  },
+  {
+   "path": "sub-74/eeg/sub-74_task-Sleep_acq-psg_eeg.json",
+   "bytes": 497
+  },
+  {
+   "path": "sub-74/eeg/sub-74_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-74/eeg/sub-74_task-Sleep_acq-psg_events.tsv",
+   "bytes": 30403
+  },
+  {
+   "path": "sub-74/sub-74_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-75/eeg/sub-75_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-75/eeg/sub-75_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 119414272
+  },
+  {
+   "path": "sub-75/eeg/sub-75_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-75/eeg/sub-75_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-75/eeg/sub-75_task-Sleep_acq-headband_events.tsv",
+   "bytes": 25352
+  },
+  {
+   "path": "sub-75/eeg/sub-75_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 265
+  },
+  {
+   "path": "sub-75/eeg/sub-75_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 145950720
+  },
+  {
+   "path": "sub-75/eeg/sub-75_task-Sleep_acq-psg_eeg.json",
+   "bytes": 497
+  },
+  {
+   "path": "sub-75/eeg/sub-75_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-75/eeg/sub-75_task-Sleep_acq-psg_events.tsv",
+   "bytes": 27020
+  },
+  {
+   "path": "sub-75/sub-75_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-76/eeg/sub-76_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-76/eeg/sub-76_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 144901120
+  },
+  {
+   "path": "sub-76/eeg/sub-76_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-76/eeg/sub-76_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-76/eeg/sub-76_task-Sleep_acq-headband_events.tsv",
+   "bytes": 30962
+  },
+  {
+   "path": "sub-76/eeg/sub-76_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 265
+  },
+  {
+   "path": "sub-76/eeg/sub-76_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 177101312
+  },
+  {
+   "path": "sub-76/eeg/sub-76_task-Sleep_acq-psg_eeg.json",
+   "bytes": 497
+  },
+  {
+   "path": "sub-76/eeg/sub-76_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-76/eeg/sub-76_task-Sleep_acq-psg_events.tsv",
+   "bytes": 32931
+  },
+  {
+   "path": "sub-76/sub-76_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-77/eeg/sub-77_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-77/eeg/sub-77_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 149075968
+  },
+  {
+   "path": "sub-77/eeg/sub-77_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-77/eeg/sub-77_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-77/eeg/sub-77_task-Sleep_acq-headband_events.tsv",
+   "bytes": 31990
+  },
+  {
+   "path": "sub-77/eeg/sub-77_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 265
+  },
+  {
+   "path": "sub-77/eeg/sub-77_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 182203904
+  },
+  {
+   "path": "sub-77/eeg/sub-77_task-Sleep_acq-psg_eeg.json",
+   "bytes": 497
+  },
+  {
+   "path": "sub-77/eeg/sub-77_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-77/eeg/sub-77_task-Sleep_acq-psg_events.tsv",
+   "bytes": 33891
+  },
+  {
+   "path": "sub-77/sub-77_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-78/eeg/sub-78_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-78/eeg/sub-78_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 121778176
+  },
+  {
+   "path": "sub-78/eeg/sub-78_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-78/eeg/sub-78_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-78/eeg/sub-78_task-Sleep_acq-headband_events.tsv",
+   "bytes": 25790
+  },
+  {
+   "path": "sub-78/eeg/sub-78_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 265
+  },
+  {
+   "path": "sub-78/eeg/sub-78_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 148839936
+  },
+  {
+   "path": "sub-78/eeg/sub-78_task-Sleep_acq-psg_eeg.json",
+   "bytes": 497
+  },
+  {
+   "path": "sub-78/eeg/sub-78_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-78/eeg/sub-78_task-Sleep_acq-psg_events.tsv",
+   "bytes": 27555
+  },
+  {
+   "path": "sub-78/sub-78_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-79/eeg/sub-79_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-79/eeg/sub-79_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 142951936
+  },
+  {
+   "path": "sub-79/eeg/sub-79_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-79/eeg/sub-79_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-79/eeg/sub-79_task-Sleep_acq-headband_events.tsv",
+   "bytes": 30406
+  },
+  {
+   "path": "sub-79/eeg/sub-79_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 265
+  },
+  {
+   "path": "sub-79/eeg/sub-79_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 174718976
+  },
+  {
+   "path": "sub-79/eeg/sub-79_task-Sleep_acq-psg_eeg.json",
+   "bytes": 497
+  },
+  {
+   "path": "sub-79/eeg/sub-79_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-79/eeg/sub-79_task-Sleep_acq-psg_events.tsv",
+   "bytes": 32493
+  },
+  {
+   "path": "sub-79/sub-79_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-8/eeg/sub-8_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-8/eeg/sub-8_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 56634880
+  },
+  {
+   "path": "sub-8/eeg/sub-8_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-8/eeg/sub-8_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-8/eeg/sub-8_task-Sleep_acq-headband_events.tsv",
+   "bytes": 11655
+  },
+  {
+   "path": "sub-8/eeg/sub-8_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 190
+  },
+  {
+   "path": "sub-8/eeg/sub-8_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 50342144
+  },
+  {
+   "path": "sub-8/eeg/sub-8_task-Sleep_acq-psg_eeg.json",
+   "bytes": 497
+  },
+  {
+   "path": "sub-8/eeg/sub-8_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-8/eeg/sub-8_task-Sleep_acq-psg_events.tsv",
+   "bytes": 12483
+  },
+  {
+   "path": "sub-8/sub-8_scans.tsv",
+   "bytes": 91
+  },
+  {
+   "path": "sub-80/eeg/sub-80_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-80/eeg/sub-80_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 113479168
+  },
+  {
+   "path": "sub-80/eeg/sub-80_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-80/eeg/sub-80_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-80/eeg/sub-80_task-Sleep_acq-headband_events.tsv",
+   "bytes": 23985
+  },
+  {
+   "path": "sub-80/eeg/sub-80_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 265
+  },
+  {
+   "path": "sub-80/eeg/sub-80_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 138696704
+  },
+  {
+   "path": "sub-80/eeg/sub-80_task-Sleep_acq-psg_eeg.json",
+   "bytes": 497
+  },
+  {
+   "path": "sub-80/eeg/sub-80_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-80/eeg/sub-80_task-Sleep_acq-psg_events.tsv",
+   "bytes": 25635
+  },
+  {
+   "path": "sub-80/sub-80_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-81/eeg/sub-81_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-81/eeg/sub-81_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 125206528
+  },
+  {
+   "path": "sub-81/eeg/sub-81_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-81/eeg/sub-81_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-81/eeg/sub-81_task-Sleep_acq-headband_events.tsv",
+   "bytes": 26538
+  },
+  {
+   "path": "sub-81/eeg/sub-81_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 265
+  },
+  {
+   "path": "sub-81/eeg/sub-81_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 153030144
+  },
+  {
+   "path": "sub-81/eeg/sub-81_task-Sleep_acq-psg_eeg.json",
+   "bytes": 497
+  },
+  {
+   "path": "sub-81/eeg/sub-81_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-81/eeg/sub-81_task-Sleep_acq-psg_events.tsv",
+   "bytes": 28355
+  },
+  {
+   "path": "sub-81/sub-81_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-82/eeg/sub-82_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-82/eeg/sub-82_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 122865664
+  },
+  {
+   "path": "sub-82/eeg/sub-82_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-82/eeg/sub-82_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-82/eeg/sub-82_task-Sleep_acq-headband_events.tsv",
+   "bytes": 26047
+  },
+  {
+   "path": "sub-82/eeg/sub-82_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 265
+  },
+  {
+   "path": "sub-82/eeg/sub-82_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 150169088
+  },
+  {
+   "path": "sub-82/eeg/sub-82_task-Sleep_acq-psg_eeg.json",
+   "bytes": 497
+  },
+  {
+   "path": "sub-82/eeg/sub-82_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-82/eeg/sub-82_task-Sleep_acq-psg_events.tsv",
+   "bytes": 27812
+  },
+  {
+   "path": "sub-82/sub-82_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-83/eeg/sub-83_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-83/eeg/sub-83_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 125980672
+  },
+  {
+   "path": "sub-83/eeg/sub-83_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-83/eeg/sub-83_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-83/eeg/sub-83_task-Sleep_acq-headband_events.tsv",
+   "bytes": 26715
+  },
+  {
+   "path": "sub-83/eeg/sub-83_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 265
+  },
+  {
+   "path": "sub-83/eeg/sub-83_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 153976320
+  },
+  {
+   "path": "sub-83/eeg/sub-83_task-Sleep_acq-psg_eeg.json",
+   "bytes": 497
+  },
+  {
+   "path": "sub-83/eeg/sub-83_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-83/eeg/sub-83_task-Sleep_acq-psg_events.tsv",
+   "bytes": 28548
+  },
+  {
+   "path": "sub-83/sub-83_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-84/eeg/sub-84_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-84/eeg/sub-84_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 140698624
+  },
+  {
+   "path": "sub-84/eeg/sub-84_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-84/eeg/sub-84_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-84/eeg/sub-84_task-Sleep_acq-headband_events.tsv",
+   "bytes": 29967
+  },
+  {
+   "path": "sub-84/eeg/sub-84_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 265
+  },
+  {
+   "path": "sub-84/eeg/sub-84_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 171964928
+  },
+  {
+   "path": "sub-84/eeg/sub-84_task-Sleep_acq-psg_eeg.json",
+   "bytes": 497
+  },
+  {
+   "path": "sub-84/eeg/sub-84_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-84/eeg/sub-84_task-Sleep_acq-psg_events.tsv",
+   "bytes": 31939
+  },
+  {
+   "path": "sub-84/sub-84_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-85/eeg/sub-85_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-85/eeg/sub-85_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 149504512
+  },
+  {
+   "path": "sub-85/eeg/sub-85_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-85/eeg/sub-85_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-85/eeg/sub-85_task-Sleep_acq-headband_events.tsv",
+   "bytes": 31853
+  },
+  {
+   "path": "sub-85/eeg/sub-85_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 265
+  },
+  {
+   "path": "sub-85/eeg/sub-85_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 182727680
+  },
+  {
+   "path": "sub-85/eeg/sub-85_task-Sleep_acq-psg_eeg.json",
+   "bytes": 497
+  },
+  {
+   "path": "sub-85/eeg/sub-85_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-85/eeg/sub-85_task-Sleep_acq-psg_events.tsv",
+   "bytes": 34169
+  },
+  {
+   "path": "sub-85/sub-85_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-86/eeg/sub-86_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-86/eeg/sub-86_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 130579456
+  },
+  {
+   "path": "sub-86/eeg/sub-86_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-86/eeg/sub-86_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-86/eeg/sub-86_task-Sleep_acq-headband_events.tsv",
+   "bytes": 27706
+  },
+  {
+   "path": "sub-86/eeg/sub-86_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 265
+  },
+  {
+   "path": "sub-86/eeg/sub-86_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 159597056
+  },
+  {
+   "path": "sub-86/eeg/sub-86_task-Sleep_acq-psg_eeg.json",
+   "bytes": 497
+  },
+  {
+   "path": "sub-86/eeg/sub-86_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-86/eeg/sub-86_task-Sleep_acq-psg_events.tsv",
+   "bytes": 29603
+  },
+  {
+   "path": "sub-86/sub-86_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-87/eeg/sub-87_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-87/eeg/sub-87_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 132431872
+  },
+  {
+   "path": "sub-87/eeg/sub-87_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-87/eeg/sub-87_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-87/eeg/sub-87_task-Sleep_acq-headband_events.tsv",
+   "bytes": 28096
+  },
+  {
+   "path": "sub-87/eeg/sub-87_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 265
+  },
+  {
+   "path": "sub-87/eeg/sub-87_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 161861120
+  },
+  {
+   "path": "sub-87/eeg/sub-87_task-Sleep_acq-psg_eeg.json",
+   "bytes": 497
+  },
+  {
+   "path": "sub-87/eeg/sub-87_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-87/eeg/sub-87_task-Sleep_acq-psg_events.tsv",
+   "bytes": 30019
+  },
+  {
+   "path": "sub-87/sub-87_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-88/eeg/sub-88_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-88/eeg/sub-88_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 124026880
+  },
+  {
+   "path": "sub-88/eeg/sub-88_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-88/eeg/sub-88_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-88/eeg/sub-88_task-Sleep_acq-headband_events.tsv",
+   "bytes": 26431
+  },
+  {
+   "path": "sub-88/eeg/sub-88_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 265
+  },
+  {
+   "path": "sub-88/eeg/sub-88_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 151588352
+  },
+  {
+   "path": "sub-88/eeg/sub-88_task-Sleep_acq-psg_eeg.json",
+   "bytes": 497
+  },
+  {
+   "path": "sub-88/eeg/sub-88_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-88/eeg/sub-88_task-Sleep_acq-psg_events.tsv",
+   "bytes": 28099
+  },
+  {
+   "path": "sub-88/sub-88_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-89/eeg/sub-89_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-89/eeg/sub-89_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 134745088
+  },
+  {
+   "path": "sub-89/eeg/sub-89_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-89/eeg/sub-89_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-89/eeg/sub-89_task-Sleep_acq-headband_events.tsv",
+   "bytes": 28608
+  },
+  {
+   "path": "sub-89/eeg/sub-89_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 265
+  },
+  {
+   "path": "sub-89/eeg/sub-89_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 164688384
+  },
+  {
+   "path": "sub-89/eeg/sub-89_task-Sleep_acq-psg_eeg.json",
+   "bytes": 497
+  },
+  {
+   "path": "sub-89/eeg/sub-89_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-89/eeg/sub-89_task-Sleep_acq-psg_events.tsv",
+   "bytes": 30563
+  },
+  {
+   "path": "sub-89/sub-89_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-9/eeg/sub-9_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 70
+  },
+  {
+   "path": "sub-9/eeg/sub-9_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 32431872
+  },
+  {
+   "path": "sub-9/eeg/sub-9_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-9/eeg/sub-9_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-9/eeg/sub-9_task-Sleep_acq-headband_events.tsv",
+   "bytes": 31036
+  },
+  {
+   "path": "sub-9/eeg/sub-9_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 252
+  },
+  {
+   "path": "sub-9/eeg/sub-9_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 178374144
+  },
+  {
+   "path": "sub-9/eeg/sub-9_task-Sleep_acq-psg_eeg.json",
+   "bytes": 498
+  },
+  {
+   "path": "sub-9/eeg/sub-9_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-9/eeg/sub-9_task-Sleep_acq-psg_events.tsv",
+   "bytes": 33155
+  },
+  {
+   "path": "sub-9/sub-9_scans.tsv",
+   "bytes": 91
+  },
+  {
+   "path": "sub-90/eeg/sub-90_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-90/eeg/sub-90_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 143785984
+  },
+  {
+   "path": "sub-90/eeg/sub-90_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-90/eeg/sub-90_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-90/eeg/sub-90_task-Sleep_acq-headband_events.tsv",
+   "bytes": 30644
+  },
+  {
+   "path": "sub-90/eeg/sub-90_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 265
+  },
+  {
+   "path": "sub-90/eeg/sub-90_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 175738368
+  },
+  {
+   "path": "sub-90/eeg/sub-90_task-Sleep_acq-psg_eeg.json",
+   "bytes": 497
+  },
+  {
+   "path": "sub-90/eeg/sub-90_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-90/eeg/sub-90_task-Sleep_acq-psg_events.tsv",
+   "bytes": 32680
+  },
+  {
+   "path": "sub-90/sub-90_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-91/eeg/sub-91_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-91/eeg/sub-91_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 141256192
+  },
+  {
+   "path": "sub-91/eeg/sub-91_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-91/eeg/sub-91_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-91/eeg/sub-91_task-Sleep_acq-headband_events.tsv",
+   "bytes": 30015
+  },
+  {
+   "path": "sub-91/eeg/sub-91_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 265
+  },
+  {
+   "path": "sub-91/eeg/sub-91_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 172646400
+  },
+  {
+   "path": "sub-91/eeg/sub-91_task-Sleep_acq-psg_eeg.json",
+   "bytes": 497
+  },
+  {
+   "path": "sub-91/eeg/sub-91_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-91/eeg/sub-91_task-Sleep_acq-psg_events.tsv",
+   "bytes": 32067
+  },
+  {
+   "path": "sub-91/sub-91_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-92/eeg/sub-92_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-92/eeg/sub-92_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 136675840
+  },
+  {
+   "path": "sub-92/eeg/sub-92_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-92/eeg/sub-92_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-92/eeg/sub-92_task-Sleep_acq-headband_events.tsv",
+   "bytes": 29025
+  },
+  {
+   "path": "sub-92/eeg/sub-92_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 265
+  },
+  {
+   "path": "sub-92/eeg/sub-92_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 167048192
+  },
+  {
+   "path": "sub-92/eeg/sub-92_task-Sleep_acq-psg_eeg.json",
+   "bytes": 497
+  },
+  {
+   "path": "sub-92/eeg/sub-92_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-92/eeg/sub-92_task-Sleep_acq-psg_events.tsv",
+   "bytes": 31012
+  },
+  {
+   "path": "sub-92/sub-92_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-93/eeg/sub-93_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-93/eeg/sub-93_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 121510912
+  },
+  {
+   "path": "sub-93/eeg/sub-93_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-93/eeg/sub-93_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-93/eeg/sub-93_task-Sleep_acq-headband_events.tsv",
+   "bytes": 25725
+  },
+  {
+   "path": "sub-93/eeg/sub-93_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 265
+  },
+  {
+   "path": "sub-93/eeg/sub-93_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 148513280
+  },
+  {
+   "path": "sub-93/eeg/sub-93_task-Sleep_acq-psg_eeg.json",
+   "bytes": 497
+  },
+  {
+   "path": "sub-93/eeg/sub-93_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-93/eeg/sub-93_task-Sleep_acq-psg_events.tsv",
+   "bytes": 27491
+  },
+  {
+   "path": "sub-93/sub-93_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-94/eeg/sub-94_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-94/eeg/sub-94_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 138975232
+  },
+  {
+   "path": "sub-94/eeg/sub-94_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-94/eeg/sub-94_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-94/eeg/sub-94_task-Sleep_acq-headband_events.tsv",
+   "bytes": 29556
+  },
+  {
+   "path": "sub-94/eeg/sub-94_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 265
+  },
+  {
+   "path": "sub-94/eeg/sub-94_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 169858560
+  },
+  {
+   "path": "sub-94/eeg/sub-94_task-Sleep_acq-psg_eeg.json",
+   "bytes": 497
+  },
+  {
+   "path": "sub-94/eeg/sub-94_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-94/eeg/sub-94_task-Sleep_acq-psg_events.tsv",
+   "bytes": 31555
+  },
+  {
+   "path": "sub-94/sub-94_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-95/eeg/sub-95_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-95/eeg/sub-95_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 135947776
+  },
+  {
+   "path": "sub-95/eeg/sub-95_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-95/eeg/sub-95_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-95/eeg/sub-95_task-Sleep_acq-headband_events.tsv",
+   "bytes": 28889
+  },
+  {
+   "path": "sub-95/eeg/sub-95_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 265
+  },
+  {
+   "path": "sub-95/eeg/sub-95_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 166158336
+  },
+  {
+   "path": "sub-95/eeg/sub-95_task-Sleep_acq-psg_eeg.json",
+   "bytes": 497
+  },
+  {
+   "path": "sub-95/eeg/sub-95_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-95/eeg/sub-95_task-Sleep_acq-psg_events.tsv",
+   "bytes": 30852
+  },
+  {
+   "path": "sub-95/sub-95_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-96/eeg/sub-96_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-96/eeg/sub-96_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 134284288
+  },
+  {
+   "path": "sub-96/eeg/sub-96_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-96/eeg/sub-96_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-96/eeg/sub-96_task-Sleep_acq-headband_events.tsv",
+   "bytes": 28563
+  },
+  {
+   "path": "sub-96/eeg/sub-96_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 265
+  },
+  {
+   "path": "sub-96/eeg/sub-96_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 164125184
+  },
+  {
+   "path": "sub-96/eeg/sub-96_task-Sleep_acq-psg_eeg.json",
+   "bytes": 497
+  },
+  {
+   "path": "sub-96/eeg/sub-96_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-96/eeg/sub-96_task-Sleep_acq-psg_events.tsv",
+   "bytes": 30467
+  },
+  {
+   "path": "sub-96/sub-96_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-97/eeg/sub-97_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-97/eeg/sub-97_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 150011392
+  },
+  {
+   "path": "sub-97/eeg/sub-97_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-97/eeg/sub-97_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-97/eeg/sub-97_task-Sleep_acq-headband_events.tsv",
+   "bytes": 31983
+  },
+  {
+   "path": "sub-97/eeg/sub-97_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 265
+  },
+  {
+   "path": "sub-97/eeg/sub-97_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 183347200
+  },
+  {
+   "path": "sub-97/eeg/sub-97_task-Sleep_acq-psg_eeg.json",
+   "bytes": 497
+  },
+  {
+   "path": "sub-97/eeg/sub-97_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-97/eeg/sub-97_task-Sleep_acq-psg_events.tsv",
+   "bytes": 34115
+  },
+  {
+   "path": "sub-97/sub-97_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-98/eeg/sub-98_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-98/eeg/sub-98_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 124566016
+  },
+  {
+   "path": "sub-98/eeg/sub-98_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-98/eeg/sub-98_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-98/eeg/sub-98_task-Sleep_acq-headband_events.tsv",
+   "bytes": 26415
+  },
+  {
+   "path": "sub-98/eeg/sub-98_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 265
+  },
+  {
+   "path": "sub-98/eeg/sub-98_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 152247296
+  },
+  {
+   "path": "sub-98/eeg/sub-98_task-Sleep_acq-psg_eeg.json",
+   "bytes": 497
+  },
+  {
+   "path": "sub-98/eeg/sub-98_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-98/eeg/sub-98_task-Sleep_acq-psg_events.tsv",
+   "bytes": 28227
+  },
+  {
+   "path": "sub-98/sub-98_scans.tsv",
+   "bytes": 93
+  },
+  {
+   "path": "sub-99/eeg/sub-99_task-Sleep_acq-headband_channels.tsv",
+   "bytes": 237
+  },
+  {
+   "path": "sub-99/eeg/sub-99_task-Sleep_acq-headband_eeg.edf",
+   "bytes": 147753472
+  },
+  {
+   "path": "sub-99/eeg/sub-99_task-Sleep_acq-headband_eeg.json",
+   "bytes": 513
+  },
+  {
+   "path": "sub-99/eeg/sub-99_task-Sleep_acq-headband_events.json",
+   "bytes": 837
+  },
+  {
+   "path": "sub-99/eeg/sub-99_task-Sleep_acq-headband_events.tsv",
+   "bytes": 31453
+  },
+  {
+   "path": "sub-99/eeg/sub-99_task-Sleep_acq-psg_channels.tsv",
+   "bytes": 265
+  },
+  {
+   "path": "sub-99/eeg/sub-99_task-Sleep_acq-psg_eeg.edf",
+   "bytes": 180587520
+  },
+  {
+   "path": "sub-99/eeg/sub-99_task-Sleep_acq-psg_eeg.json",
+   "bytes": 497
+  },
+  {
+   "path": "sub-99/eeg/sub-99_task-Sleep_acq-psg_events.json",
+   "bytes": 1022
+  },
+  {
+   "path": "sub-99/eeg/sub-99_task-Sleep_acq-psg_events.tsv",
+   "bytes": 33579
+  },
+  {
+   "path": "sub-99/sub-99_scans.tsv",
+   "bytes": 93
+  }
+ ]
+}

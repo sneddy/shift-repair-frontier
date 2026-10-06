@@ -1,0 +1,7 @@
+numpy==1.26.4
+scipy==1.16.3
+matplotlib==3.10.5
+scikit-learn==1.7.1   # INLP (erasers/inlp_rlace.py)
+torch==2.7.1          # R-LACE (erasers/inlp_rlace.py)
+mne==1.11.0           # reading the BOAS EDF files (boas/features.py)
+curryreader==0.1.2    # Neuroscan Curry files (flex_from_osf/, only to rebuild the Flex inputs)

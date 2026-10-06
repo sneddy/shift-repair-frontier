@@ -1,0 +1,48 @@
+{
+  "version": "2026-09-15",
+  "alpha": 0.05,
+  "epsilon": 0.5,
+  "isotropic": {
+    "dimensions": [
+      16,
+      64,
+      256
+    ],
+    "lambda_over_d": [
+      0,
+      0.0625,
+      0.25,
+      0.5,
+      1,
+      2,
+      4,
+      16
+    ],
+    "seeds": [
+      2026091501,
+      2026091502
+    ],
+    "draws_per_seed_cell": 4096
+  },
+  "unknown_scale": {
+    "dimensions": [
+      4,
+      16,
+      64
+    ],
+    "pair_counts": [
+      2,
+      4,
+      16
+    ],
+    "lambda_over_d": [
+      0,
+      0.5,
+      1,
+      2,
+      4
+    ],
+    "seed": 2026091521,
+    "draws_per_cell": 4096
+  }
+}

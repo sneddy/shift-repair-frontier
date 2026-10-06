@@ -1,0 +1,14 @@
+{
+  "unique_conditions": 120,
+  "independent_calibration_sets": 61440,
+  "fitted_maps": 184320,
+  "shared_risk_counting": "one observation per calibration set; methods not independent",
+  "risk_rmse": 0.003914968328641048,
+  "max_absolute_risk_error": 0.014717055379407817,
+  "max_absolute_standardized_error": 2.6727683775805633,
+  "mean_standardized_error": -0.11285444353938233,
+  "pointwise_normal_95_coverage": 0.9333333333333333,
+  "coverage_note": "diagnostic using exact theoretical MC SE; simultaneous coverage is not asserted",
+  "max_residual_computation_error": 3.774758283725532e-15,
+  "max_covariance_support_error": 6.532243126092811e-15
+}

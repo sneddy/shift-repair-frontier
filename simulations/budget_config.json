@@ -1,0 +1,12 @@
+{
+  "version": "expected-budget-2026-09-15",
+  "dimension": 16,
+  "kappa": 8.0,
+  "seed": 2026091561,
+  "draws": 131072,
+  "budgets": [0, 0.1, 0.25, 0.5, 0.75, 1, 2, 3, 4, 6, 8, 12, 15, 16],
+  "figure_grid_points": 321,
+  "radial_quadrature_bins": 8192,
+  "cost_distribution_budget": 4,
+  "rotational_checks": 2
+}

@@ -1,0 +1,38 @@
+{
+  "dimensions": [
+    16,
+    32
+  ],
+  "pair_count_over_dimension": [
+    0.5,
+    1.0,
+    2.0,
+    4.0
+  ],
+  "nullities": [
+    1,
+    4
+  ],
+  "repetitions_per_cell": 256,
+  "theta": 1.0,
+  "contrast_noise_variance": 1.0,
+  "master_seed": 20260922,
+  "rlace_iterations": 2000,
+  "rlace_learning_rate": 0.05,
+  "rlace_weight_decay": 0.0001,
+  "rlace_batch": "all 2N calibration endpoints",
+  "rlace_checkpoint_rule": "final iterate, rounded to fixed rank k",
+  "rlace_precision": "float64",
+  "inlp_classifier": "sklearn LogisticRegression, L2 penalty, C=1, fit_intercept=True, solver=lbfgs, tol=1e-9, max_iter=1000",
+  "inlp_stopping": "exactly k successive nullspace steps; no validation/accuracy stopping",
+  "direction": "independent uniform sphere draw per replicate",
+  "comparison": "same paired calibration across all methods; no separate development data",
+  "versions": {
+    "python": "3.12.13",
+    "numpy": "1.26.4",
+    "scipy": "1.16.3",
+    "sklearn": "1.7.1",
+    "torch": "2.7.1"
+  },
+  "script_sha256": "4a4cb749771aa603b5b139ca9caecf117c8de320561d56b6ac059fffc0acc02f"
+}

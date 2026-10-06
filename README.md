@@ -12,7 +12,7 @@ other folders and redraws all figures of the paper.
 | `erasers/` | MP, SAL and LEACE on Gaussian paired endpoints; INLP and R-LACE at a fixed number of deletions; semisynthetic check with real represented content | `python gaussian_content.py`; `python inlp_rlace.py` then `python inlp_rlace_summary.py`; `python real_content.py` | 5 s; 8 min; 1 min |
 | `anisotropy/` | Residual of the empirical-direction editor under anisotropic content | `python anisotropic.py` | 2 s |
 | `boas/` | Wearable versus clinical sleep EEG (BOAS) and the Neuroscan/Flex replication | see `boas/README.md` (data download, features, analyses) | hours (download), minutes (analyses) |
-| `flex_from_osf/` | Rebuilds the Neuroscan/Flex inputs (`boas/flex_pairs.npz`, raw pools of `erasers/real_content_pools.npz`) from the public recordings | see `flex_from_osf/README.md` | download (4.7 GB), then ~1 min |
+| `flex_from_osf/` | Rebuilds the Neuroscan/Flex inputs (`boas/flex_pairs.npz`, `erasers/real_content_pools.npz`) from the public recordings | see `flex_from_osf/README.md` | download (4.7 GB), then ~2 min |
 | `figures/` | All figures of the paper | `python make_figures.py` | 10 s |
 
 Set `OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1` for bit-identical reruns. All seeds are fixed in the
@@ -44,20 +44,18 @@ run: delete `results/complete.json` (and the corresponding `*_results/complete.j
 The real-content pools (`erasers/real_content_pools.npz`) are whitened paired midpoints of the
 Neuroscan/Flex recordings of Williams et al. (2020; https://osf.io/zj3f5/): raw N170, frozen EEGPT N170
 and raw MMN features reduced to 16 or 64 principal coordinates, each with mean zero and identity covariance.
+
 ## Neuroscan/Flex inputs
 
 The OSF release of the Neuroscan/Flex recordings states no license, so features derived from it are not
 included here: neither the real-content pools nor `boas/flex_pairs.npz` (fifteen 50-ms averages per channel
 of the retained N170 pairs). The saved results of both analyses are included, so every figure and number
 can be redrawn without them. To rerun the analyses, rebuild the inputs from the public recordings with
-`flex_from_osf/` (4.7 GB download) and copy them into place:
+`flex_from_osf/` (4.7 GB download; the frozen-EEGPT pool also downloads the public
+`braindecode/eegpt-pretrained` encoder) and copy them into place:
 
     cp flex_from_osf/out/flex_pairs.npz boas/flex_pairs.npz
-    cp flex_from_osf/out/real_content_pools_raw.npz erasers/real_content_pools.npz
-
-This rebuilds the raw N170 and raw MMN pools. The frozen-EEGPT N170 pool needs the pretrained
-`braindecode/eegpt-pretrained` encoder and is not rebuilt, so `erasers/real_content.py` runs on the two
-raw pools only after removing `n170_eegpt_pca256` from `POOLS`. Its saved results cover all three pools.
+    cp flex_from_osf/out/real_content_pools.npz erasers/real_content_pools.npz
 
 The R-LACE variant follows the updates of the authors' public implementation (Ravfogel et al., 2022).
 

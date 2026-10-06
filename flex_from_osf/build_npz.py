@@ -2,7 +2,7 @@
 
 Writes out/flex_pairs.npz (input of boas/flex_twolevel.py) and out/real_content_pools_raw.npz (the raw N170
 and raw MMN pools of erasers/real_content_pools.npz), then compares them with those files when present.
-The frozen-EEGPT N170 pool is not rebuilt here (see README.md).
+The frozen-EEGPT N170 pool is rebuilt by eegpt_pool.py.
 """
 from __future__ import annotations
 

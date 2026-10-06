@@ -105,6 +105,7 @@ def fit_pca(tokens):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--device", choices=("cpu", "mps"), default="cpu")
+    parser.add_argument("--no-pca", action="store_true", help="whiten midpoints of the full token grid")
     args = parser.parse_args()
     import torch
     torch.set_num_threads(2)
@@ -112,19 +113,21 @@ def main():
         channels = z["channels"].tolist()
     encoder = Encoder(channels, args.device)
 
-    mmn = {person: encode(encoder, person, "mmn")[0] for person in PCA_SUBJECTS}
-    center, components = fit_pca(mmn)
+    if not args.no_pca:
+        center, components = fit_pca({person: encode(encoder, person, "mmn")[0] for person in PCA_SUBJECTS})
     midpoints = []
     for person in ORDER:
         tokens, clean = encode(encoder, person, "n170")
-        features = ((tokens.reshape(-1, tokens.shape[-1]) - center) @ components.T).astype(np.float32)
-        midpoints.append(features.reshape(len(tokens), 2, -1)[clean].astype(np.float64).mean(axis=1))
+        if not args.no_pca:
+            tokens = ((tokens.reshape(-1, tokens.shape[-1]) - center) @ components.T).astype(np.float32)
+            tokens = tokens.reshape(len(clean), 2, -1)
+        midpoints.append(tokens[clean].astype(np.float64).mean(axis=1))
         print(f"encoded {person}: {int(clean.sum())} clean N170 pairs", flush=True)
     pool = whiten_pool("n170_eegpt_pca256", np.concatenate(midpoints))
 
     OUT.mkdir(exist_ok=True)
     np.savez_compressed(OUT / "real_content_pools_eegpt.npz", **pool)
-    report = {"device": args.device, "pairs": len(np.concatenate(midpoints))}
+    report = {"device": args.device, "pca": not args.no_pca, "pairs": len(np.concatenate(midpoints))}
     raw = OUT / "real_content_pools_raw.npz"
     if raw.exists():
         with np.load(raw, allow_pickle=False) as z:
@@ -132,6 +135,9 @@ def main():
     if SHIPPED_POOLS.exists():
         with np.load(SHIPPED_POOLS, allow_pickle=False) as z:
             report["max_abs_difference"] = {k: float(np.abs(v - z[k]).max()) for k, v in pool.items()}
+            report["mean_canonical_correlation"] = {
+                k: float(np.linalg.svd(np.linalg.qr(v)[0].T @ np.linalg.qr(z[k])[0], compute_uv=False).mean())
+                for k, v in pool.items()}
     (OUT / "check_eegpt.json").write_text(json.dumps(report, indent=2) + "\n")
     print(json.dumps(report, indent=2))
 
